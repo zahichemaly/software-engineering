@@ -1,2 +1,1 @@
-# software-engineering
-Software engineering course
+# Software engineering course
