@@ -1,0 +1,6 @@
+As a user i should be able to login to my account.
+As a user i should be able to see the items in cart.
+As a user i should be able to search for item and filter my research.
+As a user i should be able to see the datils of the payment process.
+As a user i should be to remove items from my cart.
+As a user i should be able to check the lsit of items before paying.
