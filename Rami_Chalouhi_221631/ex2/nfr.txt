@@ -1,5 +1,5 @@
-Accessibility 
-Availability
-Efficiency
-Safety 
-Security
+Accessibility : the system  should be accessible and user-friendly , especially for users with disabilities.
+Availability : the system should be available  and  up and running all the time.
+Efficiency : the system must be able to  respond  quickly to users  actions.
+Safety    : all te user data  have to be encrypted and kept  private .
+Security  : The app should  have a  secure authentication  system for payments  to ensure the security of user accounts.
