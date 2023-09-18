@@ -1,0 +1,7 @@
+availability
+accuracy
+scalability
+security
+usabilty
+efficiency
+performance
