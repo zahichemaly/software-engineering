@@ -1,0 +1,88 @@
+Functional Requirements for the Application of Drone Service Delivery:
+
+1. Authentication and Registration:
+
+   Users must be able to set up accounts with legitimate credentials.
+
+   b. Users must be able to access the system with their registered login information.
+
+   b. The system must securely store user account data.
+
+
+
+2. Package Ordering and Selection:
+
+   Users should be able to browse the packages and things that are available.
+
+   b. Users must be able to choose which things to have delivered and add them to their shopping carts.
+
+   c. Customers ought to be able to order delivery.
+
+
+
+3. Live Tracking of Packages:
+
+   Users should have real-time access to tracking information about the status and location of their shipments.
+
+   b. Users must be notified of significant package updates.
+
+
+
+4. Payment Integration:
+
+   a. Users should be able to securely make payments for their orders.
+
+   b. The system should support various payment methods such as credit/debit cards, PayPal, etc.
+
+
+5. Delivery Administration:
+
+   The ability to view and accept delivery requests should be available to delivery staff.
+
+   b. For effective and prompt deliveries, the system should optimize delivery routes.
+
+
+
+6. Comments and Ranking:
+
+   A user's delivery experience should be rated and reviewed by other users.
+
+   b. Users should be able to add more remarks about their delivery through the system.
+
+
+
+7. Client assistance:
+
+   Customers should be able to contact customer service for help with their orders.
+
+   b. The system must to offer numerous routes for customer support communication.
+
+
+
+Integration with online stores: 8.
+
+   The program should smoothly interface with different online stores to retrieve package and item details.
+
+
+
+9. Refund and Cancellation:
+
+
+   Users should have the option to cancel an order within a predetermined time frame.
+
+
+   b. In accordance with the return policy, the system should handle refunds for orders that are canceled.
+
+
+
+10. Usability and Accessibility:
+
+
+
+    a. The program needs to be simple to use and accessible to those with disabilities.
+
+
+
+    b. The user interface ought to be simple to use and understand.
+
+
