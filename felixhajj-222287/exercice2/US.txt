@@ -1,0 +1,9 @@
+Users should have the option to reset their passwords via email verification for account access recovery.
+
+The app should provide real-time updates on oceanographic conditions and sea temperature data, catering to marine biologists' research needs.
+
+The shopping cart feature should enable users to add, review, and complete purchases with various payment methods.
+
+For visually impaired users, the app should seamlessly integrate with screen reader software for effortless navigation.
+
+Users should be able to interact with the community by liking, commenting on, and sharing posts from others on the app.
