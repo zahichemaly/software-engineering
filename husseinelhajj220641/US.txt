@@ -1,0 +1,5 @@
+1- As a user, I want to create an account and set up my profile with my delivery address 
+2- As a user, I want to receive real-time updates on the location of my package and its estimated delivery time.
+3- As a shopper, I want to provide feedback and rate the delivery service
+4- As a shopper, I want to browse a catalog of available items and add them to my cart.
+5- As a business owner, I want the app to be scalable to accommodate more customers and drones

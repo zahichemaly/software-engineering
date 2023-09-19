@@ -1,0 +1,5 @@
+1- performance
+2- scalability
+3- reliability
+4- security
+5- data backup
