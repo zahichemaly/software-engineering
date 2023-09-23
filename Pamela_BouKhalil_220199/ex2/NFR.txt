@@ -1,5 +1,29 @@
-Availaibility
-flexibility
-performance
-robustness
-reliability
+**Availaibility: The system's availability resides in its ability to remain opeartional and accessible to users when needed: 
+--> example: The online reservation system for a hotel should be accessible 24/7, allowing customers to book rooms at any time.
+
+**Flexibility: The system's ability to adapt and accommodate changes or variations in requirements or environments.
+--> example: The online shopping application should be flexible enough to support different payment gateways, allowing users to choose 
+             their preferred method of payment (e.g., credit card, PayPal, bank transfer).
+**Performance: The system's ability to meet response time and expectations concerning the mount of data being processed. (throughput)
+-->example: The website should load pages within 2 seconds to provide a smooth user experience.
+
+**Robustness: The system's ability to handle unexpected inputs or situations without failure.
+-->example: The chatbot should handle unexpected user inputs and provide appropriate error messages or prompts to guide the user towards valid inputs.
+
+**Reliability: The system's ability to perform its intended functions without failure.
+--> example: The ticketing system should accurately track and process customer support requests, ensuring that no customer inquiries are missed or mishandled.
+
+**Security: The protection of data, systems, and resources from unauthorized access or breaches.
+--> example: The online payment gateway should use encrypted connections (HTTPS) and tokenization techniques to protect customer payment card information from unauthorized access.
+
+**Fault Tolerance: The system's ability to continue functioning in the presence of faults or errors.
+-->example: The system should have redundant servers to ensure uninterrupted operation in case of hardware failures
+
+**Flexibility: The system's ability to adapt and accommodate changes or variations in requirements or environments.
+-->example:  The data analysis software should allow users to import data from various file formats, such as CSV, Excel, or JSON, enabling flexibility in data sources.
+
+**Interoperability: The system's ability to interact and exchange data with other systems or components.
+-->example: The messaging app should support integration with popular social media platforms like Facebook Messenger and WhatsApp, allowing users to communicate across different messaging services.
+
+**Maintainability: The ease with which the system can be modified, repaired, or enhanced.
+-->example: The software code should be well-documented and follow a modular architecture, enabling developers to easily understand and maintain the codebase.
