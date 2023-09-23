@@ -1,0 +1,8 @@
+
+5 to 10 functional requirements for your app :
+User Registration and Authentication
+User Profile Management
+Content Creation and Sharing
+Search and Discovery
+Messaging and Notifications
+Privacy and Security
