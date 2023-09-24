@@ -1,0 +1,19 @@
+
+
+The system ensures the secure verification of user identities during login.
+
+
+In the event of a cyber attack, the system is designed to initiate an automatic shutdown as a security precaution.
+
+
+When a user signs up for the first time, the system sends a verification email to confirm their identity.
+
+
+Only administrators are granted the privilege to manage user accounts within the system.
+
+
+The system provides users with the capability to export their own data as needed.
+
+
+
+
