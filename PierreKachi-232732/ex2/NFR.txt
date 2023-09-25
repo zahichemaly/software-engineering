@@ -1,0 +1,5 @@
+Accessibility
+Availability
+Dependability
+Scalability
+Traceability
