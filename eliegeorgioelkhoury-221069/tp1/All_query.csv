@@ -1,0 +1,13 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"3","Epic","Attendance Tracking Module","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"4","Issue","Biometric Enrollment Feature","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"5","Issue","Attendance Recording Feature","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"6","Issue","Attendance Management Feature","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"7","Bug","Real-time Updates Not Displaying","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To do",
+"8","Documentation","Compliance with Data Privacy Regulations","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To do",
+"9","Task"," Create Biometric Enrollment UI","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"10","Task","Implement Biometric Data Storage","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"11","Task","Develop Biometric Attendance Marker","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"12","Task","Real-time Attendance Updates","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"13","Task","Design Faculty Dashboard","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",
+"14","Task","Develop Attendance Report Generation","Elie Georgio Khoury (El) <eliegeorgio.khoury@net.usj.edu.lb>","To Do",

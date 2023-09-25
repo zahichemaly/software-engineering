@@ -1,1 +1,21 @@
-user stories
+User Stories:
+
+1. As a student, I want to enroll my biometric data securely so that I can use it to mark my attendance easily.
+
+2. As a faculty member, I want to view and manage attendance records for my classes in real-time.
+
+3. As an administrator, I want to generate attendance reports for analysis and decision-making.
+
+4. As a student, I want to receive notifications about my attendance status and any missed classes.
+
+5. As an educational institution, I want the system to scale seamlessly as our student population grows.
+
+6. As a security officer, I want assurance that biometric data is stored securely and accessible only to authorized personnel.
+
+7. As a user with disabilities, I want the app to be accessible and usable with assistive technologies.
+
+8.vAs an IT administrator, I want the system to integrate smoothly with our existing student information system.
+
+9. As a student, I want to be able to easily update my biometric data in case of changes or issues.
+
+10. As a faculty member, I want a user-friendly interface for marking attendance quickly and accurately.
