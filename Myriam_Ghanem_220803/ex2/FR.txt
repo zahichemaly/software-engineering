@@ -1,0 +1,42 @@
+Functional Requirements for Drone Service Delivery Application:
+
+1. Registration and Authentication:
+   - Users must be able to register and create an account.
+   - Users should be able to log in securely with their credentials.
+
+2. Product Selection:
+   - Users must be able to browse and select products from the online shop.
+   - Users should be able to add selected products to their shopping cart.
+
+3. Order Management:
+   - Users must be able to view and edit their shopping cart.
+   - Users should be able to place an order and specify the delivery address.
+
+4. Drone Delivery:
+   - The system should automatically assign a drone for delivery.
+   - Drones must be capable of autonomously navigating to the delivery address.
+   - Users should receive real-time updates on the status of their delivery.
+
+5. Payment Processing:
+   - Users must be able to make payments securely using various payment methods.
+   - Payment information should be encrypted and stored securely.
+
+6. Order Tracking:
+   - Users should have access to a tracking feature to monitor the location of their package.
+   - Estimated delivery times should be provided to users.
+
+7. Feedback and Reviews:
+   - Users should be able to rate and leave feedback for their delivery experience.
+   - Reviews and ratings should be displayed for each product.
+
+8. Notifications:
+   - Users should receive notifications for order confirmation, delivery updates, and promotions.
+   - Notifications can be delivered through email, SMS, or the app.
+
+9. Customer Support:
+   - Users should have access to customer support through chat, email, or phone.
+   - Queries and issues should be resolved promptly.
+
+10. Admin Panel:
+    - Administrators should have the ability to manage products, users, and drone operations.
+    - Reporting and analytics tools should be available for administrators.
