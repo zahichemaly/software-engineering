@@ -1,0 +1,13 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"1","Epic","Requirements Gathering","Rami Chalouhi (El) <rami.chalouhi@net.usj.edu.lb>","To Do",
+"2","Issue","Registration system voting ","Rami Chalouhi (El) <rami.chalouhi@net.usj.edu.lb>","Doing",
+"3","Issue","  Multi-Language Support",,"To Do",
+"4","Issue","Security",,"To Do",
+"5","Bug","arrival time error",,"Done",
+"6","Reminder","Update schedule ","Rami Chalouhi (El) <rami.chalouhi@net.usj.edu.lb>","To do",
+"7","Task","program ",,"To Do",
+"8","Task","User Registration Interface",,"To Do",
+"9","Task","Language Selection Interface",,"To Do",
+"10","Task","translation Workflow",,"To Do",
+"11","Task","Security Assessment",,"To Do",
+"12","Task","secure coding",,"To Do",
