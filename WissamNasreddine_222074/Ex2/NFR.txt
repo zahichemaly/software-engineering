@@ -1,0 +1,6 @@
+Some non-functional requirements for my app:
+Accessibility
+Avaibility
+Compatibility
+Compliance
+Configuration

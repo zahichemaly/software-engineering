@@ -1,0 +1,6 @@
+Some functional requirements for my app:
+1. User authentication and authorization.
+2. Data management.
+3. Core functionality.
+4. Business rules.
+5. Administrative functions.
