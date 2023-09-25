@@ -1,1 +1,42 @@
-functional requirements
+functional requirements:
+
+1. Biometric Enrollment:
+
+The system shall allow students to securely enroll their biometric data (e.g., fingerprints, facial recognition).
+
+
+2. Attendance Recording:
+
+Students shall be able to mark their attendance using their enrolled biometric data.
+
+3. Attendance Management:
+
+Faculty members shall be able to view and manage attendance records for their classes.
+
+4. Real-time Updates:
+
+The system shall provide real-time attendance updates to faculty and administrators.
+
+5. Reports and Analytics:
+
+The system shall generate attendance reports and analytics for educational institutions.
+
+6. Data Privacy:
+
+The system shall ensure that student biometric data is securely stored and only accessible to authorized personnel.
+
+7. Integration with Existing Systems:
+
+If applicable, the system shall integrate with existing student information systems to retrieve student data.
+
+8. Scalability:
+
+The system shall be able to handle a growing number of students and attendance records as the educational institution expands.
+
+9. Access Control:
+
+The system shall implement role-based access control, allowing different user types (e.g., students, faculty, administrators) to access relevant features.
+
+10.Notification System:
+
+The system shall notify students and faculty of important attendance-related events, such as low attendance or missed classes.

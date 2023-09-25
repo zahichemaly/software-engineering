@@ -1,1 +1,21 @@
-non-functional requirements
+non-functional requirements:
+
+1. Security:
+
+Biometric data shall be securely stored and transmitted using encryption and access controls.
+
+2. Scalability:
+
+The system shall be capable of scaling horizontally and vertically to handle increased user loads and data volumes.
+
+3. Performance:
+
+The system shall provide fast response times for recording attendance and generating reports.
+
+4. Reliability:
+
+The system shall have high availability and minimal downtime, ensuring continuous access.
+
+5. Compliance:
+
+The system shall comply with data privacy regulations (e.g., GDPR, FERPA) and adhere to educational institution policies.
