@@ -1,0 +1,6 @@
+Let's say we have an online shopping app that sells clothes:
+the user should be able to see the cart and add  the items to it
+the application should be able to read the card details and retrieve the according amount
+the user should be able to retrieve items from the cart in case he/she doesn't want them anymore
+an authentication system should be able to authenticate the user in order to access his/her account
+the user should be able to track the order
