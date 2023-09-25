@@ -1,0 +1,10 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"1","Epic","Authentication",,"To Do",
+"2","Issue","As a user who frequently accesses the system, I want the option to stay logged in securely across sessions, so that I don't have to re-enter my credentials every time I access the application.",,"To Do",
+"3","Issue","As a user who may need to change or recover my password, I want the password change and recovery processes to be secure and user-friendly, so that I can regain access to my account easily and with confidence.",,"To Do",
+"4","Issue","As a user concerned about my account's security, I want the system to enforce strong password policies and provide guidance for creating strong passwords, so that unauthorized access to my account is prevented.",,"To Do",
+"5","Task"," Implement Strong Password Policies","Myriam Ghanem <myriam.ghanem1@net.usj.edu.lb>","To Do",
+"6","Task","Secure Password Change and Recovery Processes","Myriam Ghanem <myriam.ghanem1@net.usj.edu.lb>","To Do",
+"7","Task"," Develop Persistent Login Feature","Myriam Ghanem <myriam.ghanem1@net.usj.edu.lb>","To Do",
+"8","Bug","Login Page Error",,"Done",
+"9","Reminder","Complete Monthly Report",,"To do",
