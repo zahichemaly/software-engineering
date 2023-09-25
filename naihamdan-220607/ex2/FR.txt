@@ -1,0 +1,10 @@
+1. The app must allow users to log in using their credentials.
+2. The app must provide a real-time tracking feature for the drone delivery.
+3. The app should allow users to select items from the online shop for delivery.
+4. The app must provide an estimated time of arrival (ETA) for the drone.
+5. The app should allow users to cancel the delivery within a specified time frame.
+6. The app must send notifications to users at various stages of the delivery process.
+7. The app should allow users to rate and review the delivery service.
+8. The app must securely process payments for the delivery service.
+9. The app should offer customer support via chat or phone.
+10. The app must comply with aviation and local laws for drone operation.
