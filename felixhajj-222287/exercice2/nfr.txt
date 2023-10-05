@@ -1,5 +1,17 @@
-safety
-security
-usability
-flexibility
-efficiency
+in my case of choosing the Vehicle Maintenance and Mileage Tracker project:
+
+
+Safety:
+The system should include a real-time vehicle diagnostics feature that monitors critical components (e.g., brakes, engine, tires) and alerts users immediately in case of potential safety hazards, ensuring prompt maintenance and safety.
+
+Security:
+User data, including personal information and vehicle maintenance records, shall be encrypted with AES-256 encryption both at rest and during data transmission to protect against unauthorized access and data breaches.
+
+Usability:
+The user interface shall follow a responsive design approach, making it accessible and user-friendly on both desktop and mobile devices to enhance usability for a diverse range of users.
+
+Flexibility:
+The system shall allow users to customize maintenance schedules and reminders based on their specific vehicle types and usage patterns, providing flexibility to accommodate various vehicle types and user preferences.
+
+Efficiency:
+The system's server infrastructure shall be optimized for efficiency, ensuring quick response times for user interactions, with resource utilization monitored and fine-tuned regularly to minimize energy consumption and operational costs.
