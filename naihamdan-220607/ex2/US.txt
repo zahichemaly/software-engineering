@@ -1,0 +1,10 @@
+1. As a user, I want to log in so that I can access personalized features.
+2. As a user, I want to track my delivery in real-time to know when it will arrive.
+3. As a user, I want to receive notifications so that I'm updated on my delivery status.
+4. As a user, I want to cancel my delivery if I change my mind within a certain time frame.
+5. As a user, I want to rate the delivery service to provide feedback.
+6. As a user, I want to see an ETA so I can plan my time accordingly.
+7. As a user, I want to select items for delivery to make my shopping convenient.
+8. As a user, I want to make secure payments to ensure my financial data is safe.
+9. As a user, I want to access customer support in case I face any issues.
+10. As a user, I want the app to be fast and responsive for a smooth user experience.

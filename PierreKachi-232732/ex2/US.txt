@@ -1,0 +1,5 @@
+As a new user, I want to create an account using my email and set a password, so I can start using the app and access personalized features.
+As a registered user, I want to be able to create a new post by uploading an image and adding a caption, so I can share my moments and thoughts with my followers.
+As a user, I want to send a direct message to another user, so I can have a private conversation and discuss specific topics.
+As a user, I want to edit my profile information, including my profile picture, bio, and contact details, so I can keep my profile up to date and reflect my personality accurately.
+As a user, I want to receive push notifications for new messages, likes, and comments on my posts, so I can stay informed about activity related to my account without constantly checking the app.

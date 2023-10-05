@@ -1,0 +1,5 @@
+1. The application must allow users to place orders for products.
+2. The application must provide real-time tracking of drone deliveries.
+3. Users should be able to schedule deliveries for a specific time.
+4. The app should have a payment gateway for online transactions.
+5. Users must be able to view their order history.

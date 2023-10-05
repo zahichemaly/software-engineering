@@ -1,0 +1,5 @@
+1. The app must be available 24/7, with a downtime not exceeding 5 hours per month.
+2. The app should be compatible with both Android and iOS platforms.
+3. The app must adhere to data protection and privacy laws.
+4. The app should be able to handle at least 1,000 simultaneous users.
+5. The app should have a response time of less than 2 seconds.

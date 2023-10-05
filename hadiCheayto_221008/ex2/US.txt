@@ -1,0 +1,9 @@
+1- As a user, I want to look through the products in the online store, examine extensive product information, and add items to my shopping basket.
+
+2- As a shopper, I want to be able to finish my purchase safely by selecting from a variety of payment methods, such as credit cards and digital wallets.
+
+3- I wish to get email or push alerts confirming my order and providing a tracking link as a user.
+
+4- As a user, I'd like to see the status of my order.
+
+5- As a user, I want to be able to contact customer service immediately through the app if I have any problems or queries about my order.

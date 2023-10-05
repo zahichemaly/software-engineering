@@ -1,0 +1,5 @@
+1. The application must have a response time of under 3 seconds for order placement.
+2. The system should be able to handle a minimum of 1000 concurrent users.
+3. The app should be compatible with both Android and iOS devices.
+4. The system should adhere to data privacy regulations (e.g., GDPR).
+5. The application should have a user-friendly and intuitive interface.

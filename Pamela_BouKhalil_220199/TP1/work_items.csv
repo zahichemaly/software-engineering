@@ -1,0 +1,13 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+1,Epic,Authentication,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,
+2,Issue,As a user i should be able to navigate easily in the login page so that i can proceed further.,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,Doing,
+3,Issue,As a user i should be able to choose a two-factor authentication so that i can create my account securely.,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,
+4,Issue,As a user i should be able to change my password so that i can recover my account in case i forgot my password.,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,Doing,
+5,Bug,Broken/inactive links or buttons,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,Done,
+6,Reminder,Daily meetings ,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To do,
+7,Task,Layout and structure ,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,
+8,Task,Navigation Menu ,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,
+9,Task,Authentication Methods ,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,
+10,Task,User Interface Design ,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,
+11,Task,Old and new Password entry ,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,
+12,Task,Security Measures,Pamela Bou Khalil <pamela.boukhalil@net.usj.edu.lb>,To Do,

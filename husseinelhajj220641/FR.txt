@@ -1,0 +1,6 @@
+1- user registration
+2- order items
+3- order tracking
+4- order history
+5- payment integration
+6- notifications

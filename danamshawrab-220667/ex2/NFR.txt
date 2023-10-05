@@ -1,0 +1,5 @@
+availability : app should include redundancy and failover mechanisms to ensure uninterrupted service in case of server failures.
+accuracy : Delivery status updates should occur in real-time with a delay of no more than a few seconds.
+scalability : Scalability should not degrade performance.
+security : Regular security audits and vulnerability assessments should be conducted.
+usabilty : The application should have an intuitive user interface for both customers and delivery personnel.

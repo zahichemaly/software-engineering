@@ -1,0 +1,5 @@
+As a user, I need the functionality to export my task list so that I can download it in CSV or PDF format.
+As a user, I want the ability to access my account by providing my registered email and password.
+As a user, I need the option to reset my password in case I forget it.
+As a user, I expect to receive clear error messages when I enter incorrect login details.
+As a user, I want the convenience of logging in using my social media accounts.

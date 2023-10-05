@@ -19,3 +19,10 @@ User Stories for Drone Service Delivery Application:
 9. As a user, I want to provide feedback and ratings based on my delivery experience.
 
 10. As a user, I want to contact customer support for assistance with my order.
+<<<<<<< HEAD
+=======
+
+11. As a user, I want to cancel an order if needed and receive a refund according to the policy.
+
+12. As a user, I want the application to be easy to use and navigate.
+>>>>>>> 38bec5393236613e2b4ee18416aab73269faac5d
