@@ -1,0 +1,5 @@
+1. As a shopper, I want to search for products by keywords or categories.
+2. As a customer, I want to add items to my cart and review my selections.
+3. As a buyer, I want to complete my purchase with various payment options.
+4. As a user, I want to view my order history and track the status of my deliveries.
+5. As a shopper, I want to receive an order confirmation email after making a purchase.
