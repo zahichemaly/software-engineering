@@ -1,0 +1,10 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"3","Epic","Authentication",,"To Do",
+"4","Issue","As a User,  I want to enforce password complexity rules for users,  So that weak passwords are less likely to be used, enhancing overall system security.",,"To Do",
+"5","Issue","As a User,  I want to upgrade our password hashing algorithms,  So that user passwords are stored securely, reducing the risk of data breaches and unauthorized access",,"To Do",
+"6","Issue","As a User,  I want to introduce rate limiting for password reset requests,  So that we can mitigate the risk of brute force attacks on the password reset feature, enhancing the security of user accounts.",,"To Do",
+"7","Task","Implement Password Complexity Rules","Joanne Challita <joanne.challita@net.usj.edu.lb>","To Do",
+"8","Task","Upgrade Password Hashing Algorithms","Joanne Challita <joanne.challita@net.usj.edu.lb>","To Do",
+"9","Task"," Implement Password Reset Rate Limiting","Joanne Challita <joanne.challita@net.usj.edu.lb>","To Do",
+"10","Bug Ticket","Unable to Reset Password",,"Done",
+"11","Reminder"," Monthly Server Maintenance",,"To do",

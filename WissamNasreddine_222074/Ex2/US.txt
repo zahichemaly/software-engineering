@@ -1,0 +1,6 @@
+As a user, I want to be able to create an account so that I can save my preferences and track my progress.
+As a user, I want to be able to browse products by category and price so that I can easily find the products I'm looking for.
+As a user, I want to be able to add products to my cart and checkout so that I can purchase the products I want.
+As a user, I want to be able to view my order history and track my orders so that I know when to expect my delivery.
+As a user, I want to be able to contact customer support if I have any problems with my order or with the app.
+As a user, I want to be able to receive notifications about new products and promotions so that I can stay up-to-date on the latest offerings.

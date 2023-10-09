@@ -1,0 +1,7 @@
+Users must be able to create accounts with a valid email address and password.
+Users should receive a confirmation email after registration.
+Users can search for products by keywords, categories, or filters.
+The search results must display relevant product information.
+Users can add products to their shopping cart.
+The shopping cart should display the added items, quantities, and price.
+Users can edit or remove items from the cart.

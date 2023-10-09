@@ -1,0 +1,5 @@
+Authentication of  users when logging to the system.
+In the case of a cyber attack , the system will shutdown.
+a verfication email will be sent to the user on first sign up 
+only admnistrators will have the ability to manage users accounts.
+the system will allow users to export  their data . 

@@ -1,0 +1,25 @@
+User Stories for Drone Service Delivery Application:
+
+1. As a user, I want to create a new account so that I can access the delivery service.
+
+2. As a user, I want to log in to my account to start using the application.
+
+3. As a user, I want to browse available packages and items to choose what I want to order.
+
+4. As a user, I want to add selected items to my cart for easy checkout.
+
+5. As a user, I want to track the status and location of my package in real-time.
+
+6. As a user, I want to make secure payments for my orders.
+
+7. As a user, I want to receive timely notifications about my package's progress.
+
+8. As a delivery personnel, I want to view and accept delivery requests efficiently.
+
+9. As a user, I want to provide feedback and ratings based on my delivery experience.
+
+10. As a user, I want to contact customer support for assistance with my order.
+
+11. As a user, I want to cancel an order if needed and receive a refund according to the policy.
+
+12. As a user, I want the application to be easy to use and navigate.

@@ -1,0 +1,13 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"1","Epic","Authentication",,"To Do",
+"2","Issue","as a new user i should be able to register for a new account",,"To Do",
+"3","Issue","as a new user i should be able to login",,"To Do",
+"4","Issue","as a new user i should be able to login  using biometrics",,"Done",
+"5","Task","Research and Select a Registration System","Hadi Cheayto <hadi.cheayto@net.usj.edu.lb>","To Do",
+"6","Task","Design User Interface (UI)","Hadi Cheayto <hadi.cheayto@net.usj.edu.lb>","To Do",
+"7","Task","User Account Setup","Hadi Cheayto <hadi.cheayto@net.usj.edu.lb>","To Do",
+"8","Task","Generate User Credentials","Hadi Cheayto <hadi.cheayto@net.usj.edu.lb>","To Do",
+"9","Task","Biometric Technology Selection","Hadi Cheayto <hadi.cheayto@net.usj.edu.lb>","To Do",
+"10","Task","Testing and Validation","Hadi Cheayto <hadi.cheayto@net.usj.edu.lb>","To Do",
+"11","Bug Ticket","Authentication Issues: Problems with login face id not working!","Hadi Cheayto <hadi.cheayto@net.usj.edu.lb>","Done",
+"12","Reminder","critical meetings",,"To do",

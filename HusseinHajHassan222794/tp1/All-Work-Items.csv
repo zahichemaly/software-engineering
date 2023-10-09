@@ -1,0 +1,13 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"21","Epic"," Implement Real-Time Train Tracking","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",
+"22","Issue"," Design User Interface for Real-Time Tracking","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","Doing",
+"23","Issue"," Develop Backend for Train Location Data","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","Doing",
+"24","Issue","Implement Frontend Display of Train Locations","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",
+"25","Bug","Arrival Time Incorrectly Calculated","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","Done",
+"26","Team Reminder","Sprint Planning Meeting","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To do",
+"27","Task","Create Wireframes for Real-Time Map","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",
+"28","Task","Design Train Icon for Map","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",
+"29","Task","Set Up Database Schema","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",
+"30","Task","Implement Real-Time Data Collection","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",
+"31","Task","Create Map Component","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",
+"32","Task","Integrate Map with Backend","Hussein Haj Hassan (El) <hussein.hajhassan1@net.usj.edu.lb>","To Do",

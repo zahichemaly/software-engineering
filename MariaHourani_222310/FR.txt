@@ -1,0 +1,42 @@
+Functional Requirements for Drone Service Delivery Application:
+
+1. Registration and Authentication:
+   a. Users should be able to create an account with valid credentials.
+   b. Users should be able to log in using their registered credentials.
+   c. The system should store user account information securely.
+
+2. Package Selection and Ordering:
+   a. Users should be able to browse available packages and items.
+   b. Users should be able to select items for delivery and add them to their cart.
+   c. Users should be able to place an order for delivery.
+
+3. Real-time Package Tracking:
+   a. Users should be able to track the status and location of their packages in real-time.
+   b. Users should receive notifications for important package updates.
+
+4. Payment Integration:
+   a. Users should be able to securely make payments for their orders.
+   b. The system should support various payment methods such as credit/debit cards, PayPal, etc.
+
+5. Delivery Management:
+   a. Delivery personnel should be able to view and accept delivery requests.
+   b. The system should optimize delivery routes for efficient and timely deliveries.
+
+6. Feedback and Rating:
+   a. Users should be able to provide feedback and ratings for their delivery experience.
+   b. The system should allow users to provide additional comments regarding their delivery.
+
+7. Customer Support:
+   a. Users should have access to customer support for assistance with their orders.
+   b. The system should provide multiple communication channels for customer support.
+
+8. Integration with Online Shops:
+   a. The application should integrate seamlessly with various online shops to fetch package and item details.
+
+9. Cancellation and Refund:
+   a. Users should be able to cancel an order within a specified time window.
+   b. The system should process refunds for canceled orders according to the refund policy.
+
+10. Accessibility and Usability:
+    a. The application should be user-friendly and accessible to people with disabilities.
+    b. The user interface should be intuitive and easy to navigate.

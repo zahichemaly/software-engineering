@@ -1,0 +1,5 @@
+1. As a user, I want to browse and select products from the online shop.
+2. As a user, I want to add selected items to my shopping cart.
+3. As a user, I want to provide delivery instructions for the drone.
+4. As a user, I want to receive notifications about the delivery status.
+5. As a user, I want to rate and review the delivered items and service.
