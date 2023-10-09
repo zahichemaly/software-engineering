@@ -1,0 +1,41 @@
+Non-Functional Requirements for Drone Service Delivery Application:
+
+1. Performance:
+   - The application should load quickly, with minimal latency.
+   - It should be able to handle a high volume of simultaneous users.
+
+2. Security:
+   - User data, including personal information and payment details, must be securely stored and encrypted.
+   - Protection against data breaches and cyberattacks is a top priority.
+
+3. Scalability:
+   - The system should be scalable to accommodate a growing user base.
+   - It should handle an increasing number of drone deliveries without performance degradation.
+
+4. Reliability:
+   - The application should be available 24/7, with minimal downtime.
+   - Redundancy and failover mechanisms should be in place.
+
+5. Privacy:
+   - User privacy should be respected, and data should only be used for legitimate purposes.
+   - Compliance with data protection regulations is mandatory.
+
+6. Usability:
+   - The user interface should be intuitive and easy to navigate.
+   - Accessibility features should be included for users with disabilities.
+
+7. Compatibility:
+   - The application should work seamlessly on various devices and web browsers.
+   - Mobile app versions should be available for iOS and Android.
+
+8. Response Time:
+   - The system should respond to user interactions within milliseconds.
+   - Drone delivery times should be optimized for efficiency.
+
+9. Data Backup:
+   - Regular data backups should be performed to prevent data loss in case of system failure.
+   - Backups should be stored securely offsite.
+
+10. Compliance:
+    - The application should comply with aviation regulations for drone operations.
+    - It should also comply with local laws and regulations related to e-commerce and data protection.

@@ -1,0 +1,7 @@
+User Registration and Authentication making use of no-sql databases
+User Profile Management with high levels of privacy control and customizations
+Search and Browse Functionality, that is fast and accurate
+Messaging and Communication that is quick to send receive reliably
+Notifications that are informative yet un-intrusive
+Pro-Consumer Advertising, that is likely to achieve high visibility for the advertizer without hindering the user experience
+Content Creation and Posting 

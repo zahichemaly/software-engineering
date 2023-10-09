@@ -1,0 +1,10 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"1","Epic","Authentication",,"To Do",
+"2","Issue","I want to enforce stronger password requirements for user accounts, So that we can enhance the security of our system and protect user data.","Rhea Abou Rached <rhea.abourached@net.usj.edu.lb>","To Do",
+"3","Issue","I want to implement strong authentication for IoT devices, So that we can ensure secure and authorized access to our network.","Rhea Abou Rached <rhea.abourached@net.usj.edu.lb>","To Do",
+"4","Issue","I want to implement robust credential management practices for user accounts, So that we can ensure secure access control, reduce unauthorized access risks, and maintain compliance with security standards.","Rhea Abou Rached <rhea.abourached@net.usj.edu.lb>","To Do",
+"5","Task","Develop a User Onboarding Request Process",,"To Do",
+"6","Task"," Implement Mutual TLS Authentication for IoT Devices",,"To Do",
+"7","Task","Strengthen Password Policy Enforcement",,"To Do",
+"8","Bug","Unable to Reset Password via Mobile App","Rhea Abou Rached <rhea.abourached@net.usj.edu.lb>","Done",
+"9","Reminder","Prepare for Quarterly Security Review",,"To do",

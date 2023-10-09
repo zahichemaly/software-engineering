@@ -1,0 +1,5 @@
+security 
+scalability
+maintanance
+Time taken to deliver server response
+Placing orders

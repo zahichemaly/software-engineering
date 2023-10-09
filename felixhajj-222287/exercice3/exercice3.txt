@@ -1,0 +1,70 @@
+
+---
+
+1. Scope
+
+This document outlines the requirements for the Vehicle Maintenance and Mileage Tracker application.
+
+2. General Description
+
+a. Target Audience
+   - Vehicle owners and users who want to track maintenance and mileage data for their vehicles.
+
+b. Objectives
+   - Enable users to log and monitor vehicle maintenance activities.
+   - Provide mileage tracking and analytics for cost-efficiency.
+   - Ensure data security and privacy.
+
+c. Constraints
+   - no direct access to the state of the car(maintenance related), which will manual checkup
+   - Scalability: The project may not need to handle a large number of users, so scalability might not be a primary concern
+   
+
+3. Functional Requirements
+
+- User Registration and Login
+  - Users can create accounts and log in securely.
+
+- Vehicle Profile
+  - Users can add and manage vehicle profiles, including make, model, and year.
+
+- Maintenance Log
+  - Users can log maintenance activities, including date, type, and cost.
+  
+- Mileage Tracking
+  - The app tracks mileage automatically using GPS data and allows manual entries.
+
+- Expense Tracking
+  - Users can record fuel and other expenses related to their vehicles.
+
+- Reports and Analytics
+  - Generate reports on maintenance costs and fuel efficiency.
+  
+- Notifications
+  - Send reminders for upcoming maintenance tasks.
+
+4. Non-Functional Requirements
+
+- Safety
+  - Data will be encrypted during storage and transmission to ensure user data security.
+
+- Usability
+  - The app will have an intuitive and user-friendly interface.
+
+- Performance
+  - The app should respond within 2 seconds for typical user actions.
+
+- Platform Compatibility
+  - The app should be compatible with the latest versions of Android and iOS.
+
+5. Use Case Models (Diagrams using UML)
+
+Use Case Diagram:
+[Insert simplified use case diagram here]
+
+6. Appendices
+
+b. References
+
+(check attached plan)
+This simplified SRS document provides a basic overview of the requirements. 

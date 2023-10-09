@@ -1,0 +1,11 @@
+As a user, I want to be able to log in to my account so that I can access and explore my logs and activities.
+
+As a user, I want to see the items in my cart so that I can review and confirm my desired purchases.
+
+As a user, I want to search for items and apply filters so that i can refine my search, making it easier to find what I need.
+
+As a user, I want to view the details of the payment process so that i can understand how to proceed with the next steps.
+
+As a user, I want the ability to remove items from my cart so that I can purchase only the items I want.
+
+As a user, I want to report problems or request refunds from the shop provider so that I can seek resolution and receive appropriate assistance for my purchased product.

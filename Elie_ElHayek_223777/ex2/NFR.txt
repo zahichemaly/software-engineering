@@ -1,0 +1,5 @@
+Performance: The app should load within 3 seconds.
+Scalability: The app should be able to handle a large number of users simultaneously.
+Security: All data should be encrypted and securely stored.
+Usability: The app should be user-friendly and require minimal training for new users.
+Reliability: The app should have an uptime of at least 99.9%.

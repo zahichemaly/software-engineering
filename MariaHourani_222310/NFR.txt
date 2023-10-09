@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Non-Functional Requirements for the Application of Drone Service Delivery:
 
 1. Performance: a. Any user interaction should result in a response from the program within two seconds.
@@ -8,13 +9,34 @@ Non-Functional Requirements for the Application of Drone Service Delivery:
 
 3. Reliability and Availability: a. To ensure availability, the system should have an uptime of at least 99.9%.
    b. In case of system problems, the application needs to have a backup and recovery system.
+=======
+Non-Functional Requirements for Drone Service Delivery Application:
+
+1. Performance:
+   a. The application should respond within 2 seconds for any user interaction.
+   b. The system should handle a high volume of concurrent users without performance degradation.
+
+2. Security:
+   a. The application should implement robust security measures to protect user data and transactions.
+   b. Data transmission should be encrypted using secure protocols.
+
+3. Reliability and Availability:
+   a. The system should have an uptime of at least 99.9% to ensure availability.
+   b. The application should have a backup and recovery mechanism in case of system failures.
+>>>>>>> ef60c1081d623604b01b0881d8e63a7c60a37bb4
 
 4. Scalability:
    a. The system should easily scale to accommodate an increasing number of users and packages.
    b. It should support a growing database of users, packages, and transactions.
 
+<<<<<<< HEAD
 
 5. Compliance and Legal: a. With regard to user privacy and data protection, the application should abide by all applicable laws and regulations.
    b. The system should adhere to industry standards and best practices.
 
 
+=======
+5. Compliance and Legal:
+   a. The application should comply with relevant laws and regulations regarding user privacy and data protection.
+   b. The system should adhere to industry standards and best practices.
+>>>>>>> ef60c1081d623604b01b0881d8e63a7c60a37bb4

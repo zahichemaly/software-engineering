@@ -1,0 +1,10 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags
+"1","Epic","(UI)Design ",,"To Do",
+"2","Issue","Secure Voting Infrastructure",,"To Do",
+"3","Issue","Voter Verification Methods",,"To Do",
+"4","Issue"," Accessibility Testing",,"To Do",
+"5","Bug","voting erorr ",,"Done",
+"6","Reminder","update schedule ",,"To do",
+"7","Task","identify vulnerabilities",,"To Do",
+"8","Task","Research",,"To Do",
+"9","Task","Collaborate",,"To Do",

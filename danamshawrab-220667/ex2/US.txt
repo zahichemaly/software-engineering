@@ -1,0 +1,9 @@
+As a user, I want to browse products and see their prices and descriptions, so I can decide if I want to make a purchase.
+
+As a user, I want to be able to add items to my shopping cart, review my cart, and proceed to checkout when I'm ready to make a purchase.
+
+As a user, I want to be able to filter and sort search results by category, price, and customer ratings, so I can find the products that best suit my needs.
+
+As a user, I want to see product recommendations based on my browsing and purchase history, so I can discover new items.
+
+As a registered user, I want to receive email notifications about order confirmations, shipping updates, and promotions, so I can stay informed about my purchases.
