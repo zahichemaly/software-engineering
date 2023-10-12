@@ -1,52 +1,52 @@
 @startuml SequenceATM
 
-
+'orange is for user input/operations, blue is for machine operations, green for successes and red for failures/errors
 actor User as U
 participant ATM as A
 participant "Bank Server" as B
 
-U -> A: insertcard
+U -[#FFA500]> A: insertcard
 activate A
 A -> U: request pin
-U -> A: insert pin
-A -> B: verify pin
+U -[#FFA500]> A: insert pin
+A -[#0000FF]> B: verify pin
 activate B
 
 alt pin_verified
-    B -> A: pin verified
-    A -> U: select options\nA="Balance inquiry"\nB="Withdrawal"\nC="Cancel"
+    B -[#00FF00]> A: pin verified
+    A -[#0000FF]> U: select options\nA="Balance inquiry"\nB="Withdrawal"\nC="Cancel"
     opt Balance_Inquiry
-        U -> A: show balance
-        A -> B: perform selected option\nBalance Inquiry
-        B -> A: Balance response
-        A -> U: show complete operations\n(receipt, operation cancelled...)
+        U -[#FFA500]> A: show balance
+        A -[#0000FF]> B: perform selected option\nBalance Inquiry
+        B -[#0000FF]> A: Balance response
+        A -[#0000FF]> U: show complete operations\n(receipt, operation cancelled...)
     end
     opt Withdrawal
-        U -> A: enter amount
-        U -> A: withdraw
-        A -> B: perform selected option\nWithdrawal
+        U -[#FFA500]> A: enter amount
+        U -[#FFA500]> A: withdraw
+        A -[#0000FF]> B: perform selected option\nWithdrawal
         alt insufficient_funds
-            B -> A: insufficient funds
-            A -> U: show error message
+            B -[#F0000F]> A: insufficient funds
+            A -[#FF0000]> U: show error message
         else sufficient_funds
-            B -> A: withdrawal success
-            A -> U: show success message
+            B -[#00FF00]> A: withdrawal success
+            A -[#00FF00]> U: show success message
         end
     end
     opt Cancel
-        U -> A: cancel operation
-        A -> B: perform selected option\nCancel
-        B -> A: cancellation success
-        A -> U: show success message in green
+        U -[#FFA500]> A: cancel operation
+        A -[#0000FF]> B: perform selected option\nCancel
+        B -[#00FF00]> A: cancellation success
+        A -[#00FF00]> U: show success message 
     end
 else pin_invalid
-    B -> A: pin invalid
-    A -> U: show error message in red
+    B -[#FF0000]> A: pin invalid
+    A -[#FF0000]> U: show error message 
 end
 
-A -> U: eject card
+A -[#0000FF]> U: eject card
 deactivate A
-U -> A: collect card
+U -[#FFA500]> A: collect card
 
 deactivate B
 @enduml
