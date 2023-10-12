@@ -1,0 +1,37 @@
+@startuml sequencedemo
+actor User as Foo
+participant "Finance App" as Foo2
+database Database as Foo3
+autonumber "<b>."
+Foo -[#red]> Foo2: request
+Foo -> Foo2: HTTP request
+Foo -[#red]> Foo2: request
+Foo2 -> Foo3: SQL request
+note right
+we are making a
+request to the database
+end note
+Foo -[#red]> Foo2: request
+Foo3 --> Foo2: SQL response
+Foo -[#red]> Foo2: request
+Foo2 --> Foo: HTTP response
+autonumber inc A
+Foo -[#red]> Foo2: request
+Foo -> Foo2: Authentication request
+alt valid credentials
+Foo2 --> Foo: Authentication success
+else wrong credentials
+Foo2 --> Foo: Authentication failure
+group forgot password
+Foo -> Foo2: Request forgot password
+Foo2 --> Foo: Sent forgot password OTP
+end
+else server timeout
+loop 3 times
+Foo -> Foo2: Ping server
+end
+Foo2 --> Foo: Server available
+end
+Foo -[#red]> Foo2: request
+Foo2 --> Foo: Authentication response
+@enduml
