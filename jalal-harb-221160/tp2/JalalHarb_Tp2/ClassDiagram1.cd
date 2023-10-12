@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="JalalHarb_Tp2.BaseUser">
+    <Position X="7.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAEAABAgAAAAAAAAAAAAAAQAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="JalalHarb_Tp2.Player">
+    <Position X="3.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAAAACgQAAAAgAAAAAAAgQAAAAAAACAAAAAAg=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.System">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>System.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.Version">
+    <Position X="11.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Version.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.ExclusiveBanner">
+    <Position X="14.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ExclusiveBanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.PermanentBanner">
+    <Position X="11.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PermanentBanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.PullHistory">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>PullHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.Banner">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACAAAAAAAABQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Banner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.AdminUser">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIIAAAAAAAEEAAAAAABAAAAAAAAgAAAAAAQAAAA=</HashCode>
+      <FileName>AdminUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JalalHarb_Tp2.GachaItem">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GachaItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="JalalHarb_Tp2.IAccount">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="JalalHarb_Tp2.Status">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="JalalHarb_Tp2.Rarity">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Rarity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
