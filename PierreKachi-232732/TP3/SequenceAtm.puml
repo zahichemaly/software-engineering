@@ -1,0 +1,52 @@
+@startuml SequenceATM
+
+
+actor User as U
+participant ATM as A
+participant "Bank Server" as B
+
+U -> A: insertcard
+activate A
+A -> U: request pin
+U -> A: insert pin
+A -> B: verify pin
+activate B
+
+alt pin_verified
+    B -> A: pin verified
+    A -> U: select options\nA="Balance inquiry"\nB="Withdrawal"\nC="Cancel"
+    opt Balance_Inquiry
+        U -> A: show balance
+        A -> B: perform selected option\nBalance Inquiry
+        B -> A: Balance response
+        A -> U: show complete operations\n(receipt, operation cancelled...)
+    end
+    opt Withdrawal
+        U -> A: enter amount
+        U -> A: withdraw
+        A -> B: perform selected option\nWithdrawal
+        alt insufficient_funds
+            B -> A: insufficient funds
+            A -> U: show error message
+        else sufficient_funds
+            B -> A: withdrawal success
+            A -> U: show success message
+        end
+    end
+    opt Cancel
+        U -> A: cancel operation
+        A -> B: perform selected option\nCancel
+        B -> A: cancellation success
+        A -> U: show success message in green
+    end
+else pin_invalid
+    B -> A: pin invalid
+    A -> U: show error message in red
+end
+
+A -> U: eject card
+deactivate A
+U -> A: collect card
+
+deactivate B
+@enduml
