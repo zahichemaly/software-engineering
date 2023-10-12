@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GachaSystem.BaseUser">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAEAABAgAAAAAAAAAAAAAAQAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GachaSystem.Player">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaSystem.System">
+    <Position X="1.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAEAAAAAgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>System.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GachaSystem.gacha_item">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GachaSystem.gacha_item.Rarity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>gacha_item.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>gacha_item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaSystem.permanent_banner">
+    <Position X="5.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAABQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>permanent_banner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaSystem.exclusive_banner">
+    <Position X="3.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exclusive_banner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaSystem.pulls_history">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GachaSystem.pulls_history.Pull_number" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>pulls_history.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pulls_history.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Banner" />
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GachaSystem.admin_user">
+    <Position X="8.25" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="GachaSystem.BaseUser" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="2.812" />
+        <Point X="9" Y="2.812" />
+        <Point X="9" Y="8.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAQAAAAAAAAAEAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>admin_user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GachaSystem.IAccount">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GachaSystem.Status">
+    <Position X="3" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,5 @@
+1. The app must allow users to create an account.
+2. Users should be able to log in with their credentials.
+3. Users can reset their passwords via email.
+4. The app must provide a search functionality for products.
+5. Users should be able to add items to their shopping cart.
