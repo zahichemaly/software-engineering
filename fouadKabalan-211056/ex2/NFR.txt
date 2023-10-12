@@ -1,0 +1,21 @@
+Performance:
+
+Response Time: The application should have low latency, ensuring quick responses to user requests for scheduling deliveries, tracking packages, and making payments.
+Scalability: The system should be able to scale efficiently to handle increased loads, especially during peak delivery times, such as holidays or sales events.
+Throughput: The application should support concurrent deliveries and a high volume of users, ensuring that multiple deliveries can be processed simultaneously.
+Security:
+
+Data Security: Ensuring that user data, payment information, and package details are securely stored and transmitted to prevent unauthorized access or data breaches.
+Authentication and Authorization: Implementing robust user authentication and authorization mechanisms to control access to the application and ensure that only authorized personnel can manage and control drones.
+Reliability:
+
+System Uptime: The application should maintain high availability and reliability, ensuring that deliveries can be scheduled and tracked at all times.
+Fault Tolerance: The system should be designed to handle potential failures or interruptions gracefully, minimizing disruptions in delivery operations in case of technical issues or drone malfunctions.
+Usability:
+
+User-Friendly Interface: The application should have an intuitive and user-friendly design to make it easy for both customers and drone operators to use.
+Accessibility: Ensuring that the application is accessible to a wide range of users, including those with disabilities, to promote inclusivity.
+Compliance and Regulation:
+
+Compliance with Aviation Regulations: The application should adhere to local and international aviation regulations and safety standards to ensure safe and lawful drone operations.
+Privacy Regulations: Compliance with data protection and privacy regulations to protect user data and maintain trust.
