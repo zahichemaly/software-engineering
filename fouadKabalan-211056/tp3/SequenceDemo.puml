@@ -1,0 +1,8 @@
+autonumber 1.1
+Foo -> Foo2: HTTP request
+Foo2 -> Foo3: SQL request
+Foo3 --> Foo2: SQL response
+Foo2 --> Foo: HTTP response
+autonumber inc A
+Foo -> Foo2: Authentication request
+Foo2 --> Foo: Authentication response
