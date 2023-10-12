@@ -11,7 +11,7 @@ namespace GachaSystem
         public string Name;
         public DateTime StartDate;
         public DateTime EndDate;
-    }
+    
         public List<GachaItem> Items;
         public int Cost;
     }

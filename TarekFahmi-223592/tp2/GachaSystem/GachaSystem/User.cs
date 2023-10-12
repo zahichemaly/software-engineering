@@ -10,7 +10,10 @@ namespace GachaSystem
         private Status Status;
 
         public DateTime DateOfBirth { get; set; }
+        public BaseUser(int id,string firstname , string lastname,DateTime Dob)
+        {
 
+        }
         public int id
         {
             get => default;
