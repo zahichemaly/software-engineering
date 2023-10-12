@@ -1,0 +1,5 @@
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.csproj.AssemblyReference.cache
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.AssemblyInfoInputs.cache
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.AssemblyInfo.cs
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.csproj.CoreCompileInputs.cache

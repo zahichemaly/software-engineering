@@ -1,0 +1,49 @@
+SRS for biometric student attendence app:
+1. Scope
+The Biometric Student Attendance App is a mobile application aimed at automating the attendance tracking process in educational institutions. It uses biometric authentication to record student attendance efficiently and accurately.
+2. General Description
+A. Target Audience
+The primary users of this app include teachers, administrators, and students in educational institutions such as schools and colleges.
+
+B. Objectives
+The main objectives of the Biometric Student Attendance App are:
+
+Automate the attendance tracking process.
+-Improve accuracy and reliability of attendance records.
+-Reduce administrative overhead.
+-Enhance the overall educational experience for both students and teachers.
+
+C. Constraints
+-The app requires biometric hardware support.
+-Compatibility with mobile devices running Android and iOS.
+-Compliance with data privacy regulations and institution-specific policies.
+
+3. Functional Requirements
+The functional requirements of the app include:
+
+1-User Registration:
+Teachers and students can create accounts with their personal details.
+2-Biometric Enrollment:
+Students register their biometric data (fingerprint or face) during account creation.
+3-Attendance Recording:
+Teachers can record attendance by scanning the biometrics of students.
+4-Attendance Reports:
+Users can generate attendance reports for specific dates and classes.
+5-Security:
+Secure storage and encryption of biometric data
+
+4. Non-functional Requirements
+The non-functional requirements include:
+1-Performance: The app must handle a large number of users and attendance records efficiently.
+2-Security: Data must be securely stored and transmitted, and biometric data must be protected.
+3-Usability: The app must have an intuitive user interface for easy use.
+4-Scalability: The system must be scalable to accommodate future growth.
+5-Availability: The app should be available 24/7 with minimal downtime.
+6-Compatibility: The app must work on various mobile devices and operating systems.
+
+5-UML
+
+6. Appendices
+a. Definitions, Acronyms, Abbreviations
+SRS: Software Requirements Specification
+UML: Unified Modeling Language
