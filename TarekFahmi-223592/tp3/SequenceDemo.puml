@@ -1,0 +1,23 @@
+@startuml sequencedemo
+actor User as Foo
+participant "Finance App" as Foo2
+database Database as Foo3
+autonumber "<b>."
+Foo -> Foo2: HTTP request
+Foo2 -> Foo3: SQL request
+Foo3 --> Foo2: SQL response
+Foo2 --> Foo: HTTP response
+
+autonumber inc A
+Foo -> Foo2: Authentication request
+Foo2 --> Foo: Authentication response
+Foo -[#red]> Foo2: request
+
+autonumber inc A
+Foo -> Foo2: Authentication request
+alt valid credentials
+Foo2 --> Foo: Authentication success
+else wrong credentials
+Foo2 --> Foo: Invalid credentials
+end
+@enduml

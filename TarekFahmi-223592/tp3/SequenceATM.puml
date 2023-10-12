@@ -1,0 +1,36 @@
+@startuml SequenceATM
+title ATM Operations Sequence Diagram
+actor User
+participant ATM
+participant Bank
+participant CashDispenser
+User -> ATM: Insert Card
+activate ATM
+alt Operation: Balance Inquiry
+    ATM -> Bank: Request Balance
+    activate Bank
+    Bank --> ATM: Send Balance
+    deactivate Bank
+else Operation: Withdrawal
+    ATM -> Bank: Request Withdrawal
+    activate Bank
+    alt Sufficient Funds
+        Bank -> Bank: Check Balance
+        alt Funds are Sufficient
+            Bank --[#green]> ATM: Approve Withdrawal
+            ATM -> CashDispenser: Dispense Cash
+            CashDispenser -[#green]> ATM: Cash Dispensed
+        else Insufficient Funds
+            Bank -[#red]> ATM: Reject Withdrawal (Insufficient Funds)
+            ATM -> ATM: Display Insufficient Funds Message
+        end
+    else Invalid Account
+        Bank -[#red]> ATM: Reject Withdrawal (Invalid Account)
+        ATM -> ATM: Display Invalid Account Message
+    end
+else Operation: Cancel
+    ATM -> ATM: Eject Card
+end
+deactivate ATM
+User -> ATM: Remove Card
+@enduml
