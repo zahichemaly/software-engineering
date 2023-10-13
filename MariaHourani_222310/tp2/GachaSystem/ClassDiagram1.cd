@@ -11,11 +11,12 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="GachaSystem.Player">
+  <Class Name="GachaSystem.Program">
     <Position X="8" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Player.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+      <NewMemberFileName>Player.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GachaSystem.System">
@@ -55,7 +56,7 @@
   <Class Name="GachaSystem.ExclusiveBanner">
     <Position X="14" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>ExclusiveBanner.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -65,7 +66,7 @@
       <Compartment Name="Properties" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PermanentBanner.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -82,7 +83,7 @@
   <Class Name="GachaSystem.Banner">
     <Position X="12" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAiAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAABQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Banner.cs</FileName>
     </TypeIdentifier>
     <ShowAsCollectionAssociation>

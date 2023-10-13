@@ -5,7 +5,7 @@ participant "ATM Machine" as ATM
 participant "Bank Server" as Server
 
 User -> ATM: Insert Card
-User -> ATM: Request PIN
+User <- ATM: Request PIN
 User -> ATM: Enter PIN
 
 alt PIN Verified

@@ -7,15 +7,8 @@ namespace GachaSystem
 {
     public class Player : BaseUser
     {
-        public int Balance
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int Pulls
+        public int Balance { get; set; }
+        private int Pulls
         {
             get => default;
             set
@@ -28,12 +21,18 @@ namespace GachaSystem
             if (Balance >= cost)
             {
                 Balance -= cost; 
-                Pulls++; 
+                Pulls++;
+                //PullHistory newpull = new PullHistory(gachaitem, banner, DateTime.Now,Pulls);
             }
             else
             {
                 Console.WriteLine("Insufficient balance to perform a pull.");
             }
+        }
+        public Player(int id, string lastName, string firstName, DateTime dateOfBirth, int initialBalance, int initialPulls):
+            base(id,lastName,firstName,dateOfBirth)
+        {
+
         }
 
         public void PerformPull(ExclusiveBanner banner)
@@ -41,9 +40,19 @@ namespace GachaSystem
             if(Balance > 0)
             {
                 if (banner.StartDate >= DateTime.Now && banner.EndDate >= DateTime.Now)
+                {
+                    PerformPull(banner.Cost);
+                }
+            }
+          
+        }
+        public void PerformPull(PermanentBanner banner)
+        {
+            if (Balance > 0)
+            {
                     if (Balance >= banner.Cost)
                     {
-                        Balance -= banner.Cost; 
+                        Balance -= banner.Cost;
                         Pulls++;
                         Console.WriteLine("Pull from Exclusive Banner successful.");
                     }
@@ -52,7 +61,7 @@ namespace GachaSystem
                         Console.WriteLine("Insufficient balance to perform a pull from Exclusive Banner.");
                     }
             }
-          
+
         }
         private void CheckForFiveStarPull(string bannerName)
         {
