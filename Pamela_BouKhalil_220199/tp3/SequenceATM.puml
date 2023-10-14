@@ -1,0 +1,54 @@
+@startuml seq
+actor User
+participant "ATM Machine" as ATM
+participant "Bank Server" as Server
+autonumber 1
+autonumber "<b>."
+User -> ATM: Insert Card
+User -> ATM: Request PIN
+User -> ATM: Enter PIN
+
+alt PIN Verified
+    ATM -> Server: Verify PIN
+    activate Server
+    Server --[#green]> ATM: PIN Verified
+    User -> ATM: Select Options (A=Balance Inquiry, B=Withdrawal,C=Cancel)
+
+    alt Balance Inquiry
+        User -> ATM: Choose Balance Inquiry
+        ATM -> Server: Request Balance Inquiry
+        Server --[#green]> ATM: Respond with Balance
+        ATM -> User: Display Balance
+    else Withdrawal
+        User -> ATM: Choose Withdrawal
+        ATM -> User: Enter Withdrawal Amount
+
+        alt Amount Sufficient
+            ATM -> Server: Request Withdrawal
+            Server --[#green]> ATM: Withdrawal Approved
+            ATM -> Server: Dispense Cash
+            Server --[#green]> ATM: Cash Dispensed
+            ATM -> User: Collect Cash
+            ATM -> User: Display Receipt
+        else Amount Insufficient
+            ATM -[#red]> User: Insufficient Funds Message
+            ATM -[#red]> User: Transaction Cancelled
+        end
+    else Cancel
+        User -> ATM: Choose Cancel
+        ATM -> User: Eject Card
+    end
+   
+else PIN Incorrect
+    ATM -> User: Incorrect PIN Message
+    ATM -> User: Transaction Cancelled
+end
+ ATM --[#green]>User:Show Completed operation (receipt,operation cancelled...)
+ User -[#blue]>ATM: Eject card
+ User -[#blue]>ATM: Collect card
+deactivate Server
+deactivate ATM
+deactivate User
+
+@enduml
+
