@@ -30,5 +30,9 @@ namespace GachaSystem
         }
 
         public RarityEnum Rarity { get; set; }
+        public GachaItem(int id, string name, RarityEnum rarity)
+        {
+
+        }
     }
 }

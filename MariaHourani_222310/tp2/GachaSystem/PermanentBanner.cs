@@ -7,7 +7,10 @@ namespace GachaSystem
 {
     public class PermanentBanner : Banner 
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
+        public PermanentBanner(int id, string namee, List<GachaItem> gachaitems, int cost):
+            base(id,namee,gachaitems,cost)
+        {
+           
+        }
     }
 }
