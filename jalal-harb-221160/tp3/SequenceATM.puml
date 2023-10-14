@@ -1,0 +1,42 @@
+@startuml SequenceATM
+
+actor Customer as C
+participant ATM as A
+participant Bank as B
+participant Display as D
+participant CashDispenser as CD
+
+autonumber "<b>."
+
+C -> A: Insert card
+activate A
+A -> B: Verify card
+B --> A: Card verified
+A -> D: Show options (Balance Inquiry, Withdrawal, Cancel)
+activate D
+
+alt Balance Inquiry
+    A -> B: Request balance inquiry
+    B --> A: Balance retrieved
+    D -> B: Display balance
+else Withdrawal
+    A -> B: Request withdrawal
+    B -[#Green]-> A: Withdrawal request received
+    C -> A: Enter withdrawal amount
+    activate CD
+    A -> CD: Dispense cash
+    CD --> A: Cash dispensed
+    deactivate CD
+    B -[#Green]-> A: Withdrawal successful
+    D -[#Green]> B: Display withdrawal success
+else Cancel
+    A -> B: Request cancellation
+    note left: we are canceling a withdrawal 
+    B --> A: Cancellation request received
+    D -[#Red]> B: Display cancellation message
+end
+
+A -> C: Eject card
+deactivate A
+deactivate D
+@enduml
