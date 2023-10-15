@@ -1,0 +1,35 @@
+@startuml GachaPullingActivityDiagram
+
+(*) --> "Start Pull"
+--> "Check Balance" 
+
+if "Sufficient Balance?" then
+  --> "Deduct Cost"
+  --> "Generate Random Number"
+  --> "Check for 5-Star"
+  
+  if "5-Star?" then
+    --> "Is it a 50-50 Pull?"
+    if "No" then
+      --> "Obtain 5-Star Item from Exclusive Banner"
+    else
+      --> "Did the Player Win the 50-50?"
+      if "Yes" then
+        --> "Obtain 5-Star Item from Exclusive Banner"
+      else
+        --> "Obtain 5-Star Item from Permanent Banner"
+      endif
+    endif
+  else
+    --> "Obtain Random Rarity Item"
+  endif
+
+  --> "Increment Pull Counter"
+  --> "Track Pull History"
+else
+  --> "Insufficient Balance"
+endif
+
+--> "End Pull"
+
+@enduml
