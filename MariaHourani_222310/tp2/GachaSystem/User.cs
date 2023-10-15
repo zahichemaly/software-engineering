@@ -54,6 +54,10 @@ namespace GachaSystem
             FirstName = firstName;
             DateOfBirth = dateOfBirth;
         }
+        public BaseUser()
+        {
+
+        }
 
     }
 }

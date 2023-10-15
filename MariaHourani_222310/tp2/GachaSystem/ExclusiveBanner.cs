@@ -16,5 +16,10 @@ namespace GachaSystem
             StartDate = startDate;
             EndDate = endDate;
         }
+        public bool IsActive()
+        {
+            DateTime today = DateTime.Now;
+            return StartDate <= today && today <= EndDate;
+        }
     }
 }

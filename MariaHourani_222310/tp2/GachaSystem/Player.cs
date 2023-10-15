@@ -1,87 +1,144 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace GachaSystem
 {
     public class Player : BaseUser
     {
         public int Balance { get; set; }
-        private int Pulls
+        public int Pulls { get; set; }
+        public int PityCounter { get; set; }
+        public bool FiftyFiftyStatus { get; set; }
+        public List<PullHistory> PlayerPullHistory { get; set; }
+
+        public Player(int id, string lastName, string firstName, DateTime dateOfBirth, int initialBalance, int initialPulls)
+            : base(id, lastName, firstName, dateOfBirth)
         {
-            get => default;
-            set
+            Balance = initialBalance;
+            Pulls = initialPulls;
+            PityCounter = 0;
+            PlayerPullHistory = new List<PullHistory>();
+        }
+        public GachaItem PerformExclusivePull(ExclusiveBanner banner)
+        {
+            Random random = new Random();
+            int roll = random.Next(100);
+            RarityEnum rarity;
+
+            if (roll < 80)
+                rarity = RarityEnum.Common;
+            else if (roll < 98)
+                rarity = RarityEnum.Uncommon;
+            else
+                rarity = RarityEnum.Rare;
+
+            Console.WriteLine($"Rolled a {roll}. Trying to pull a {rarity} item from Exclusive Banner.");
+
+            var possibleItems = banner.Items.FindAll(item => item.Rarity == rarity);
+
+            if (possibleItems.Count == 0)
             {
+                Console.WriteLine("No items of the specified rarity found in the banner.");
+                return null;
+            }
+
+            return possibleItems[random.Next(possibleItems.Count)];
+        }
+        public GachaItem PerformPermanentPull(PermanentBanner banner)
+        {
+            Random random = new Random();
+            int roll = random.Next(100);
+            RarityEnum rarity = RarityEnum.Rare;
+
+            Console.WriteLine($"Rolled a {roll}. Trying to pull a {rarity} item from Permanent Banner.");
+
+            var possibleItems = banner.Items.FindAll(item => item.Rarity == rarity);
+
+            if (possibleItems.Count == 0)
+            {
+                Console.WriteLine("No items of the specified rarity found in the banner.");
+                return null;
+            }
+
+            return possibleItems[random.Next(possibleItems.Count)];
+        }
+
+        public void CheckForFiveStarPull(string bannerName)
+        {
+            Random random = new Random();
+            bool fiftyFiftyWin = random.Next(2) == 0;
+
+            if (fiftyFiftyWin)
+            {
+                Console.WriteLine($"Player won the 50-50 and got the 5-star from the Exclusive Banner.");
+            }
+            else
+            {         
+                Console.WriteLine($"Player didn't win the 50-50, next 5-star will be from the Exclusive Banner.");
+
+                UpdatePityCounter();
             }
         }
-        public void PerformPull(int cost)
-        {
 
-            if (Balance >= cost)
+        private void UpdatePityCounter()
+        {
+            PityCounter++;
+
+            if (PityCounter >= 60)
             {
-                Balance -= cost; 
-                Pulls++;
-                //PullHistory newpull = new PullHistory(gachaitem, banner, DateTime.Now,Pulls);
+              
+                PityCounter = 0;
+                Console.WriteLine("Guarantee a 5-star item on the next pull.");
+            }
+        }
+        public GachaItem PerformPull(Banner banner)
+        {
+            if (banner == null)
+            {
+                throw new ArgumentNullException(nameof(banner), "Banner cannot be null.");
+            }
+
+            if (banner.Items == null || !banner.Items.Any())
+            {
+                throw new InvalidOperationException("Banner does not contain any items.");
+            }
+
+            Random random = new Random();
+            int roll = random.Next(100);
+            RarityEnum rarity;
+
+            if (roll < 80)
+            {
+                rarity = RarityEnum.Common;
+            }
+            else if (roll < 98)
+            {
+                rarity = RarityEnum.Uncommon;
             }
             else
             {
-                Console.WriteLine("Insufficient balance to perform a pull.");
+                rarity = RarityEnum.Rare;
             }
-        }
-        public Player(int id, string lastName, string firstName, DateTime dateOfBirth, int initialBalance, int initialPulls):
-            base(id,lastName,firstName,dateOfBirth)
-        {
 
-        }
+            Console.WriteLine($"Rolled a {roll}. Trying to pull a {rarity} item.");
 
-        public void PerformPull(ExclusiveBanner banner)
-        {
-            if(Balance > 0)
+            var possibleItems = banner.Items.Where(item => item.Rarity == rarity).ToList();
+
+            if (rarity == RarityEnum.Uncommon && !possibleItems.Any())
             {
-                if (banner.StartDate >= DateTime.Now && banner.EndDate >= DateTime.Now)
-                {
-                    PerformPull(banner.Cost);
-                }
+                Console.WriteLine("No items of 4-star rarity found in the banner.");
+                return null;
             }
-          
-        }
-        public void PerformPull(PermanentBanner banner)
-        {
-            if (Balance > 0)
+            if (possibleItems.Count == 0)
             {
-                    if (Balance >= banner.Cost)
-                    {
-                        Balance -= banner.Cost;
-                        Pulls++;
-                        Console.WriteLine("Pull from Exclusive Banner successful.");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Insufficient balance to perform a pull from Exclusive Banner.");
-                    }
+               
+                return null;
             }
+            var pulledItem = possibleItems[random.Next(possibleItems.Count)];
+            Console.WriteLine($"Pulled item: {pulledItem.Name} (ID: {pulledItem.ID}, Rarity: {pulledItem.Rarity})");
 
+           //return pulledItem;
+            return possibleItems[random.Next(possibleItems.Count)];
         }
-        private void CheckForFiveStarPull(string bannerName)
-        {
-
-        }
-
-        /* public void PerformPull(ExclusiveBanner banner)
-         {
-            
-             int permanentBannerCost = 10; 
-             if (Balance >= permanentBannerCost)
-             {
-                 Balance -= permanentBannerCost;
-                 Pulls++; 
-                 Console.WriteLine("Pull from Permanent Banner successful.");
-             }
-             else
-             {
-                 Console.WriteLine("Insufficient balance to perform a pull from Permanent Banner.");
-             }
-         }*/
     }
 }

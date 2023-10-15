@@ -1,33 +1,72 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.IO;
 
 namespace GachaSystem
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Player player1 = new Player(1, "Doe", "John", new DateTime(1990, 1, 1), 1000, 0);
-            List<GachaItem> gachaitems1 = new List<GachaItem>
-            {
-                new GachaItem(100,"Item1",GachaItem.RarityEnum.Common),
-                new GachaItem(200,"Item2",GachaItem.RarityEnum.Uncommon),
-                new GachaItem(300,"Item3",GachaItem.RarityEnum.Rare)
-            };
-            List<GachaItem> gachaitems2 = new List<GachaItem>
-            {
-                new GachaItem(301,"Item1",GachaItem.RarityEnum.Rare),
-                new GachaItem(302,"Item2",GachaItem.RarityEnum.Rare),
-                new GachaItem(303,"Item3",GachaItem.RarityEnum.Rare)
-            };
 
-            ExclusiveBanner exclusiveBanner1 = new ExclusiveBanner(1, "Exclusive Banner", gachaitems1, 
-                100, DateTime.Now, DateTime.Now.AddDays(7));
-            PermanentBanner permanentBanner1 = new PermanentBanner(1, "First Permanant Banner", gachaitems2,
-                100);
+            Player player = new Player(1, "Doe", "John", DateTime.Now.AddYears(-20), 1000, 0);
+
+            List<GachaItem> exclusiveItems = new List<GachaItem>
+            {
+                new GachaItem(100, "Item1", RarityEnum.Common),
+                new GachaItem(200, "Item2", RarityEnum.Uncommon),
+                new GachaItem(300, "Item3", RarityEnum.Rare)
+            };
+            ExclusiveBanner exclusiveBanner = new ExclusiveBanner(1, "Exclusive Banner", exclusiveItems, 10, DateTime.Now, DateTime.Now.AddMonths(1));
+
+            List<GachaItem> permanentItems = new List<GachaItem>
+            {
+                new GachaItem(301, "Item1", RarityEnum.Rare),
+                new GachaItem(302, "Item2", RarityEnum.Rare),
+                new GachaItem(303, "Item3", RarityEnum.Rare)
+            };
+            PermanentBanner permanentBanner = new PermanentBanner(2, "Permanent Banner", permanentItems, 10);
+
+            while (player.Balance > 0)
+            {
+                GachaItem pulledItem = player.PerformPull(exclusiveBanner);
+
+                PullHistory pullHistory = new PullHistory
+                {
+                    Item = pulledItem,
+                    banner = exclusiveBanner,
+                    CreationDate = DateTime.Now,
+                    PullNumber = player.Pulls,
+
+
+                };
+                player.PlayerPullHistory.Add(pullHistory);
+
+                player.Pulls++;
+                player.Balance -= exclusiveBanner.Cost;
+            }
+
+            var path = "gacha.txt";
+            using (StreamWriter writer = new StreamWriter(path))
+            {
+                foreach (var history in player.PlayerPullHistory)
+                {
+                    string rarity = history.Item?.Rarity switch
+                    {
+                        RarityEnum.Common => "3-star",
+                        RarityEnum.Uncommon => "4-star *",
+                        RarityEnum.Rare => "5-star ##### " + (history.banner is ExclusiveBanner ? "[EXCL]" : "[PERM]") + "]",
+                        _ => "Unknown Rarity"
+                    };
+
+                    string pullLine = $"[{Environment.MachineName}] [{Environment.UserName}] [{history.PullNumber}] [{player.PityCounter}] [{history.Item?.ID}] {rarity}";
+                    writer.WriteLine(pullLine);
+                }
+
+                writer.Flush();
+                writer.Close();
+            }
+
         }
     }
-
 }
