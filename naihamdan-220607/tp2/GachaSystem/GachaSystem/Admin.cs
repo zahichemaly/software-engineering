@@ -9,50 +9,38 @@ namespace GachaSystem
     {
         public int ID
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string FirstName
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string LastName
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public DateTime DateOfBirth
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int Balance
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int Pulls
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public void updatePermanentBanner(PermanentBanner banner) { }
@@ -69,5 +57,9 @@ namespace GachaSystem
 
         public void UpdateSystemVersion(System system) { }
 
+        public override void validate()
+        {
+           
+        }
     }
 }

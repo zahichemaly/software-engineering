@@ -9,26 +9,20 @@ namespace GachaSystem
     {
         public DateTime Date
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int VersionCode
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string VersionNumber
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
     }
 }

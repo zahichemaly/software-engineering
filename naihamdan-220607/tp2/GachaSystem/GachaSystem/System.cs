@@ -11,10 +11,8 @@ namespace GachaSystem
 
         public Version Version
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
     }
 }

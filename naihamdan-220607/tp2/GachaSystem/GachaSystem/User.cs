@@ -9,46 +9,38 @@ namespace GachaSystem
     {
         public int ID
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string FirstName
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public string LastName
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public DateTime DateOfBirth { get; set; }
 
         public Status Status
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int GetAge()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         public string GetFullName()
         {
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
 
         abstract public void validate();
