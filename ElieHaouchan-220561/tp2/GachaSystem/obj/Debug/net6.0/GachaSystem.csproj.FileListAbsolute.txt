@@ -1,0 +1,15 @@
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.exe
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.deps.json
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.runtimeconfig.json
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.csproj.AssemblyReference.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.AssemblyInfoInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.AssemblyInfo.cs
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\refint\GachaSystem.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.genruntimeconfig.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp2\GachaSystem\obj\Debug\net6.0\ref\GachaSystem.dll
