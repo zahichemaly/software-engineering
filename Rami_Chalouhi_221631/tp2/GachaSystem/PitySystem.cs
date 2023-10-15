@@ -10,9 +10,16 @@ namespace GachaSystem
         public int PityCounter { get; set; }
         public bool Is50_50Lost { get; set; }
 
-        public void ResetPityCounter() {   }
-        public void UpdatePityCounter() { }
-        public void DecideNextPullLocation() {   }
+        public void ResetPityCounter()
+        {
+            PityCounter = 0;
+        }
 
+        public void UpdatePityCounter()
+        {
+            PityCounter++;
+        }
+
+       
     }
 }
