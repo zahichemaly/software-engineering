@@ -1,7 +1,5 @@
 @startuml SequenceATM
 
- 
-
 actor User as U
 
 participant "ATM Machine" as ATM
@@ -99,9 +97,4 @@ else Option C Selected
     U -> ATM: Collect Card
 
 end
-
- 
-
- 
-
 @enduml
