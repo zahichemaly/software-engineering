@@ -11,13 +11,6 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="GachaSystem.Player">
-    <Position X="8.5" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAQAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Player.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="GachaSystem.System">
     <Position X="1" Y="2.75" Width="1.5" />
     <TypeIdentifier>
@@ -28,24 +21,10 @@
       <Field Name="Users" />
     </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="GachaSystem.gacha_item">
-    <Position X="4.25" Y="5" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="GachaSystem.gacha_item.Rarity" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>gacha_item.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>gacha_item.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="GachaSystem.Permanent_banner">
     <Position X="7.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAiAAAAAAAABQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Permanent_banner.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -56,31 +35,10 @@
       <FileName>Exclusive_banner.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="GachaSystem.pulls_history">
-    <Position X="2.5" Y="7" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Nested Types" Collapsed="false" />
-    </Compartments>
-    <NestedTypes>
-      <Enum Name="GachaSystem.pulls_history.Pull_number" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>pulls_history.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
-    <TypeIdentifier>
-      <HashCode>QAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>pulls_history.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Item" />
-      <Property Name="Banner" />
-    </ShowAsAssociation>
-  </Class>
   <Class Name="GachaSystem.admin_user">
     <Position X="0.5" Y="4.75" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAABIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAEAAABIAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>admin_user.cs</FileName>
     </TypeIdentifier>
   </Class>
