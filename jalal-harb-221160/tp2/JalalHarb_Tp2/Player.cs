@@ -11,6 +11,7 @@ namespace JalalHarb_Tp2
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public bool FiftyFiftyStatus { get; set; }
         public int Balance { get; set; }
         public int Pulls { get; set; }
         public int PityCounter { get; set; }
@@ -21,7 +22,7 @@ namespace JalalHarb_Tp2
             throw new NotImplementedException();
         }
 
-        public void SinglePullExclusive(Banner pool)
+        public GachaItem? SinglePull(Banner pool)
         {
             if (pool is ExclusiveBanner)
             {
@@ -29,7 +30,7 @@ namespace JalalHarb_Tp2
 
                 if (DateTime.Now < banner.StartDate || DateTime.Now > banner.EndDate)
                 {
-                    return;
+                    throw new Exception("Expeired");
                 }
             }
 
@@ -37,16 +38,43 @@ namespace JalalHarb_Tp2
             {
                 this.Balance -= pool.Cost;
                 this.Pulls++;
-                pool.Items.RemoveAt(0);
+
+                Rarity rarity;
+
+                if (Pulls < 80)
+                {
+                    rarity = Rarity.threeStar;
+                }
+                else if (Pulls < 98)
+                {
+                    rarity = Rarity.fourStar;
+                }
+                else
+                {
+                    rarity = Rarity.fiveStar;
+                }
+
+                var possibleItems = pool.Items.Where(item => item.Rarity == rarity).ToList();
+
+                if (rarity == Rarity.fourStar && !possibleItems.Any())
+                {
+                    return null;
+                }
+
+                GachaItem item = possibleItems[new Random().Next(possibleItems.Count)];
 
                 this.History.Add(new PullHistory()
                 {
                     banner = pool,
                     CreationDate = DateTime.Now,
-                    item = pool.Items[0],
+                    item = item,
                     pullCounter = this.Pulls
                 });
+
+                return item;
             }
+
+            return null;
         }
     }
 }
