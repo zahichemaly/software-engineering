@@ -1,0 +1,77 @@
+@startuml
+
+skinparam SequenceLifeLineBackgroundColor #EFEFEF
+skinparam SequenceArrowColor #333333
+skinparam SequenceDividerBorderColor #404040
+skinparam NoteBackgroundColor #FFFFCC
+skinparam NoteBorderColor #A3A3A3
+
+participant ":User" as User
+participant ":ATM Machine" as ATM
+participant ":CashDispenser" as Dispenser
+participant ":BankServer" as Server
+
+group Insert card
+    User -> ATM : Insert card
+end
+
+group Request PIN
+    User -> ATM : Request PIN
+    activate ATM
+end
+
+group Enter PIN
+    User -> ATM : Enter PIN
+    ATM -> Server : Verify PIN
+    activate Server
+    Server --> ATM : PIN verified
+    deactivate Server
+end
+
+alt BalanceInquiry
+    group Select BalanceInquiry
+        User -> ATM : Select "BalanceInquiry"
+        activate ATM
+    end
+    ATM -> Server : Request Balance
+    activate Server
+    Server -[#00A000]-> ATM : Return Balance
+    deactivate Server
+    ATM --> User : Display Balance
+    deactivate ATM
+else Withdrawal
+    group Select Withdrawal
+        User -> ATM : Select "Withdrawal"
+        activate ATM
+    end
+    loop until amount is valid or canceled
+        group Enter Amount
+            User -> ATM : Enter Amount
+        end
+        alt Amount is valid
+            ATM -> Server : Request Withdrawal
+            activate Server
+            Server -[#00A000]-> ATM : Confirm Withdrawal
+            deactivate Server
+            ATM -> Dispenser : Dispense Cash
+            activate Dispenser
+            Dispenser --> User : Hand Over Cash
+            deactivate Dispenser
+        else Amount is insufficient
+            ATM -[#FF0000]-> User : Display Error
+        end
+    end
+    deactivate ATM
+else Cancel
+    group Select Cancel
+        User -> ATM : Select "Cancel"
+    end
+    ATM -[#FF0000]-> User : Operation Cancelled
+    deactivate ATM
+end
+
+group Eject Card
+    User <- ATM : Eject card
+end
+
+@enduml

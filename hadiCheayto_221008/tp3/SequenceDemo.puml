@@ -1,0 +1,11 @@
+@startuml sequencedemo
+actor User as Foo
+participant "Finance App" as Foo2
+database Database as Foo3
+autonumber "<b>."
+
+Foo -> Foo2: HTTP request
+Foo2 -> Foo3: SQL request
+Foo3 --> Foo2: SQL response
+Foo2 --> Foo: HTTP response
+@enduml
