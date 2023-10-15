@@ -5,8 +5,7 @@ using System.Text;
 
 namespace GachaSystem
 {
-    public interface IAccount
+    public class PermanentBanner : Banner
     {
-        public void Validate();
     }
 }
