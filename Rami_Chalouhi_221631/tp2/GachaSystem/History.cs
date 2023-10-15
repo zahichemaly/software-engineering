@@ -7,10 +7,8 @@ namespace GachaSystem
 {
     public class History
     {
-        private string item;
-        private DateTime pullDate;
-        private int pullNumber; 
-    
-    
+        public string Item { get; set; }
+        public DateTime PullDate { get; set; }
+        public int PullNumber { get; set; }
     }
 }

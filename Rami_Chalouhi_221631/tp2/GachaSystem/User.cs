@@ -7,6 +7,8 @@ namespace GachaSystem
 {
     public abstract class BaseUser : IAccount
     {
+        public int Balance { get; set; }
+        public int Pulls { get; set; }
         public Status UserStatus; 
         public abstract void validate();
         public int ID
