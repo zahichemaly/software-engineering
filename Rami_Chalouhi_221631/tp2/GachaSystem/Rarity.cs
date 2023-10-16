@@ -5,12 +5,10 @@ using System.Text;
 
 namespace GachaSystem
 {
-    public class System
+    public enum Rarity
     {
-        private List<BaseUser> Users;
-
-        private Version version;
-
-     
+        ThreeStar,
+        FourStar,
+        FiveStar
     }
 }
