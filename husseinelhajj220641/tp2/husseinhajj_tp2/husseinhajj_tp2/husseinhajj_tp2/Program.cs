@@ -7,7 +7,6 @@ namespace husseinhajj_tp2
         static void Main(string[] args)
         {
             Player player = new Player(0, "hussein", "hajj", new DateTime(2003, 08, 03), false, 0, 0, Status.Active, 100);
-            
 
             Banner exclusiveBanner = new ExclusiveBanner(0, "Exclusive Banner", new List<GachaItem>
             {
