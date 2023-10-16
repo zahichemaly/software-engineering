@@ -7,10 +7,9 @@ namespace GachaSystem
 {
     public abstract class BaseUser : IAccount
     {
-        public int Balance { get; set; }
-        public int Pulls { get; set; }
-        public Status UserStatus; 
-        public abstract void validate();
+        private Status Status;
+
+        public DateTime DateOfBirth { get; set; }
         public int ID
         {
             get => default;
@@ -34,17 +33,18 @@ namespace GachaSystem
             {
             }
         }
-        public DateTime DateOfBirth { get; set; }
-        public string GetFullName()
-        {
-           return this.FirstName + " " + this.LastName; 
-        }
 
         public int GetAge()
         {
-
-            return -1; 
+            return DateTime.Now.Year - DateOfBirth.Year;
         }
 
+        public string GetFullName()
+        {
+            return FirstName + " " + LastName;
+        }
+
+        public abstract void Validate();  
+           
     }
 }

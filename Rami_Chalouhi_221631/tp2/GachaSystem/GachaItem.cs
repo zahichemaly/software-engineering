@@ -7,18 +7,33 @@ namespace GachaSystem
 {
     public class GachaItem
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
 
-        // Define the Rarity enumeration within the GachaItem class
-        public enum Rarity
+        public int ID
         {
-            ThreeStar,
-            FourStar,
-            FiveStar
+            get => default;
+            set
+            {
+            }
         }
 
-        public Rarity ItemRarity { get; set; }
-    }
+        public string Name
+        {
+            get => default;
+            set
+            {
+            }
+        }
 
+        public Rarity rarity; 
+
+        public GachaItem(int ID, string Name, Rarity rarity)
+        {
+            this.ID = ID;
+            this.Name = Name;
+            rarity= new Rarity();
+          
+        }
+
+
+    }
 }

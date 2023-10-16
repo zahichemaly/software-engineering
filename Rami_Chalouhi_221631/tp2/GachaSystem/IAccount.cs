@@ -7,6 +7,6 @@ namespace GachaSystem
 {
     public interface IAccount
     {
-       public  abstract void validate();
+        abstract void Validate();
     }
 }
