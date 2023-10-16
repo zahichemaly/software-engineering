@@ -19,7 +19,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="GachaSystem.System">
-    <Position X="1.75" Y="3.75" Width="1.5" />
+    <Position X="2.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAEAAAAAgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>System.cs</FileName>
@@ -30,15 +30,8 @@
   </Class>
   <Class Name="GachaSystem.gacha_item">
     <Position X="6.5" Y="4" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="GachaSystem.gacha_item.Rarity" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>gacha_item.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>gacha_item.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -58,15 +51,8 @@
   </Class>
   <Class Name="GachaSystem.pulls_history">
     <Position X="9.25" Y="5.25" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="GachaSystem.pulls_history.Pull_number" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>pulls_history.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>QAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>QAAAAAAAAAAAAAQAAAAAAgAEAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>pulls_history.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -89,14 +75,14 @@
     </TypeIdentifier>
   </Class>
   <Interface Name="GachaSystem.IAccount">
-    <Position X="1.25" Y="2" Width="1.5" />
+    <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IAccount.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="GachaSystem.Status">
-    <Position X="2.5" Y="5.5" Width="1.5" />
+    <Position X="1.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Status.cs</FileName>

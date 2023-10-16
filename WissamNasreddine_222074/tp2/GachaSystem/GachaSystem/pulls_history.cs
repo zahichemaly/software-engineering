@@ -7,33 +7,12 @@ namespace GachaSystem
 {
     public class pulls_history
     {
-        public gacha_item Item
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public gacha_item Item { get; set; }
 
-        public permanent_banner Banner
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public Banner Banner { get; set; }
 
-        public DateTime Creationdate
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public enum Pull_number
-        {
-           number=1
-        }
+        public DateTime Creationdate { get; set; }
+        public int Pull_number { get; set; }
+        public bool Win5050 { get; set; }
     }
 }
