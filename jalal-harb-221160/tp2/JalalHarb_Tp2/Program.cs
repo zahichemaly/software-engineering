@@ -39,7 +39,7 @@ namespace JalalHarb_Tp2
                     Name = "Item3",
                     Rarity = Rarity.fiveStar,
                 }
-            }, 100, new DateTime(2023, 10, 9), new DateTime(2023, 10, 13));
+            }, 100, new DateTime(2023, 10, 9), new DateTime(2023, 10, 20));
 
             Banner permanentBanner = new PermanentBanner(1, "Permanent Banner", new List<GachaItem>
             {
