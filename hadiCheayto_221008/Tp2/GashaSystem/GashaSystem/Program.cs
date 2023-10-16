@@ -39,7 +39,7 @@ namespace GashaSystem
                     Name = "GachaItem3",
                     Rarity = Rarity.fiveStar,
                 }
-            }, 100, new DateTime(2023, 10, 9), new DateTime(2023, 10, 13));
+            }, 100, new DateTime(2023, 10, 16), new DateTime(2023, 10, 17));
 
             Banner permanentBanner = new PermanentBanner(1, "Permanent Banner", new List<GachaItem>
             {
@@ -70,11 +70,8 @@ namespace GashaSystem
 
                 if (pulledItem == null)
                 {
-                    Console.WriteLine("No item was pulled");
                     break;
                 }
-
-                Console.WriteLine($"Pulled an item with a {pulledItem.Rarity} rarity");
             }
 
             string path = Path.Combine("gacha.txt");

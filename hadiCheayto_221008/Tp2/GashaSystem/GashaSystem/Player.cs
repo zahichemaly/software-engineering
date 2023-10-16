@@ -17,6 +17,10 @@ namespace GashaSystem
         public int PityCounter { get; set; }
         public List<PullHistory> History { get; set; }
 
+        public Player()
+        {
+            History = new List<PullHistory>();
+        }
         public override void validate()
         {
             throw new NotImplementedException();
@@ -30,7 +34,7 @@ namespace GashaSystem
 
                 if (DateTime.Now < banner.StartDate || DateTime.Now > banner.EndDate)
                 {
-                    throw new Exception("Expeired");
+                    throw new Exception("Expired");
                 }
             }
 
@@ -40,12 +44,13 @@ namespace GashaSystem
                 this.Pulls++;
 
                 Rarity rarity;
+                int r = new Random().Next(100);
 
-                if (Pulls < 80)
+                if (r < 80)
                 {
                     rarity = Rarity.threeStar;
                 }
-                else if (Pulls < 98)
+                else if (r < 98)
                 {
                     rarity = Rarity.fourStar;
                 }
