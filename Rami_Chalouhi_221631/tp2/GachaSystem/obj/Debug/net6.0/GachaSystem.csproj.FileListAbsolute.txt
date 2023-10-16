@@ -3,3 +3,13 @@ C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\Gac
 C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.AssemblyInfoInputs.cache
 C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.AssemblyInfo.cs
 C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.csproj.CoreCompileInputs.cache
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.exe
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.deps.json
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.runtimeconfig.json
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.dll
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\bin\Debug\net6.0\GachaSystem.pdb
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.dll
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\refint\GachaSystem.dll
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.pdb
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\GachaSystem.genruntimeconfig.cache
+C:\Users\popsmokkr\Desktop\git\software-engineering\Rami_Chalouhi_221631\tp2\GachaSystem\obj\Debug\net6.0\ref\GachaSystem.dll

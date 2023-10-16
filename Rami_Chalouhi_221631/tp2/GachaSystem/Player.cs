@@ -3,76 +3,75 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-
 namespace GachaSystem
 {
     public class Player : BaseUser
     {
-        private List<History> history = new List<History>();
-        public PitySystem pitySystem = new PitySystem();
-        public int Balance { get; set; }
-        public int Pulls { get; set; }
-        private bool Is50_50Lost = false;
-        public GachaItem SimulatePull(List<GachaItem> items)
+        public int PityCounter = 0;
+        public List<GachaItem> PullHistory { get; }
+        public Player(string firstName, string lastName, int balance)
         {
-             Random random = new Random();
-            int index = random.Next(items.Count);
-            return items[index];
+            FirstName = firstName;
+            LastName = lastName;
+            Balance = balance;
+            PullHistory = new List<GachaItem>();
+
         }
+        public override void Validate()
+        {
 
+        }
+        public int Balance;
 
-        public override void validate() { 
-        
-        
+        public int Pulls;
+
+        public Version Version
+        {
+            get => default;
+            set
+            {
+            }
         }
 
         public void PerformPull(ExclusiveBanner banner)
         {
-            if (Balance >= banner.Cost)
+            Pulls++;
+
+        }
+
+        public void TrackPullHistory(ExclusiveBanner banner, GachaItem item)
+        {
+            if (item == null)
             {
-                Balance -= banner.Cost;
-
-               
-                GachaItem pulledItem = SimulatePull(banner.Items);
-
-                int pullNumber = Pulls + 1;
-
-                if (pulledItem!=null)
-                {
-                     History pullHistoryEntry = new History
-                    {
-                        Item = pulledItem.Name,
-                        PullDate = DateTime.Now,
-                        PullNumber = pullNumber
-                    };
-
-                     history.Add(pullHistoryEntry);
-                    Console.WriteLine($"Player {ID} pulled {pulledItem.ItemRarity} from {banner.Name}");
-                }
-                else
-                {
-                    Console.WriteLine($"No items available to pull from {banner.Name}.");
-                }
+                return;
 
 
+            }
+
+            Console.WriteLine("Item: " + item.Name);
+            Console.WriteLine("Pull number: " + Pulls);
+
+
+            Console.WriteLine("Banner: " + banner.Name);
+            Console.WriteLine("CreationDate: " + banner.StartDate);
+
+        }
+        public void AddToPullHistory(GachaItem item)
+        {
+            PullHistory.Add(item);
+        }
+        public bool CheckFor5StarPity()
+        {
+            if (PullHistory.Any() && PullHistory.Last().rarity != Rarity.FiveStar)
+            {
+                PityCounter++;
             }
             else
             {
-                Console.WriteLine("Insufficient balance to perform a pull.");
+                PityCounter = 0;
             }
-        }
 
-        public void TrackPullHistory()
-        {
-             foreach (var entry in history)
-            {
-                Console.WriteLine($"{entry.PullDate} - Pulled {entry.Item} on pull {entry.PullNumber}");
-            }
-        }
-
-        public void TrackPityCounter()
-        {
-             Console.WriteLine($"Pity Counter: {pitySystem.PityCounter}");
+            return PityCounter >= 60; // This value is based on your requirement for a guaranteed 5-star
         }
     }
-}
+    }
