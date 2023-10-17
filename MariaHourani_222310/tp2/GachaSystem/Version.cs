@@ -7,8 +7,8 @@ namespace GachaSystem
 {
     public class Version
     {
-        private int Version_number;
-        private int Version_Code;
-        private DateTime Date;
+        public int Version_number { get; set; }
+        public int Version_Code { get; set; }
+        public DateTime Date { get; set; }
     }
 }

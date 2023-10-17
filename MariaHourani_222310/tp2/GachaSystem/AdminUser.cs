@@ -7,6 +7,7 @@ namespace GachaSystem
 {
     public class AdminUser:BaseUser
     {
+
         static void UpdatePermanentBanner()
         {
 
@@ -39,5 +40,9 @@ namespace GachaSystem
         {
 
         }
+       /* public override void validate()
+        {
+
+        }*/
     }
 }

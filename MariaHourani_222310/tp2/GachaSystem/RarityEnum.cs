@@ -5,9 +5,10 @@ using System.Text;
 
 namespace GachaSystem
 {
-    public class System
+    public enum RarityEnum
     {
-        private List<BaseUser> Users;
-        private Version Version { get; set; }
+        Common = 3,
+        Uncommon = 4,
+        Rare = 5
     }
 }

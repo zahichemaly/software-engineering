@@ -41,17 +41,13 @@
   </Class>
   <Class Name="GachaSystem.GachaItem">
     <Position X="10" Y="3.5" Width="1.5" />
-    <NestedTypes>
-      <Enum Name="GachaSystem.GachaItem.RarityEnum" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>GachaItem.cs</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAQAAAAAAAAAAAEAA=</HashCode>
       <FileName>GachaItem.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RarityEnum" />
+    </ShowAsAssociation>
   </Class>
   <Class Name="GachaSystem.ExclusiveBanner">
     <Position X="14" Y="2.75" Width="1.5" />
@@ -109,6 +105,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
       <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GachaSystem.RarityEnum">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RarityEnum.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />

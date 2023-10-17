@@ -12,17 +12,21 @@ namespace GachaSystem
         public List<GachaItem> Items { get; set; }
 
         public int Cost { get; set; }
-        public Banner()
+
+        public GachaItem PerformPull()
         {
-
+            return new GachaItem();
         }
-
         public Banner(int id, string namee,List<GachaItem> gachaitems,int cost)
         {
             ID = id;
             Name = namee;
             Items = gachaitems;
             Cost = cost;
+        }
+        public Banner()
+        {
+
         }
     }
 }
