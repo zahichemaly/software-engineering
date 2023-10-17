@@ -3,7 +3,7 @@
   <Class Name="GashaSystem.BaseUser">
     <Position X="7.25" Y="1.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAMAEAABAgAAAAAAAAAAAAAAQAAAIAAAAAAAAAAg=</HashCode>
+      <HashCode>AAQAAMAEAABAgAAAAAAAAAAAAAAQAAAIAAAAAAAAAAg=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -14,7 +14,7 @@
   <Class Name="GashaSystem.Player">
     <Position X="3.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAMAAAAACgQAAAAgAAAAAAAgQAAAAAAACAAAAAAg=</HashCode>
+      <HashCode>AAAAAMAAQAAAgQAAAAgAAAAAAAgQAAAAAAACAAAAAAo=</HashCode>
       <FileName>Player.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -30,13 +30,6 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAEAAAAAgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Version.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="GashaSystem.GachaItem">
-    <Position X="7.75" Y="7.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>GachaItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="GashaSystem.ExclusiveBanner">
@@ -72,6 +65,13 @@
     <TypeIdentifier>
       <HashCode>ACAAAIIAAAAAAAEEAAAAAABAAAAAAAAgAAAAAAQAAAA=</HashCode>
       <FileName>AdminUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.GachaItem">
+    <Position X="7.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GachaItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="GashaSystem.IAccount">
