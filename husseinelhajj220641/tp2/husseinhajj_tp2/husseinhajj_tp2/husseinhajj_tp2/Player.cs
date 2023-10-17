@@ -9,6 +9,7 @@ namespace husseinhajj_tp2
     {
         public Player(int id, string firstName, string lastName, DateTime dateOfBirth, bool fiftyFiftyStatus, int pityCounter, int pulls, Status status, int balance) : base(id, firstName, lastName, dateOfBirth, fiftyFiftyStatus, pityCounter, pulls, status, balance)
         {
+            History = new List<PullHistory>();
         }
 
         public int ID { get; set; }
@@ -20,7 +21,6 @@ namespace husseinhajj_tp2
         public int Pulls { get; set; }
         public int PityCounter { get; set; }
         public List<PullHistory> History { get; set; }
-
 
         public override void validate()
         {
@@ -39,47 +39,44 @@ namespace husseinhajj_tp2
                 }
             }
 
-            if (Balance - pool.Cost > 0 && pool.Items.Count > 0)
+            this.Balance -= pool.Cost;
+            this.Pulls++;
+
+            Rarity rarity;
+            Random r = new Random();
+            int rand = r.Next(100);
+
+            if (rand < 80)
             {
-                this.Balance -= pool.Cost;
-                this.Pulls++;
-
-                Rarity rarity;
-
-                if (Pulls < 80)
-                {
-                    rarity = Rarity.threeStar;
-                }
-                else if (Pulls < 98)
-                {
-                    rarity = Rarity.fourStar;
-                }
-                else
-                {
-                    rarity = Rarity.fiveStar;
-                }
-
-                var possibleItems = pool.Items.Where(item => item.Rarity == rarity).ToList();
-
-                if (rarity == Rarity.fourStar && !possibleItems.Any())
-                {
-                    return null;
-                }
-
-                GachaItem item = possibleItems[new Random().Next(possibleItems.Count)];
-
-                this.History.Add(new PullHistory()
-                {
-                    banner = pool,
-                    CreationDate = DateTime.Now,
-                    item = item,
-                    pullCounter = this.Pulls
-                });
-
-                return item;
+                rarity = Rarity.threeStar;
+            }
+            else if (rand < 98)
+            {
+                rarity = Rarity.fourStar;
+            }
+            else
+            {
+                rarity = Rarity.fiveStar;
             }
 
-            return null;
+            var possibleItems = pool.Items.Where(item => item.Rarity == rarity).ToList();
+
+            if (rarity == Rarity.fourStar && !possibleItems.Any())
+            {
+                return null;
+            }
+
+            GachaItem item = possibleItems[new Random().Next(possibleItems.Count)];
+
+            this.History.Add(new PullHistory()
+            {
+                banner = pool,
+                CreationDate = DateTime.Now,
+                item = item,
+                pullCounter = this.Pulls
+            });
+
+            return item;
         }
     }
 }

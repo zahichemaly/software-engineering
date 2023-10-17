@@ -21,14 +21,6 @@ namespace husseinhajj_tp2
             Balance = balance;
         }
 
-        protected BaseUser(int id, string firstName, string lastName, DateTime dateOfBirth)
-        {
-            ID = id;
-            FirstName = firstName;
-            LastName = lastName;
-            DateOfBirth = dateOfBirth;
-        }
-
         private int ID { get; set; }
         private string FirstName { get; set; }
         private string LastName { get; set; }
