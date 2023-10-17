@@ -12,6 +12,7 @@ namespace JalalHarb_Tp2
         private int ID { get; set; }
         private string FirstName { get; set; }
         private string LastName { get; set; }
+        public Status status { get; set; }
         public DateTime DateOfBirth { get; set; }
 
 
