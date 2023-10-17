@@ -1,0 +1,42 @@
+@startuml SequenceATM
+actor User as User
+participant "ATM Machine" as ATM
+participant "BankServer" as Bank
+
+User -> ATM: Insert Card
+ATM -> User: Request PIN
+User -> ATM: Insert PIN
+ATM -> Bank: Verify PIN
+Bank --> ATM: PIN response
+!define MaxTrials 3 
+alt if Pin is wrong 
+ATM -[#red]> User: Wrong PIN
+else Select an Option (A=BalanceInquiry, B=Withdrawal, C=Cancel)
+    alt A
+        User -> ATM: A
+        ATM -> Bank: Request for Balance Inquiry
+        Bank --> ATM: Balance Information
+        ATM --[#green]> User: Display Balance
+    else B
+        User -> ATM: B
+        ATM -> User: Enter Withdrawal Amount
+        User -> ATM: Confirm Withdrawal Amount
+        ATM -> Bank: Request for Withdrawal
+        Bank --> ATM: Response
+
+        alt InsufficientFunds
+            ATM --[#red]> User: Insufficient Funds
+        else SufficientFunds
+            ATM --[#green]> User: Collect Cash
+        end
+    else C
+        User -> ATM: C
+        ATM --[#green]> User:Canceled
+    end
+end
+
+ATM -> User: Show Completed Operation (Receipt, Operation Canceled, etc.)
+User -> ATM: Eject Card
+ATM -> User: Collect Card
+
+@enduml

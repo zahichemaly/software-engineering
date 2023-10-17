@@ -1,0 +1,21 @@
+@startuml sequencedemo
+actor User as Foo
+participant "Finance App" as Foo2
+database Database as Foo3
+Foo -> Foo2: Authentication request
+alt valid credentials
+    Foo2 --> Foo: Authentication success
+else wrong credentials
+    Foo2 --> Foo: Authentication failure
+    group forgot password
+        Foo -> Foo2: Request forgot password
+        Foo2 --> Foo: Sent forgot password OTP
+    end
+else server timeout
+    loop 3 times
+        Foo -> Foo2: Ping server
+    end
+    Foo2 --> Foo: Server available
+end
+
+@enduml

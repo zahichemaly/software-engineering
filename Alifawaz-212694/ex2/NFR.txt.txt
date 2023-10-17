@@ -1,0 +1,5 @@
+1. The app should have a response time of less than 2 seconds for search queries.
+2. The system must be scalable to handle a growing user base.
+3. The app's user interface should be intuitive and user-friendly.
+4. The application must be compatible with the latest web browsers.
+5. The system should be highly available, with a minimum uptime of 99.9%

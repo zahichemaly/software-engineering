@@ -1,0 +1,76 @@
+@startuml SequenceATM
+
+actor User as U
+participant ATMController
+participant Bank
+control BankDatabase
+control CardReader
+ 
+U -> ATMController: Insert Card
+activate ATMController
+
+ATMController -> CardReader: Request PIN
+activate CardReader
+
+CardReader -> U: Enter PIN
+U --> CardReader: PIN Entered
+
+CardReader -> Bank: Verify PIN
+activate Bank
+BankDatabase -> Bank: Verify PIN
+activate BankDatabase
+
+BankDatabase --> Bank: PIN Verification Result
+deactivate BankDatabase
+
+Bank --> CardReader: PIN Verification Result
+deactivate Bank
+
+alt PIN Verified
+    CardReader -[#008000]-> ATMController: PIN Verified (success)
+else PIN Incorrect
+    CardReader -[#FF0000]-> ATMController: Incorrect PIN (error)
+end
+
+deactivate CardReader
+ATMController -[#0000FF]-> Bank: Request ATM Operation
+activate Bank
+Bank -> ATMController: ATM Operation Request Acknowledged
+deactivate Bank
+
+alt Operation: Balance Inquiry
+    ATMController -> Bank: Request Balance Inquiry
+    activate Bank
+    Bank --> ATMController: Balance Information
+    deactivate Bank
+    ATMController -[#008000]-> U: Balance Information (success)
+else Operation: Withdrawal
+    ATMController -> Bank: Request Withdrawal
+    activate Bank
+    BankDatabase -> Bank: Verify User and Balance
+    activate BankDatabase
+    alt Balance Sufficient
+        BankDatabase --> ATMController: Withdrawal Amount Approved
+        ATMController -> Bank: Dispense Cash
+        activate Bank
+        Bank --> ATMController: Cash Dispensed
+        deactivate Bank
+        ATMController -[#008000]-> U: Cash Dispensed (success)
+    else Balance Insufficient
+        BankDatabase --> ATMController: Insufficient Balance
+        ATMController -[#FF0000]-> U: Insufficient Balance (error)
+    end
+    deactivate BankDatabase
+else Operation: Cancel
+    ATMController -> Bank: Request to Cancel
+    activate Bank
+    Bank --> ATMController: Transaction Cancelled
+    deactivate Bank
+    ATMController -[#008000]-> U: Transaction Cancelled (success)
+end
+
+deactivate ATMController
+U -[#0000FF]-> ATMController: Response to User
+deactivate U
+
+@enduml
