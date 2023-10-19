@@ -1,0 +1,37 @@
+@startuml
+left to right direction
+skinparam componentStyle uml2
+
+' Define components
+package "Fitness App" {
+  [User Interface]
+  [Workout Planner]
+  [Diet Tracker]
+  [Motivation]
+  [User Profile]
+  [Progress Tracker]
+  [Fitness Devices]
+  [User Registration]
+}
+
+' Define external components
+[Database]
+
+' Connect components
+[User Interface] --> [Workout Planner] : Manages
+[User Interface] --> [Diet Tracker] : Manages
+[User Interface] --> [Motivation] : Manages
+[User Interface] --> [User Profile] : Manages
+[User Interface] --> [Progress Tracker] : Manages
+[User Interface] --> [Fitness Devices] : Manages
+[User Interface] --> [User Registration] : Manages
+
+[Workout Planner] --> [Database] : Stores
+[Diet Tracker] --> [Database] : Stores
+[User Profile] --> [Database] : Stores
+[Progress Tracker] --> [Database] : Stores
+[User Registration] --> [Database] : Stores
+
+
+[Database] --> [Data Backup] : Backed up by
+@enduml

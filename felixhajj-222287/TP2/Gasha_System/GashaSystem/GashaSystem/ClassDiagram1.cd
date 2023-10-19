@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GashaSystem.BaseUser">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAAABAAAAAAAAAAAAAAAAQAAAIAAAACAAAAgg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="UserStatus" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GashaSystem.Player">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMCAAAAAgQAAAAgAAAAAACAQAAAAAAAAAAAAAwg=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="history" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GashaSystem.System">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAI=</HashCode>
+      <FileName>System.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Users" />
+      <Field Name="Versions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GashaSystem.PitySystem">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAJAAQAAAAIAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PitySystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.PermanentBanner">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PermanentBanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.GachaItem">
+    <Position X="8.5" Y="5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GashaSystem.GachaItem.Rarity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GachaItem.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GachaItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.ExclusiveBanner">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAiAAAAAAAABQgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ExclusiveBanner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.History">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.Version">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Version.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.AdminUser">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAAAIAAAAAAAEAAAAAAABAAAAAAAAgAAAAAAQAAAA=</HashCode>
+      <FileName>AdminUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GashaSystem.PullHistoryEntry">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAABAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PullHistoryEntry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GashaSystem.IAccount">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GashaSystem.Status">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

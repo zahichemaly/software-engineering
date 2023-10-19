@@ -9,6 +9,7 @@ namespace JalalHarb_Tp2
     {
         public PermanentBanner(int id, string name, List<GachaItem> items, int cost) : base(id, name, items, cost)
         {
+
         }
     }
 }

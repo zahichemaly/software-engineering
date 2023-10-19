@@ -33,20 +33,26 @@ namespace GachaSystem
             }
         }
 
+        public DateTime DateOfBirth { get; set; }
+
+        public Status Status
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
         public int GetAge()
         {
-            return 0;
+            throw new NotImplementedException();
         }
 
         public string GetFullName()
         {
-            return FirstName + " " + LastName;
+            throw new NotImplementedException();
         }
 
-        public DateTime DateOfBirth { get; set; }
-
-        public abstract void validate();
-
-        public Status UserStatus;
+        abstract public void validate();
     }
 }

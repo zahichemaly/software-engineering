@@ -7,9 +7,9 @@ namespace GashaSystem
 {
     public class GachaItem
     {
-        private int ID {  get; set; }
-        private string Name { get; set; }
+        public int ID {  get; set; }
+        public string Name { get; set; }
 
-        private Rarity 
+        public Rarity Rarity { get; set; }
     }
 }

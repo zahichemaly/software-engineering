@@ -27,5 +27,11 @@ namespace GachaSystem
 
         }
 
+
+        public void UpdateBannerCost(Banner banner, int newCost)
+        {
+            banner.Cost = newCost;
+            Console.WriteLine($"Updated cost of {banner.Name} to {newCost}");
+        }
     }
 }

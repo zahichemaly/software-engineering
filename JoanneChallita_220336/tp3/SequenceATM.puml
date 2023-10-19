@@ -1,0 +1,45 @@
+@startuml SequenceATM
+
+actor User as User
+participant "ATM Machine" as ATM
+participant "BankServer" as Bank
+
+
+User -> ATM: Insert Card
+ATM -> User: Request PIN
+User -> ATM: Insert PIN
+ATM -> Bank: Verify PIN
+Bank --[#green]> ATM: PIN Verified
+
+ATM -> User: Select Options (A=BalanceInquiry, B=Withdrawal, C=Cancel)
+
+ 
+
+alt Option A 
+    ATM -> Bank: Request for Balance Inquiry
+    Bank --> ATM: Balance Information
+    ATM --[#green]> User: Show Balance
+
+else Option B
+
+    ATM -> User: Enter Withdrawal Amount
+    User -> ATM: Confirm Withdrawal Amount
+    ATM -> Bank: Request  Withdrawal
+    Bank --> ATM:Confirm Withdrawal
+    alt Dispense Cash
+    ATM --[#red]> User: Eject Card
+
+    else 
+    ATM --[#green]> User: Collect Cash & Card
+     end
+
+else Option C
+    ATM --[#green]> User:Canceled
+end
+
+User -> ATM: Eject Card
+ATM -> User: Collect Card
+
+ 
+
+@enduml

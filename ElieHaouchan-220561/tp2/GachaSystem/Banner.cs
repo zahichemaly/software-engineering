@@ -10,7 +10,7 @@ namespace GachaSystem
         private int ID;
         private string Name;
         private int Cost;
-        private List<GachaItem> Items;
+        private List<GachaItem> items;
 
 
         public virtual void IsPullAllowed(Player player)
