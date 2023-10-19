@@ -1,8 +1,0 @@
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.csproj.AssemblyReference.cache
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.AssemblyInfoInputs.cache
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.AssemblyInfo.cs
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.csproj.CoreCompileInputs.cache
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.RazorAssemblyInfo.cache
-C:\Users\User\Desktop\USJ_CS\5thS\genielogiciel\software-engineering\jad_moussa_191685\tp4\Cars\obj\Debug\net6.0\CarsWeb.RazorAssemblyInfo.cs

@@ -1,2 +1,0 @@
-C:\Users\User\OneDrive\Desktop\genie_temp\Mine\GashaSystem\GashaSystem\obj\Debug\GashaSystem.csproj.AssemblyReference.cache
-C:\Users\User\OneDrive\Desktop\genie_temp\Mine\GashaSystem\GashaSystem\obj\Debug\GashaSystem.csproj.CoreCompileInputs.cache
