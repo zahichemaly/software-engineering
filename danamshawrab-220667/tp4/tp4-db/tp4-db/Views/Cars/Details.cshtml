@@ -1,0 +1,55 @@
+﻿@model tp4_db.Models.Car
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Car Details</h1>
+
+<dl class="row">
+    <dt class="col-sm-2">
+        Brand:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Brand
+    </dd>
+
+    <dt class="col-sm-2">
+        Model:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Model
+    </dd>
+
+    <dt class="col-sm-2">
+        Year:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Year
+    </dd>
+
+    <dt class="col-sm-2">
+        Price:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Price
+    </dd>
+
+    <dt class="col-sm-2">
+        Image:
+    </dt>
+    <dd class="col-sm-10">
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="Car Image" />
+        }
+        else
+        {
+            <p>No image available</p>
+        }
+    </dd>
+</dl>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
