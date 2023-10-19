@@ -1,0 +1,53 @@
+@startuml ATMInteraction
+
+actor Client as C
+participant "ATM Terminal" as ATM
+database "Bank System" as BS
+
+== Insert Card ==
+C -> ATM: Place Card
+
+== Request and Insert PIN==
+ATM -> C: Request PIN
+C -> ATM: Insert PIN
+
+== PIN Authentication ==
+ATM -> BS: Verify PIN
+activate BS
+BS --> ATM: PIN verified
+deactivate BS
+
+== Operation Choice ==
+ATM -> C: Display Choices\n(1: Check Balance, 2: Cash Withdrawal, 3: Terminate)
+C -> ATM: Choose 2 (Cash Withdrawal)
+
+alt Option 1: Check Balance
+    ATM -> BS: BalanceInquiry
+    activate BS
+    BS --> ATM: Return Balance
+    deactivate BS
+    ATM -> C: Display Balance
+    ATM -> C: Return Card
+    C -> ATM: Retrieve Card
+else Option 2: Cash Withdrawal
+    ATM -> C: Withdrawal
+    C -> ATM: Specify Amount
+    ATM -> BS: Withdrawal Query
+    activate BS
+    alt Enough Funds
+        BS --> ATM: <font color=green><b>Approve Withdrawal</b></font>
+        deactivate BS
+        ATM -> C: <font color=green><b>Release Cash & Return Card</b></font>
+        C -> ATM: Take Cash & Collect Card
+    else Low Funds
+        BS --> ATM: <font color=red><b>Funds Unavailable</b></font>
+        deactivate BS
+        ATM -> C: <font color=red><b>Alert: Low Funds & Return Card</b></font>
+        C -> ATM: Collect Card
+    end
+else Option 3: Terminate
+    ATM -> C: Cancel
+    C -> ATM: Collect Card
+end
+
+@enduml

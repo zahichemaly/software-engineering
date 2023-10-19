@@ -1,0 +1,59 @@
+@startuml SequenceATM
+
+actor User as U
+participant "ATM Machine" as ATM
+database "BankServer" as BS
+
+== Insert Card ==
+U -> ATM: Insert Card
+note right: The user inserts the card into the ATM machine.
+
+== Request & Insert PIN ==
+ATM -> U: Request PIN
+note left: The ATM machine requests the user to enter their PIN.
+U -> ATM: Insert PIN
+note right: The user enters their PIN.
+
+== Verify PIN ==
+ATM -> BS: Verify PIN
+activate BS
+BS --> ATM: PIN Verified
+note left: The bank server verifies the PIN and responds.
+deactivate BS
+
+== Select Option ==
+ATM -> U: Show Options\n(A: Balance Inquiry, B: Withdrawal, C: Cancel)
+note left: The ATM shows options to the user.
+U -> ATM: Select Option B (Withdrawal)
+note right: The user selects option B for withdrawal.
+
+alt Option A Selected
+    ATM -> BS: Request Balance
+    activate BS
+    BS --> ATM: Send Balance
+    deactivate BS
+    ATM -> U: Show Balance
+    ATM -> U: Eject Card
+    U -> ATM: Collect Card
+else Option B Selected
+    ATM -> U: Request Amount
+    U -> ATM: Enter Amount
+    ATM -> BS: Request Withdrawal
+    activate BS
+    alt Sufficient Balance
+        BS --> ATM: <font color=green><b>Confirm Withdrawal
+        deactivate BS
+        ATM -> U: <font color=green><b>Dispense Cash\nEject Card
+        U -> ATM: Collect Cash & Card
+    else Insufficient Balance
+        BS --> ATM: <font color=red><b>Insufficient Funds
+        deactivate BS
+        ATM -> U: <font color=red><b>Error: Insufficient Funds\nEject Card
+        U -> ATM: Collect Card
+    end
+else Option C Selected
+    ATM -> U: Operation Cancelled\nEject Card
+    U -> ATM: Collect Card
+end
+
+@enduml

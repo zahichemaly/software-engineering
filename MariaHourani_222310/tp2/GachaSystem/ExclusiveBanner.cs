@@ -9,6 +9,17 @@ namespace GachaSystem
     { 
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public int Cost { get; set; }
+
+        public ExclusiveBanner(int id, string name, List<GachaItem> items, int cost, DateTime startDate, DateTime endDate)
+          : base(id, name, items, cost)
+        {
+            StartDate = startDate;
+            EndDate = endDate;
+        }
+        public bool IsActive()
+        {
+            DateTime today = DateTime.Now;
+            return StartDate <= today && today <= EndDate;
+        }
     }
 }

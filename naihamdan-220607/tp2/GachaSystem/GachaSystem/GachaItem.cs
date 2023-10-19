@@ -7,28 +7,10 @@ namespace GachaSystem
 {
     public class GachaItem
     {
-        public int ID
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public int ID { get; set; }
 
-        public string Name
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public string Name { get; set; }
 
-        public Rarity Rarity
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public Rarity Rarity { get; set; }
     }
 }

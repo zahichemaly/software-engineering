@@ -7,8 +7,8 @@ namespace JalalHarb_Tp2
 {
     public class GachaItem
     {
-        private int ID { get; set; }
-        private string Name { get; set; }
-        private Rarity Rarity { get; set; }
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public Rarity Rarity { get; set; }
     }
 }

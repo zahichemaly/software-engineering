@@ -7,7 +7,47 @@ namespace GachaSystem
 {
     public class ExclusiveBanner: Banner
     {
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        private List<GachaItem> Items;
+
+        public int ID
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public string Name
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DateTime StartDate
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DateTime EndDate
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public int Cost;
+        public bool IsBannerActive()
+        {
+          
+            DateTime now = DateTime.Now;
+            return StartDate <= now && now <= EndDate;
+        }
     }
 }
+    

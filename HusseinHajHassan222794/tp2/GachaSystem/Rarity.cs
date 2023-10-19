@@ -7,8 +7,8 @@ namespace GachaSystem
 {
     public enum Rarity
     {
-        ThreeStar,
-        FourStar,
-        FiveStar
+        THREE_STARS,
+        FOUR_STARS,
+        FIVE_STARS
     }
 }

@@ -1,0 +1,6 @@
+@startuml sequencedemo
+User -> Server: HTTP request
+Server -> DB: SQL request
+DB --> Server: SQL response
+Server --> User: HTTP response
+@enduml

@@ -9,26 +9,20 @@ namespace GachaSystem
     {
         public GachaItem Item
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public Banner Banner
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public DateTime CreationDate
         {
-            get => default;
-            set
-            {
-            }
+            get;
+            set;
         }
 
         public int PullNumber = 1;

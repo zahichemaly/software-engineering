@@ -47,6 +47,17 @@ namespace GachaSystem
         {
 
         }
+        public BaseUser(int id, string lastName, string firstName, DateTime dateOfBirth)
+        {
+            ID = id;
+            LastName = lastName;
+            FirstName = firstName;
+            DateOfBirth = dateOfBirth;
+        }
+        public BaseUser()
+        {
+
+        }
 
     }
 }

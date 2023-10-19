@@ -5,7 +5,7 @@ using System.Text;
 
 namespace GachaSystem
 {
-    public class Exclusive_banner : Permanent_banner
+    public class Exclusive_banner : Banner
     {
         public DateTime EndDate
         {

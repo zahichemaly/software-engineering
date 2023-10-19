@@ -7,6 +7,9 @@ namespace GachaSystem
 {
     public class System
     {
-        private int Users;
+        public List<BaseUser> Users { get; set; }
+        public Version CurrentVersion { get; set; }
+        public List<ExclusiveBanner> ExclusiveBanners { get; set; }
+        public List<GachaItem> PermanentBannerItems { get; set; }
     }
 }

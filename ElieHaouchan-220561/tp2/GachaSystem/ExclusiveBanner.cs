@@ -39,13 +39,8 @@ namespace GachaSystem
             }
         }
 
-        public List<GachaItem> Items
-        {
-            get => default;
-            set
-            {
-            }
-        }
+        public List<GachaItem> Items;
+        
 
         public int Cost
         {
@@ -61,6 +56,19 @@ namespace GachaSystem
             set
             {
             }
+        }
+
+        public ExclusiveBanner()
+        {
+            Items = new List<GachaItem>();
+        }
+
+        public GachaItem PullRandom5StarItem()
+        {
+            Random random = new Random();
+            List<GachaItem> fiveStarItems = Items.FindAll(Items => Items.rarity == Rarity.FiveStar);
+            int index = random.Next(fiveStarItems.Count);
+            return fiveStarItems[index];
         }
 
         public override void IsPullAllowed(Player player)

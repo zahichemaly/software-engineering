@@ -1,35 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.AccessControl;
-using System.Text;
-
-namespace GachaSystem
+﻿public class gacha_item
 {
-    public class gacha_item
+    public int ID { get; set; }
+    public Rarity ItemRarity { get; set; }
+
+    public enum Rarity
     {
-        public int ID
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public string Name
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public enum Rarity
-        {
-            Common=3
-
-
-
-        }
+        VeryCommon,
+        Uncommon,
+        Rare
     }
 }

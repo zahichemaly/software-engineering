@@ -15,12 +15,13 @@ namespace GachaSystem
 
         public int GetAge()
         {
-            throw new System.NotImplementedException();
+            return 0;
         }
         public string GetFullName()
         {
-            throw new System.NotImplementedException();
+            return "";
         }
         public abstract void Validate();
+        public Status UserStatus { get; set; }
     }
 }

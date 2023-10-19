@@ -7,6 +7,38 @@ namespace GachaSystem
 {
     public class PermanentBanner: Banner
     {
-      
+        private List<GachaItem> Items;
+
+        public int ID
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public string Name
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public int Cost
+        {
+            get => default;
+            set
+            {
+            }
+        }
+        public bool IsBannerActive
+        {
+            get => default;
+            set
+            {
+            }
+
+        }
     }
 }
