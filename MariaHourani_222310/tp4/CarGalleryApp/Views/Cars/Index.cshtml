@@ -3,6 +3,13 @@
 @{
     ViewData["Title"] = "Car Gallery";
 }
+<style>
+    /* Your CSS styles go here */
+    .image-thumbnail {
+        max-width: 100px;
+        max-height: 100px;
+    }
+</style>
 
 <h1>Index</h1>
 
@@ -48,7 +55,7 @@
             <td>
                  @if (item.ImageUrl != null)
                  {
-                        <img src="@Url.Content(item.ImageUrl)" alt="Image" />
+                        <img src="@Url.Content(item.ImageUrl)" alt="Image" class="image-thumbnail"  />
                  }
             </td>
 
