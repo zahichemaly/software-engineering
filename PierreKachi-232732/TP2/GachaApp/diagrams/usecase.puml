@@ -1,0 +1,35 @@
+@startuml GachaSystemUseCaseDiagram
+
+:Player: as Player
+:Admin: as Admin
+
+left to right direction
+skinparam packageStyle rectangle
+
+rectangle "Gacha System" {
+  :Play Gacha: as (Play Gacha)
+  :Track Pull History: as (Track Pull History)
+  :View Player Stats: as (View Player Stats)
+
+  (Player) --> (Play Gacha)
+  (Player) --> (Track Pull History)
+  (Player) --> (View Player Stats)
+
+  (Admin) --> (Track Pull History)
+  (Admin) --> (Manage Banners)
+  (Admin) --> (Manage Users)
+  (Admin) --> (Update System)
+
+  (Manage Banners) --> (Update Permanent Banner)
+  (Manage Banners) --> (Add Exclusive Banner)
+  (Manage Banners) --> (Update Exclusive Banner)
+  (Manage Banners) --> (Delete Exclusive Banner)
+
+  (Play Gacha) --> (Perform Pull)
+  (Perform Pull) --> (Update Player Stats)
+
+  (Player) --> (View Player Stats)
+  (View Player Stats) --> (Retrieve Player Data)
+}
+
+@enduml
