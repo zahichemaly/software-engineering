@@ -1,8 +1,6 @@
 
 @startuml SequenceATM
 
- 
-
 actor User as U
 
 participant ATMController
@@ -13,13 +11,11 @@ control BankDatabase
 
 control CardReader
 
- 
 
 U -> ATMController: Insert Card
 
 activate ATMController
 
- 
 
 ATMController -> CardReader: Request PIN
 
@@ -40,20 +36,17 @@ activate Bank
 BankDatabase -> Bank: Verify PIN
 
 activate BankDatabase
-
  
 
 BankDatabase --> Bank: PIN Verification Result
 
 deactivate BankDatabase
 
- 
 
 Bank --> CardReader: PIN Verification Result
 
 deactivate Bank
 
- 
 
 alt PIN Verified
 
@@ -65,7 +58,6 @@ else PIN Incorrect
 
 end
 
- 
 
 deactivate CardReader
 
@@ -77,7 +69,6 @@ Bank -> ATMController: ATM Operation Request Acknowledged
 
 deactivate Bank
 
- 
 
 alt Operation: Balance Inquiry
 
