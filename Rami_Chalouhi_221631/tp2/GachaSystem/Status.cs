@@ -7,10 +7,8 @@ namespace GachaSystem
 {
     public enum Status
     {
-          Active,
+        Active,
         PendingActivation,
         Banned
-
-
     }
 }
