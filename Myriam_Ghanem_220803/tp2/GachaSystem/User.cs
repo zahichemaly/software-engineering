@@ -27,6 +27,5 @@ namespace GachaSystem
             return $"{FirstName} {LastName}";
         }
         public abstract void Validate();
-        public Status UserStatus { get; set; }
     }
 }
