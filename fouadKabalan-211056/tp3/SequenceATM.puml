@@ -1,0 +1,79 @@
+@startuml SequenceATM
+
+actor User as U
+
+participant ATMController
+
+participant Bank
+
+control BankDatabase
+
+control CashDispenser
+
+U -> ATMController: Request for ATM operation
+
+activate ATMController
+
+alt Operation: Balance Inquiry
+
+    ATMController -> Bank: Request Balance Inquiry
+
+    activate Bank
+
+    Bank --> ATMController: Balance Information (success)
+
+    deactivate Bank
+
+else Operation: Withdrawal
+
+    ATMController -> Bank: Request Withdrawal
+
+    activate Bank
+
+    BankDatabase -> Bank: Verify User and Balance
+
+    activate BankDatabase
+
+    alt Balance Sufficient
+
+        BankDatabase --> ATMController: Withdrawal Amount Approved (success)
+
+        ATMController -> CashDispenser: Dispense Cash
+
+        activate CashDispenser
+
+        CashDispenser --> ATMController: Cash Dispensed (success)
+
+        deactivate CashDispenser
+
+    else Balance Insufficient
+
+        BankDatabase --> ATMController: Insufficient Balance (error)
+
+    end
+
+    deactivate BankDatabase
+
+    deactivate Bank
+
+else Operation: Cancel
+
+    ATMController --> Bank: Request to Cancel
+
+    activate Bank
+
+    Bank --> ATMController: Transaction Cancelled (success)
+
+    deactivate Bank
+
+end
+
+deactivate ATMController
+
+U <-- ATMController: Response to User
+
+deactivate U
+
+@enduml
+
+has context menuComposeParagraph

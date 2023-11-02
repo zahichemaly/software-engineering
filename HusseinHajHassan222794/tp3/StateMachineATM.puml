@@ -1,0 +1,34 @@
+@startuml ATM State Machine
+
+[*] --> Idle : Startup
+
+Idle --> Processing : Insert Card
+Processing --> Idle : Cancel
+Processing --> OutOfService : Service Required
+
+Processing --> CheckingBalance : Check Balance
+CheckingBalance --> Processing : Back
+CheckingBalance --> PrintingReceipt : Confirm
+
+Processing --> Withdrawal : Withdraw Cash
+Withdrawal --> Processing : Back
+Withdrawal --> DispensingCash : Confirm
+
+Processing --> Deposit : Deposit Money
+Deposit --> Processing : Back
+Deposit --> ReceivingEnvelope : Confirm
+
+ReceivingEnvelope --> Processing : Envelope Received
+
+DispensingCash --> PrintingReceipt : Take Receipt
+
+PrintingReceipt --> Idle : Eject Card
+PrintingReceipt --> OutOfService : Paper Jam
+
+OutOfService --> Idle : Service Complete
+OutOfService --> CardRetained : Card Not Recognized
+
+CardRetained --> OutOfService : Card Not Recognized
+
+@enduml
+

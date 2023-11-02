@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GachaApp.User">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAEAAAAgAAAAAAAAAAAAAgQAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GachaApp.Player">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAgQAAAAgAAAAAAAAQAAAAAAAAAAAAggg=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="history" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GachaApp.Version">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Version.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaApp.System" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <AssociationLine Name="version" Type="GachaApp.Version" FixedFromPoint="true">
+      <Path>
+        <Point X="1.188" Y="6.062" />
+        <Point X="1.188" Y="6.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>System.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="version" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GachaApp.GachaItem">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="GachaApp.GachaItem.Rarity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GachaItem.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GachaItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaApp.Banner">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAgAABQgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>ExclusiveBanner.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="items" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GachaApp.History">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAQAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="RelatedBanner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GachaApp.AdminUser">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>AdminUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaApp.ExclusiveB">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExclusiveB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GachaApp.PermanentB">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PermanentB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="GachaApp.IAccount">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAccount.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="GachaApp.Status">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

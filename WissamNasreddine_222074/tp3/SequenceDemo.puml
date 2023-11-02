@@ -1,0 +1,44 @@
+@startuml sequencedemo
+actor User as Foo
+participant "Finance App" as Foo2
+database Database as Foo3
+autonumber "<b>."
+
+Foo -> Foo2: Authentication request
+alt valid credentials
+Foo2 --> Foo: Authentication success
+else wrong credentials
+Foo2 --> Foo: Authentication failure
+group forgot password
+Foo -> Foo2: Request forgot password
+Foo2 --> Foo: Sent forgot password OTP
+end
+else server timeout
+loop 3 times
+Foo -> Foo2: Ping server
+end
+Foo2 --> Foo: Server available
+end
+
+
+@enduml
+
+@startuml sequencedemoactivations
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+skinparam sequenceParticipant underline
+actor User as User
+participant "Finance App" as App
+database Database as DB
+autonumber "<b>."
+autoactivate on
+autonumber 1.1
+User -[#red]> App: request
+App -> DB: response
+DB -> DB: DB processing
+autonumber inc A
+DB --[#FFA500]> App: query back
+App -> DB !!: close DB connection
+App --> User: response back
+@enduml

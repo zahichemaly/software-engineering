@@ -1,0 +1,42 @@
+@startuml
+
+[*] --> Idle
+
+state Idle {
+    [*] --> CardNotInserted
+    CardNotInserted --> CardInserted : Insert Card
+}
+
+state CardInserted {
+    [*] --> PINNotEntered
+    PINNotEntered --> PINEntered : Enter PIN
+    PINNotEntered --> Idle : Eject Card
+
+    PINEntered --> MainMenu : Correct PIN
+    PINEntered --> PINNotEntered : Incorrect PIN (Retry)
+}
+
+state MainMenu {
+    [*] --> ChooseOperation
+    ChooseOperation --> CheckingBalance : Balance Inquiry
+    ChooseOperation --> WithdrawingCash : Cash Withdrawal
+    ChooseOperation --> Idle : Cancel/Eject Card
+
+    CheckingBalance --> ChooseOperation : Back
+    WithdrawingCash --> DispensingCash : Sufficient Balance
+    WithdrawingCash --> InsufficientFunds : Insufficient Balance
+    DispensingCash --> Idle : Take Cash & Eject Card
+}
+
+state InsufficientFunds {
+    [*] --> DisplayError : Show Error Message
+    DisplayError --> ChooseOperation : Back
+}
+
+state DispensingCash {
+    [*] --> CashOut
+    CashOut --> EjectCard : Take Cash
+    EjectCard --> Idle : Take Card
+}
+
+@enduml
