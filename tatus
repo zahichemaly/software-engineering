@@ -1,0 +1,3236 @@
+[33mcommit f6366f918b4873ad7d4dbc35010eeef3a01b45ef[m[33m ([m[1;36mHEAD -> [m[1;32mrheaabourached-222730-tp5[m[33m, [m[1;32mmaster[m[33m)[m
+Author: reaabourached <rhea.abourached@net.usj.edu.lb>
+Date:   Thu Nov 2 19:18:48 2023 +0200
+
+    tp5
+
+[33mcommit e9dfa7b09a334a681e32e2f55862aef6ffd97101[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 3adccb2 b98161a
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 23 19:42:10 2023 +0300
+
+    Merge pull request #200 from zahichemaly/RamiChalouhi-221631-tp22
+    
+    Rami chalouhi 221631 tp22
+
+[33mcommit 3adccb26a1d8c4ef417a0eff61987984b0afae6a[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 19:55:04 2023 +0300
+
+    added ramy moubadder folder with tp4
+
+[33mcommit 51227ec70a5ac94e32f5a31aa0bfb3fb8e6df214[m
+Merge: 17afcfd 2b65ed6
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 19:40:53 2023 +0300
+
+    Merge remote-tracking branch 'origin/jalalharb-221160-ex4' into develop
+
+[33mcommit 17afcfda6a74951b95d102b5754ee141e2888764[m
+Merge: d4180a4 e6cb8c6
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 19:40:46 2023 +0300
+
+    Merge remote-tracking branch 'origin/husseinelhajj-220641-ex4' into develop
+
+[33mcommit d4180a4c0cbfd7c11c24ec8c02e14bf6c8154203[m
+Merge: faa3535 0f13bf9
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 19:40:38 2023 +0300
+
+    Merge remote-tracking branch 'origin/hadiCheayto-221008-ex4' into develop
+
+[33mcommit faa3535b05f717f913c9e77d94850b48da624864[m
+Merge: 845a1f3 4420b91
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 19:40:32 2023 +0300
+
+    Merge remote-tracking branch 'origin/JadMoussa-191685-ex4' into develop
+
+[33mcommit 845a1f382107701add32a928ce25130fbe3489d0[m
+Merge: b99bad4 c406dea
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 19:40:26 2023 +0300
+
+    Merge remote-tracking branch 'origin/ElieHaouchan-220561-ex4' into develop
+
+[33mcommit b99bad47ee5c47d89611d4e309b9fa2c494c70e0[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 19:34:21 2023 +0300
+
+    added jad changes
+
+[33mcommit 189b92b9bc5ec44761e5ab67d3ae8d763bd23443[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 18:47:29 2023 +0300
+
+    lib cleanup
+
+[33mcommit bc83bfb970ea0e59a502cb0988ec42233c33a4cc[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Sun Oct 22 18:46:29 2023 +0300
+
+    cleanup
+
+[33mcommit 43e902b0d7dcef0552fbd23ed10043f3511f8c10[m
+Merge: fd0dd13 ee30299
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sun Oct 22 18:44:33 2023 +0300
+
+    Merge pull request #192 from zahichemaly/AhmadSabbah-211274-TP4
+    
+    Ahmad sabbah 211274 tp4
+
+[33mcommit fd0dd13a4d461285cebdf3eaf25b08afb4923650[m
+Merge: 974deda 858a52a
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sun Oct 22 18:44:15 2023 +0300
+
+    Merge pull request #195 from zahichemaly/saidchebbo-220700-tp4
+    
+    tp4
+
+[33mcommit 974dedafa8423dfb06375c30f68601586eefb0f7[m
+Merge: 7e5c01e eb74ef6
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sun Oct 22 18:43:35 2023 +0300
+
+    Merge pull request #196 from zahichemaly/husseinelhajj_220641_tp4
+    
+    added tp4 and ex3
+
+[33mcommit 7e5c01e8e4d401f57a0e43389545fff38d5ca856[m
+Merge: 3ad9dce 0e3724f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sun Oct 22 18:43:04 2023 +0300
+
+    Merge pull request #197 from zahichemaly/HusseinHajHassan-222794-tp4
+    
+    added tp4
+
+[33mcommit 3ad9dce920604e2c23ee7865a003befbe67ec2e1[m
+Merge: 32350a8 b56002c
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sun Oct 22 18:42:30 2023 +0300
+
+    Merge pull request #198 from zahichemaly/eliegeorgioelkhoury-221069-tp4
+    
+    tp4
+
+[33mcommit b56002ca5a9d62623ddbaea4bb1f6014e58c921c[m[33m ([m[1;31morigin/eliegeorgioelkhoury-221069-tp4[m[33m)[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Thu Oct 19 23:30:06 2023 +0300
+
+    tp4
+
+[33mcommit 0e3724f098788819bbf2ddcbef4d92d1209f68bd[m[33m ([m[1;31morigin/HusseinHajHassan-222794-tp4[m[33m)[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Thu Oct 19 23:02:27 2023 +0300
+
+    added tp4
+
+[33mcommit eb74ef66fc3145261901216f08f680774bca18a2[m[33m ([m[1;31morigin/husseinelhajj_220641_tp4[m[33m)[m
+Author: Your Name <you@example.com>
+Date:   Thu Oct 19 22:52:32 2023 +0300
+
+    added tp4 and ex3
+
+[33mcommit 858a52a2787da0c34e3549c53c604e94c59ed646[m[33m ([m[1;31morigin/saidchebbo-220700-tp4[m[33m)[m
+Author: said-chebbo <said.chebbo@net.usj.edu.lb>
+Date:   Thu Oct 19 22:37:01 2023 +0300
+
+    tp4
+
+[33mcommit 32350a881be83321237f073afcbd6e8ed268cea6[m
+Merge: a6851c3 cb28d06
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 22:16:45 2023 +0300
+
+    Merge branch 'master' into develop
+
+[33mcommit a6851c3469f282a8cabb5e230b776075fa4853bf[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 21:53:25 2023 +0300
+
+    cleaned up lib based on git ignore
+
+[33mcommit b413d12a7b6285d7633c6acad4de489a67701582[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 21:46:59 2023 +0300
+
+    applied git ignore
+
+[33mcommit b4fdfcfb132d9606246f1d5f7999bf31dfb4e3a7[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 21:45:50 2023 +0300
+
+    fix git ignore
+
+[33mcommit e30721a18c2fe8a8b7d80e7296d167d54374db84[m
+Merge: 6e98fc2 0d10638
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:39:14 2023 +0300
+
+    Merge pull request #194 from zahichemaly/Alifawaz-212694-tp4
+    
+    Alifawaz 212694 tp4
+
+[33mcommit 6e98fc2ee31ab1002ad5a949d0c4b570a1de499e[m
+Merge: d9fbb81 cfad14a
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:38:54 2023 +0300
+
+    Merge pull request #193 from zahichemaly/jadmoussa-191685-tp4
+    
+    upload tp4
+
+[33mcommit d9fbb81d59f1593e524f9c2a4871a8422b108f62[m
+Merge: 8b6a493 adae28f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:38:06 2023 +0300
+
+    Merge pull request #191 from zahichemaly/PierreKachi-232732TP4
+    
+    TP4
+
+[33mcommit 8b6a493796f6692675e361c3f92ec31814f3afa0[m
+Merge: e6c6326 76ce9a9
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:37:41 2023 +0300
+
+    Merge pull request #190 from zahichemaly/fouadkabalan-211056-tp4
+    
+    Fouadkabalan 211056 tp4
+
+[33mcommit e6c6326e5f9677eca0e884b92a636e8ef01d1514[m
+Merge: 47255f7 7acf1a2
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:37:22 2023 +0300
+
+    Merge pull request #189 from zahichemaly/RamiChalouhi-221631-tp4
+    
+    tp4
+
+[33mcommit 47255f7365bbc5dbeb1b9ead435d86895c184350[m
+Merge: 4c0db53 3d8e318
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:37:01 2023 +0300
+
+    Merge pull request #188 from zahichemaly/felixhajj-222287-TP4
+    
+    TP4
+
+[33mcommit 4c0db539e4845be3ee100e78ed0fee470ce54e8f[m
+Merge: f45c28a 0c600ab
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:36:41 2023 +0300
+
+    Merge pull request #187 from zahichemaly/elieElHayek-223777-tp4
+    
+    elieElHayek-223777-tp4
+
+[33mcommit f45c28a8685e8efe6803ee2876fc1ce4335d9e10[m
+Merge: 2f0a1c6 b616965
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:36:22 2023 +0300
+
+    Merge pull request #185 from zahichemaly/naihamdan-220607-tp4
+    
+    naihamdan-220607-tp4
+
+[33mcommit 2f0a1c6a01d2f71cddebcb9c376d6520b180c4c5[m
+Merge: 9daf56b d5b7817
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:35:58 2023 +0300
+
+    Merge pull request #183 from zahichemaly/ElieHaouchan-220561-tp4
+    
+    Added TP4 project + 2 Screenshots
+
+[33mcommit 9daf56bc94b2c7e66662e73c4cdb877cd4a4b0c7[m
+Merge: 10f8b1b 1503a45
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:35:30 2023 +0300
+
+    Merge pull request #182 from zahichemaly/jalalharb-221160-tp4
+    
+    Added tp4
+
+[33mcommit 10f8b1b2c5aa9e14299c6fcdaefd88ebdb3b6a1b[m
+Merge: 861e9a8 71fb6cc
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:35:18 2023 +0300
+
+    Merge pull request #181 from zahichemaly/hadiCheayto-221008-tp4
+    
+    tp4
+
+[33mcommit 861e9a8c631156999a255013d861691d985b54eb[m
+Merge: 192d801 ac26fe2
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:34:58 2023 +0300
+
+    Merge pull request #180 from zahichemaly/joannechallita-220336-tp4
+    
+    commited tp4
+
+[33mcommit 192d80199f2acfe6438915f98f33264948720dd7[m
+Merge: 335a9d5 8bfff43
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:34:33 2023 +0300
+
+    Merge pull request #179 from zahichemaly/rheaabourached-222730-tp4
+    
+    tp4
+
+[33mcommit 335a9d50193af715e3eebbbe5e0cb20c8747ad87[m
+Merge: 187da0f eaa7818
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:34:11 2023 +0300
+
+    Merge pull request #178 from zahichemaly/pamelaboukhalil-220199-tp4
+    
+    pamelaboukhalil-220199-tp4
+
+[33mcommit 187da0f22cc98f7ea6dbf07b6bc25f0e0a73c7e8[m
+Merge: fcab01b d810611
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:33:52 2023 +0300
+
+    Merge pull request #177 from zahichemaly/WissamNasreddine_222074_tp4
+    
+    WissamNasreddine_222074_tp4
+
+[33mcommit fcab01b0a8aae8c727c875f13a3e0f72e6abd2fc[m
+Merge: 4452eef 75fd4d9
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:33:29 2023 +0300
+
+    Merge pull request #176 from zahichemaly/myriamghanem-220803-tp4
+    
+    tp4
+
+[33mcommit 4452eefefe33c62cf60108b506de3da170b34b51[m
+Merge: 626d510 1889b1e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 21:33:15 2023 +0300
+
+    Merge pull request #175 from zahichemaly/mariahourani-222310-tp4
+    
+    Screenshots and CarApp code
+
+[33mcommit 1889b1ee6f99f4c39f6146c6db7ddbb3bd6c0706[m[33m ([m[1;31morigin/mariahourani-222310-tp4[m[33m)[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Thu Oct 19 21:06:35 2023 +0300
+
+    tp4
+
+[33mcommit 0d106384aaa27a92d5d8a1d6eb2ef18af68126b1[m[33m ([m[1;31morigin/Alifawaz-212694-tp4[m[33m)[m
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Thu Oct 19 20:57:46 2023 +0300
+
+    ADDED TP4
+
+[33mcommit 626d51083865ff0d016f176ca48548bcaf72730d[m
+Merge: 282492e 2df0195
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 20:55:16 2023 +0300
+
+    Merge pull request #174 from zahichemaly/danamshawrab-220667-tp4
+    
+    Added project and screenshots
+
+[33mcommit cfad14ab26aede5c4f43b453add5284a8fc7b78e[m[33m ([m[1;31morigin/jadmoussa-191685-tp4[m[33m)[m
+Author: jad <jad.moussa@net.usj.edu.lb>
+Date:   Thu Oct 19 20:40:01 2023 +0300
+
+    upload tp4
+
+[33mcommit ee30299ef3eb89ef9a03d28f92aa7f7dd0c69fc9[m[33m ([m[1;31morigin/AhmadSabbah-211274-TP4[m[33m)[m
+Author: Ahmad2Sabbah <ahmad2sabbah@gmail.com>
+Date:   Thu Oct 19 20:30:42 2023 +0300
+
+    tp4
+
+[33mcommit 282492eb8090a511de43473aa8003bd7781c5a5c[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 20:21:48 2023 +0300
+
+    added tp2 part3 for nai
+
+[33mcommit 04282ef86d4375d55df4ed0e1f0fcc19c4c3472b[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 20:20:51 2023 +0300
+
+    renamed nai folder
+
+[33mcommit 20a202f53a6c1b3022ece7000204a364190adcc9[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 20:20:18 2023 +0300
+
+    cleanup
+
+[33mcommit cb28d060fbf1147745fb1d6272ee681dead45673[m
+Merge: 825f389 56b6693
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 20:19:07 2023 +0300
+
+    Merge pull request #172 from zahichemaly/PierreKachi232732
+    
+    Fixed TP1 issues
+
+[33mcommit 0b9494bfc514cf3560fd03c15911816eded1a14d[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 20:18:25 2023 +0300
+
+    added tp2 part3 for elie el hayek
+
+[33mcommit 677b580af08370345273630da6963b822f254bd8[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 20:17:13 2023 +0300
+
+    renamed tp2
+
+[33mcommit 825f389aa8bef1161a5ed4e119ddde0003c5edc1[m
+Merge: 1f3870c 22c7d71
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 19 20:16:27 2023 +0300
+
+    Merge pull request #173 from zahichemaly/jad_moussa_191685
+    
+    added test file
+
+[33mcommit 470748ca11f38def3c51344ac7481b37cf130758[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 20:15:26 2023 +0300
+
+    Added tp2 part 2 for myriam
+
+[33mcommit adae28f621f443cf3d8dba819cd18d68e7113dd9[m[33m ([m[1;31morigin/PierreKachi-232732TP4[m[33m)[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Thu Oct 19 19:33:40 2023 +0300
+
+    TP4
+
+[33mcommit 76ce9a91796d251ddf7e788f972f7c3be03cfe4f[m[33m ([m[1;31morigin/fouadkabalan-211056-tp4[m[33m)[m
+Author: fouadkabalan <99890692+fouadkabalan@users.noreply.github.com>
+Date:   Thu Oct 19 19:33:33 2023 +0300
+
+    Tp4
+
+[33mcommit bad0706355ecf62df9175fb13570b9efe0fe5755[m
+Author: fouadkabalan <99890692+fouadkabalan@users.noreply.github.com>
+Date:   Thu Oct 12 18:01:59 2023 +0300
+
+    upload ex2
+
+[33mcommit 7acf1a2d41977b37ef45970dca3c0f50be2c89e1[m[33m ([m[1;31morigin/RamiChalouhi-221631-tp4[m[33m)[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Thu Oct 19 19:29:29 2023 +0300
+
+    tp4
+
+[33mcommit 3d8e3186bb14c203b96af43210f585f1a235f7d0[m[33m ([m[1;31morigin/felixhajj-222287-TP4[m[33m)[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Thu Oct 19 19:16:50 2023 +0300
+
+    TP4
+
+[33mcommit 1f3870c6df9d0f1754d4f0c5cc3ea21274da29f5[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Thu Oct 19 19:12:31 2023 +0300
+
+    renamed tp2
+
+[33mcommit 0c600abb1dd03488fc72a54b94025b9d5c41e32e[m[33m ([m[1;31morigin/elieElHayek-223777-tp4[m[33m)[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Thu Oct 19 19:06:42 2023 +0300
+
+    tp4
+
+[33mcommit b61696516252c8e2ed714fd811c41c41b9c02583[m[33m ([m[1;31morigin/naihamdan-220607-tp4[m[33m)[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Thu Oct 19 18:53:43 2023 +0300
+
+    tp4
+
+[33mcommit d5b7817a83f0338047146a595d9878f6d26974a4[m[33m ([m[1;31morigin/ElieHaouchan-220561-tp4[m[33m)[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Thu Oct 19 18:50:52 2023 +0300
+
+    Added TP4 project + 2 Screenshots
+
+[33mcommit 1503a4587bf1b3f8535d564b8b67df0fe27f412c[m[33m ([m[1;31morigin/jalalharb-221160-tp4[m[33m)[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Thu Oct 19 18:50:16 2023 +0300
+
+    Added tp4
+
+[33mcommit 71fb6cc3edf7b4677e9fefee7cf05f0c66cf3268[m[33m ([m[1;31morigin/hadiCheayto-221008-tp4[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Thu Oct 19 18:48:47 2023 +0300
+
+    tp4
+
+[33mcommit ac26fe26161f901d193fe2e971102c996d82f00a[m[33m ([m[1;31morigin/joannechallita-220336-tp4[m[33m)[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Thu Oct 19 18:37:57 2023 +0300
+
+    commited tp4
+
+[33mcommit d8106119459266ac18e1ab25afb4b320ce8552db[m[33m ([m[1;31morigin/WissamNasreddine_222074_tp4[m[33m)[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Thu Oct 19 18:37:25 2023 +0300
+
+    commit tp4
+
+[33mcommit 8bfff43d922e73f4bd1491ee542081082fd231f7[m[33m ([m[1;31morigin/rheaabourached-222730-tp4[m[33m, [m[1;32mrheaabourached-222730-tp4[m[33m)[m
+Author: reaabourached <rhea.abourached@net.usj.edu.lb>
+Date:   Thu Oct 19 18:37:23 2023 +0300
+
+    tp4
+
+[33mcommit eaa7818bcdc50cc210d74807c1a7b9abf2e53738[m[33m ([m[1;31morigin/pamelaboukhalil-220199-tp4[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Thu Oct 19 18:37:20 2023 +0300
+
+    commited tp4
+
+[33mcommit 75fd4d92c90c6ceb98bacedf0be25d33ed967bb8[m[33m ([m[1;31morigin/myriamghanem-220803-tp4[m[33m)[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Thu Oct 19 18:37:17 2023 +0300
+
+    tp4
+
+[33mcommit 7921dbc74a3ff4624934bbe9d38165037b2ef2ea[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Thu Oct 19 18:31:55 2023 +0300
+
+    Screenshots and CarApp code
+
+[33mcommit 5d5bd09fc3fccf133df8161067aa568c016851ce[m
+Merge: fd9c2d3 4617a1b
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Thu Oct 19 17:56:45 2023 +0300
+
+    Merge branch 'master' of https://github.com/zahichemaly/software-engineering
+
+[33mcommit 2df0195f08b733c87e1274f3bfac4adf631432a3[m[33m ([m[1;31morigin/danamshawrab-220667-tp4[m[33m)[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Thu Oct 19 17:56:10 2023 +0300
+
+    Added project and screenshots
+
+[33mcommit 22c7d7163d4667ea9e2f284dd07f50ae958394c0[m[33m ([m[1;31morigin/jad_moussa_191685[m[33m)[m
+Author: jad <jad.moussa@net.usj.edu.lb>
+Date:   Thu Oct 19 17:00:39 2023 +0300
+
+    added test file
+
+[33mcommit 56b66934266d77b3d3841ea9ce446c6be7794517[m[33m ([m[1;31morigin/PierreKachi232732[m[33m)[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Thu Oct 19 00:26:51 2023 +0300
+
+    Fixed TP1 issues
+
+[33mcommit 4617a1b65eab77435f2f1440ea09bb838ff9daea[m[33m ([m[1;32mrheaabourached-222730-tp3[m[33m)[m
+Merge: 337eec0 34229ba
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 14:08:26 2023 +0300
+
+    Merge pull request #163 from zahichemaly/eliexh-patch-2
+    
+    Modified/Updated GachaSystem.sln
+
+[33mcommit 34229ba4709c4d1281ca9263028581fa19b4e750[m[33m ([m[1;31morigin/eliexh-patch-2[m[33m)[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Tue Oct 17 14:08:07 2023 +0300
+
+    cleanup
+
+[33mcommit 337eec014006bd94b0bc1d263329f154001c5e08[m
+Merge: f18b20c 0503ccc
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 14:07:17 2023 +0300
+
+    Merge pull request #160 from zahichemaly/PierreKachi232732
+    
+    added everything else for the gacha thing
+
+[33mcommit b98161a672fd23ef8b2af523fb67a3f2e6eb5dd3[m[33m ([m[1;31morigin/RamiChalouhi-221631-tp22[m[33m)[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Tue Oct 17 13:45:58 2023 +0300
+
+    cleanup
+
+[33mcommit 18c69ceb43881bccba395ade96e732cea034135f[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Mon Oct 16 21:30:26 2023 +0300
+
+    tp2
+
+[33mcommit 7db86875d77703a74ef6ceb5876afcffc2bb9bba[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Sun Oct 15 22:03:32 2023 +0300
+
+    finished tp2
+
+[33mcommit abf958159207be4098299df46f39b3c161821cf3[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Sun Oct 15 20:19:50 2023 +0300
+
+    finished tp2
+
+[33mcommit f18b20ca5afb038655bc4b6a575d88e0699e91aa[m
+Merge: 0aebb63 06ebc4f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:15:21 2023 +0300
+
+    Merge pull request #171 from zahichemaly/felixhajj-222287-TP1
+    
+    Felixhajj 222287 tp1
+
+[33mcommit 0aebb630542b41512d9b1321d599df81410ce30f[m
+Merge: 405f32d 7e45114
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:14:23 2023 +0300
+
+    Merge pull request #162 from zahichemaly/eliexh-patch-1
+    
+    Added gacha.txt
+
+[33mcommit 405f32d79dafb1c12339027a002877cfdbc0c9ac[m
+Merge: eaaf4d1 cc50c3c
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:13:57 2023 +0300
+
+    Merge pull request #152 from zahichemaly/eliegeorgioelkhoury-221069-tp2
+    
+    Tp2-Part-C
+
+[33mcommit eaaf4d16bd29797ea03c383969a465be28e0cadf[m
+Merge: 15ecf92 1c5f84f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:13:39 2023 +0300
+
+    Merge pull request #158 from zahichemaly/mariahourani-222310-fulltp2
+    
+    activity diagram and part 3
+
+[33mcommit 15ecf92ddf310168d0bfd263f34c097e25e1d4da[m
+Merge: ad95f07 b4a57a4
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:13:15 2023 +0300
+
+    Merge pull request #157 from zahichemaly/pamelaboukhalil-220199-tp2
+    
+    pamelaboukhalil-220199-tp2 part3
+
+[33mcommit ad95f0774cb9fc0ec2729f10f061a76b1a7a1114[m
+Merge: 97938a5 640aa5d
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:12:41 2023 +0300
+
+    Merge pull request #151 from zahichemaly/joannechallita-220336-tp2
+    
+    usecase diagram,activity diagram and tp2-partie3
+
+[33mcommit 97938a508953141235529106cf46a5da06722e02[m
+Merge: e525228 bb1cb82
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:11:11 2023 +0300
+
+    Merge pull request #149 from zahichemaly/WissamNasreddine-222074-tp2
+    
+    WissamNasreddine-222074-tp2
+
+[33mcommit e525228e8ed3a3d4031ad023db5c741c62d9568c[m
+Merge: f3af772 c614ea0
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:09:59 2023 +0300
+
+    Merge pull request #153 from zahichemaly/naihamdan-220607-tp2
+    
+    naihamdan-220607-tp2
+
+[33mcommit f3af77207c1723a13863b461a69aaf1b451d4df6[m
+Merge: 6ca6d20 c9b1d20
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:08:55 2023 +0300
+
+    Merge pull request #155 from zahichemaly/elieElHayek-223777-tp3
+    
+    bonus tp3
+
+[33mcommit 6ca6d2012e46dac8411067f82197c5068fea3ef4[m
+Merge: a175100 5f2e1ab
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:07:23 2023 +0300
+
+    Merge pull request #164 from zahichemaly/jalalharb-221160-tp2
+    
+    Added TP2 part2 b, c and part 3
+
+[33mcommit a175100b240d3f24b82c4fac43b4a1384a306e40[m
+Merge: ee6f7bf e99036f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:06:40 2023 +0300
+
+    Merge pull request #165 from zahichemaly/HusseinHajHassan-222794-tp2
+    
+    added tp2-part3
+
+[33mcommit ee6f7bfeb6849acb35a69df0d82f0b37784afc1c[m
+Merge: 00d2529 3348af8
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:06:25 2023 +0300
+
+    Merge pull request #166 from zahichemaly/hadiCheayto-221008-tp2
+    
+    tp2_B_C et tp2_partie2
+
+[33mcommit 00d2529ffe33792f813aa4610b5967a29a65aced[m
+Merge: dfe1f7b fd33196
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:06:01 2023 +0300
+
+    Merge pull request #167 from zahichemaly/eliexh-patch-3
+    
+    Added ActivityDiagram.png
+
+[33mcommit dfe1f7b19b30dd135e735a6dc6cf4c29f7feaf56[m
+Merge: 1352e02 dbf0c4c
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:05:48 2023 +0300
+
+    Merge pull request #168 from zahichemaly/husseinelhajj220641_tp2
+    
+    Tp2 part 1 - 2 - 3
+
+[33mcommit 1352e0239f93e4318e0f79e02e83f316af33b6ac[m
+Merge: 34a03ea 75f0f5e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 17 13:05:17 2023 +0300
+
+    Merge pull request #169 from zahichemaly/HusseinHajHassan-222794-ex4
+    
+    ex4
+
+[33mcommit 06ebc4f761b1d1fcb5fb3783bb5430c5d510dbda[m[33m ([m[1;31morigin/felixhajj-222287-TP1[m[33m)[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Mon Oct 16 22:48:40 2023 +0300
+
+    TP1 remake
+
+[33mcommit bb1cb82fdf58101a3868cf81c25694cfac6d5490[m[33m ([m[1;31morigin/WissamNasreddine-222074-tp2[m[33m)[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Mon Oct 16 18:36:56 2023 +0300
+
+    tp2 part3 is done
+
+[33mcommit 75f0f5eda246854d5aff3e698235a5b4f2a0fbcd[m[33m ([m[1;31morigin/HusseinHajHassan-222794-ex4[m[33m)[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Mon Oct 16 13:09:34 2023 +0300
+
+    ex4
+
+[33mcommit dbf0c4c99b6ad2978ff0e8597e082b0db2c04885[m[33m ([m[1;31morigin/husseinelhajj220641_tp2[m[33m)[m
+Author: Your Name <you@example.com>
+Date:   Mon Oct 16 11:59:19 2023 +0300
+
+    Tp2 part 1 - 2 - 3
+
+[33mcommit 3348af8b213de9d7d77e77096d7538ccc75bb93e[m[33m ([m[1;31morigin/hadiCheayto-221008-tp2[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Oct 16 11:45:53 2023 +0300
+
+    added code
+
+[33mcommit 5f2e1ab4b10437bede645d29d5c61cce7416c56f[m[33m ([m[1;31morigin/jalalharb-221160-tp2[m[33m)[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Mon Oct 16 11:21:29 2023 +0300
+
+    Tp2 code
+
+[33mcommit fd3319606db953c98022c8de172b281dc4085b84[m[33m ([m[1;31morigin/eliexh-patch-3[m[33m)[m
+Author: eliexh <143999498+eliexh@users.noreply.github.com>
+Date:   Mon Oct 16 10:35:40 2023 +0300
+
+    Added ActivityDiagram.png
+
+[33mcommit 249a2e0eae7657899f4e878267c0f89bad0a658d[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Oct 16 08:45:45 2023 +0300
+
+    tp2_B_C et tp2_partie2
+
+[33mcommit e99036f017eb112bfc49a567ca1c22e5f7ed5a81[m[33m ([m[1;31morigin/HusseinHajHassan-222794-tp2[m[33m)[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Mon Oct 16 01:03:24 2023 +0300
+
+    added tp2-part3
+
+[33mcommit cc50c3cc4cb3dcff05b2c76a64eedb943b06a3bf[m[33m ([m[1;31morigin/eliegeorgioelkhoury-221069-tp2[m[33m)[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Mon Oct 16 01:02:41 2023 +0300
+
+    new gachasystem file tp2
+
+[33mcommit aeaa1b5f9eed436d03f4848a3d70807aa4062787[m[33m ([m[1;31morigin/TP2[m[33m)[m
+Author: Ahmad2Sabbah <ahmad2sabbah@gmail.com>
+Date:   Mon Oct 16 00:59:43 2023 +0300
+
+    TP2
+
+[33mcommit 4456adb4895c41073ff93d2722d85adbe0633a1a[m
+Author: Ahmad2Sabbah <ahmad2sabbah@gmail.com>
+Date:   Mon Oct 16 00:53:45 2023 +0300
+
+    TP2
+
+[33mcommit 1ba227ca0fa28a5f8dd40760dded9fb5ba420e26[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Mon Oct 16 00:48:02 2023 +0300
+
+    Added part2 b, c and part 3
+
+[33mcommit 816ce3882ea611b638c5646d7e19ae191acc1ada[m
+Author: eliexh <143999498+eliexh@users.noreply.github.com>
+Date:   Mon Oct 16 00:20:10 2023 +0300
+
+    Modified/Updated GachaSystem.sln
+
+[33mcommit 7e45114dec4765ef5ea4e9f8bba3ddd47989b593[m[33m ([m[1;31morigin/eliexh-patch-1[m[33m)[m
+Author: eliexh <143999498+eliexh@users.noreply.github.com>
+Date:   Mon Oct 16 00:14:25 2023 +0300
+
+    Added gacha.txt
+
+[33mcommit 0503ccc0552f4962f4cfb709be1f06ad0b4039f6[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Sun Oct 15 21:46:41 2023 +0300
+
+    never playing genshin impact again
+
+[33mcommit 1c5f84febe5bc7bc0073d5f0ba18983e21723e6c[m[33m ([m[1;31morigin/mariahourani-222310-fulltp2[m[33m)[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Sun Oct 15 17:54:53 2023 +0300
+
+    activity diagram and part 3
+
+[33mcommit b4a57a4ffcca015cee0acb26d520518c91861e08[m[33m ([m[1;31morigin/pamelaboukhalil-220199-tp2[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Sun Oct 15 15:51:00 2023 +0300
+
+    Added the activity diagram and part 3 of tp2 NB: the gacha.txt file is in the project's folder this is the complete path: Gachsystems/Gachsystem/bin/debug/net6.0
+
+[33mcommit 6e1f9a6827aaf4bc761280f1e5c347d58b1fafa3[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Sun Oct 15 14:35:18 2023 +0300
+
+    Added ex4, finished tp2 and i guess the bonus from tp3
+
+[33mcommit c9b1d2051d7a40b5777d290985d0702fe811bb0d[m[33m ([m[1;31morigin/elieElHayek-223777-tp3[m[33m)[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Sun Oct 15 13:51:51 2023 +0300
+
+    bonus tp3
+
+[33mcommit c614ea071bcfd72cb5c506aadf63114962d50544[m[33m ([m[1;31morigin/naihamdan-220607-tp2[m[33m)[m
+Merge: d1e3327 34a03ea
+Author: naihchams <67417918+naihchams@users.noreply.github.com>
+Date:   Sun Oct 15 12:08:22 2023 +0300
+
+    Merge branch 'master' into naihamdan-220607-tp2
+
+[33mcommit d1e332715694ba52ac28f6ce466313daff644b4a[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Sun Oct 15 12:07:21 2023 +0300
+
+    tp2 partie 3
+
+[33mcommit b608467f1b571fa53b89500dd736e93cd9b37ab8[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Sat Oct 14 22:02:05 2023 +0300
+
+    C
+
+[33mcommit 640aa5df61c7a49a498a882e1f4ff4ea8d8e3a11[m[33m ([m[1;31morigin/joannechallita-220336-tp2[m[33m)[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Sat Oct 14 20:13:33 2023 +0300
+
+    usecase diagram,activity diagram and tp2-partie3
+
+[33mcommit 3fc042fd2ca085872c708f4bccf73ccc2b70131a[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Sat Oct 14 20:02:06 2023 +0300
+
+    Activity diagram tp2 is done
+
+[33mcommit 34a03ead28294717db2486cff1f56dbe897f53b7[m
+Merge: 1a285be 252d744
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:07:39 2023 +0300
+
+    Merge pull request #146 from zahichemaly/eliegeorgioelkhoury-221069-tp2
+    
+    Eliegeorgioelkhoury 221069 tp2
+
+[33mcommit 1a285be044731b7c34ea8cd5ee9d916859e82e5a[m
+Merge: c3c928f 146b3c8
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:06:58 2023 +0300
+
+    Merge pull request #147 from zahichemaly/felixhajj-222287-TP2
+    
+    TP2
+
+[33mcommit c3c928f495a467fe124903be40fafdf35b28a657[m
+Merge: 86c6a1f 30c768e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:05:19 2023 +0300
+
+    Merge pull request #144 from zahichemaly/danamshawrab-220667-tp3
+    
+    Added codes and screenshots
+
+[33mcommit 86c6a1fb8a95332260e986e900f4f879b215daea[m
+Merge: ce362ec f96bbb8
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:05:04 2023 +0300
+
+    Merge pull request #140 from zahichemaly/PierreKachi232732
+    
+    Pierre kachi232732
+
+[33mcommit ce362eca32c9a7347d7d547bf7127a8323bc09aa[m
+Merge: 3b7400c 536e0ef
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:04:30 2023 +0300
+
+    Merge pull request #128 from zahichemaly/ElieHaouchan-220561-tp3
+    
+    Added PUML_Code and PUML_Preview
+
+[33mcommit 3b7400c2f3fb85886b4f028405aa72a7feb6b597[m
+Merge: 235f535 353e897
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:04:18 2023 +0300
+
+    Merge pull request #121 from zahichemaly/Alifawaz-212694-tp3
+    
+    Added ATM
+
+[33mcommit 235f535b30a5431fd7d737ad50873e2c82c02ed9[m
+Merge: 9ab6450 0c0b989
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:03:55 2023 +0300
+
+    Merge pull request #141 from zahichemaly/AhmadSabbah-211274-TP3
+    
+    tp3
+
+[33mcommit 9ab64503d775b2901395c46d4a90937b7ba217c2[m
+Merge: 0149eff d51c6e5
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:02:45 2023 +0300
+
+    Merge pull request #137 from zahichemaly/WissamNasreddine-222074-tp3
+    
+    WissamNasreddine-222074-tp3
+
+[33mcommit 0149eff933a102eaae3a711a01b6ea8ae5125ac6[m
+Merge: a80d215 deb6d8c
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:02:37 2023 +0300
+
+    Merge pull request #136 from zahichemaly/pamelaboukhalil-220199-tp3
+    
+    pamelaboukhalil-220199-tp3
+
+[33mcommit a80d21544f23d1a30178349bde31b2e4557d69f2[m
+Merge: 434ed5c 6760fc7
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:02:21 2023 +0300
+
+    Merge pull request #135 from zahichemaly/saidchebbo-220700-tp3
+    
+    tp3
+
+[33mcommit 434ed5c769734aedb669f2017364992331da4649[m
+Merge: 32ff68b 47f0481
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:02:10 2023 +0300
+
+    Merge pull request #134 from zahichemaly/rheaabourached-222730-tp3
+    
+    tp3
+
+[33mcommit 32ff68b28fd70415e7989cca24b743a5ab838980[m
+Merge: 4818bc6 6d03b8b
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:02:01 2023 +0300
+
+    Merge pull request #133 from zahichemaly/myriamghanem-220803-tp3
+    
+    tp3
+
+[33mcommit 4818bc6c47f012138cb3343c7b310cbf9597bd01[m
+Merge: b1ea806 50e0367
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:01:34 2023 +0300
+
+    Merge pull request #132 from zahichemaly/naihamdan-220607-tp3
+    
+    naihamdan-220607-tp3
+
+[33mcommit b1ea8069aebdd4fef8d1b845cf70c047a5d0c249[m
+Merge: e1fa42a 35bf624
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:01:25 2023 +0300
+
+    Merge pull request #131 from zahichemaly/RamiChalouhi-221631-tp3
+    
+    tp3
+
+[33mcommit e1fa42a27483e607dda313eebc3c6879e4f27227[m
+Merge: f510df5 f181999
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:01:17 2023 +0300
+
+    Merge pull request #130 from zahichemaly/fouadkabalan-211056-tp3
+    
+    Tp3
+
+[33mcommit f510df558538cb8707402f488f072536a2607c4c[m
+Merge: fde45d6 2f54028
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:01:10 2023 +0300
+
+    Merge pull request #129 from zahichemaly/elieElHayek-223777-tp3
+    
+    tp3
+
+[33mcommit fde45d6aaae7536e5c5fef8c49f151b3c5a23e78[m
+Merge: 5429f9a 74817bf
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:00:43 2023 +0300
+
+    Merge pull request #122 from zahichemaly/hadiCheayto-221008-tp3
+    
+    tp3
+
+[33mcommit 5429f9abd80404e978f3ea31745f1f29528e1b82[m
+Merge: 1e13f87 cab4374
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:00:34 2023 +0300
+
+    Merge pull request #126 from zahichemaly/HusseinHajHassan-222794-tp3
+    
+    HusseinHajHassan-222794-tp3
+
+[33mcommit 1e13f87088a3db8e7de0c386a8e2c9c014b6de99[m
+Merge: c782904 d9c8a61
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:00:19 2023 +0300
+
+    Merge pull request #125 from zahichemaly/husseinelhajj-220641-tp3
+    
+    tp3-genie
+
+[33mcommit c782904afabbe4b2f591285af6b7949cca22d77b[m
+Merge: 5d7b0e0 88fe77e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 12:00:09 2023 +0300
+
+    Merge pull request #123 from zahichemaly/jalalharb-221160-tp3
+    
+    Added tp3
+
+[33mcommit 5d7b0e0b4fa8ca2be66adab2b86e7d43de8494ca[m
+Merge: 00423dc 4ff2ffc
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 11:59:53 2023 +0300
+
+    Merge pull request #120 from zahichemaly/eliegeorgioelkhoury-221069-tp3
+    
+    tp3
+
+[33mcommit 00423dcf184d1348c7214a6f9ce49c853ebdcf30[m
+Merge: 702c69a d48d8a2
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 11:59:19 2023 +0300
+
+    Merge pull request #142 from zahichemaly/mariahourani-222310-tp3
+    
+    tp3 committed
+
+[33mcommit 702c69a8c398ed6424d7431f922acfa21c100345[m
+Merge: ea38145 269076e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 11:59:09 2023 +0300
+
+    Merge pull request #143 from zahichemaly/joanne-challita-220336-tp3
+    
+    tp3
+
+[33mcommit ea381456062e2de305956eee64db54899e3a27f4[m
+Merge: 164d068 21bef0d
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Sat Oct 14 11:58:49 2023 +0300
+
+    Merge pull request #145 from zahichemaly/felixhajj-222287-TP3
+    
+    TP3
+
+[33mcommit d48d8a20800e7d729e323153f20d9fb2e1f3ca2e[m[33m ([m[1;31morigin/mariahourani-222310-tp3[m[33m)[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Fri Oct 13 22:52:26 2023 +0300
+
+    commit tp3+bonus
+
+[33mcommit 146b3c87a6d84eee13004a085ec6afce748b9da9[m[33m ([m[1;31morigin/felixhajj-222287-TP2[m[33m)[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Fri Oct 13 15:29:24 2023 +0300
+
+    TP2
+
+[33mcommit 252d7440dcefad7d5df458e1f2cf509ef4c1ea63[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Fri Oct 13 08:54:40 2023 +0300
+
+    restore changes
+
+[33mcommit 2b12acda1f8a3e95f1b8b27ee7e7c024a91abf7c[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Fri Oct 13 08:50:39 2023 +0300
+
+    some modifications
+
+[33mcommit 21bef0d7110ef7cfdf000a73cf1de9a50b6002b2[m[33m ([m[1;31morigin/felixhajj-222287-TP3[m[33m)[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Thu Oct 12 23:04:44 2023 +0300
+
+    TP3
+
+[33mcommit 30c768e57c254c6dda6d8b897b8bbd6e6756e1aa[m[33m ([m[1;31morigin/danamshawrab-220667-tp3[m[33m)[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Thu Oct 12 18:49:32 2023 +0300
+
+    Added codes and screenshots
+
+[33mcommit 269076e288e85d2815e0589a6f81098a7a16380b[m[33m ([m[1;31morigin/joanne-challita-220336-tp3[m[33m)[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Thu Oct 12 18:49:28 2023 +0300
+
+    tp3
+
+[33mcommit 33448a1272cfac619e1873a1f78b0730357f55a2[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Thu Oct 12 18:49:05 2023 +0300
+
+    tp3 committed
+
+[33mcommit fd9c2d3ebae655fa5e05f153bc3e7606373c1e0d[m
+Merge: 9400f99 164d068
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Thu Oct 12 18:46:54 2023 +0300
+
+    Merge branch 'master' of https://github.com/zahichemaly/software-engineering
+
+[33mcommit 0c0b9893b56ed28f55ade7ce58336836b15611bf[m[33m ([m[1;31morigin/AhmadSabbah-211274-TP3[m[33m)[m
+Author: Ahmad2Sabbah <ahmad2sabbah@gmail.com>
+Date:   Thu Oct 12 18:46:51 2023 +0300
+
+    tp3
+
+[33mcommit f96bbb86e2a406e6b38377fbdf6ce77c1e5c76b6[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Thu Oct 12 18:35:37 2023 +0300
+
+    forgot ss
+
+[33mcommit d51c6e50213638bbec177c5406ce328882933074[m[33m ([m[1;31morigin/WissamNasreddine-222074-tp3[m[33m)[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Thu Oct 12 18:34:10 2023 +0300
+
+    tp3 is done
+
+[33mcommit a61e930a9864f76b0e4fcea495657db8c6179c5c[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Thu Oct 12 18:33:59 2023 +0300
+
+    added colors and stuff
+
+[33mcommit deb6d8c29622f0804c3a9ac1997b1e0ab7f6960c[m[33m ([m[1;31morigin/pamelaboukhalil-220199-tp3[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Thu Oct 12 18:31:39 2023 +0300
+
+    Committed tp3
+
+[33mcommit 47f04814f3efdd7aa5588c869d82d818118323df[m[33m ([m[1;31morigin/rheaabourached-222730-tp3[m[33m)[m
+Author: reaabourached <rhea.abourached@net.usj.edu.lb>
+Date:   Thu Oct 12 18:28:54 2023 +0300
+
+    tp3
+
+[33mcommit 6d03b8bbc561c18c97eddd07aac94c28182643d7[m[33m ([m[1;31morigin/myriamghanem-220803-tp3[m[33m)[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Thu Oct 12 18:28:46 2023 +0300
+
+    tp3
+
+[33mcommit f181999a0ab6dc30062a0b7ca6558b21a4689925[m[33m ([m[1;31morigin/fouadkabalan-211056-tp3[m[33m)[m
+Merge: 04fd646 164d068
+Author: fouadkabalan <99890692+fouadkabalan@users.noreply.github.com>
+Date:   Thu Oct 12 18:28:29 2023 +0300
+
+    Merge branch 'master' into fouadkabalan-211056-tp3
+
+[33mcommit 6760fc71101631768eaa324b18e03890006c4423[m[33m ([m[1;31morigin/saidchebbo-220700-tp3[m[33m)[m
+Author: said-chebbo <said.chebbo@net.usj.edu.lb>
+Date:   Thu Oct 12 18:27:50 2023 +0300
+
+    tp3
+
+[33mcommit 9400f99119c1bbad628badf60f5591d7f363b7c4[m
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Thu Oct 12 18:27:29 2023 +0300
+
+    ATM files added
+
+[33mcommit 04fd6462b01e290fd4e352d642c28287848b205e[m
+Author: fouadkabalan <99890692+fouadkabalan@users.noreply.github.com>
+Date:   Thu Oct 12 18:26:09 2023 +0300
+
+    Tp3
+
+[33mcommit 35bf6243685d113e630b1e89fdfa1080e75a81ed[m[33m ([m[1;31morigin/RamiChalouhi-221631-tp3[m[33m)[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Thu Oct 12 18:24:36 2023 +0300
+
+    tp3
+
+[33mcommit 50e036715f975a0f5aa8df267701b764d7c67656[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Thu Oct 12 18:24:34 2023 +0300
+
+    tp3
+
+[33mcommit 2f54028dfecb821c4f1b94089f2b7609743b0875[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Thu Oct 12 18:24:32 2023 +0300
+
+    tp3
+
+[33mcommit 536e0effc3712997b279b09fd6ff76ef99b05492[m[33m ([m[1;31morigin/ElieHaouchan-220561-tp3[m[33m)[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Thu Oct 12 18:24:01 2023 +0300
+
+    Added PUML_Code and PUML_Preview
+
+[33mcommit cab4374f69e47e2781aef1afcaa7e0e8458a8ff7[m[33m ([m[1;31morigin/HusseinHajHassan-222794-tp3[m[33m)[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Thu Oct 12 18:14:14 2023 +0300
+
+    HusseinHajHassan-222794-tp3
+
+[33mcommit d9c8a6177ee1c19892bcd45053b315684719bd9c[m
+Author: Your Name <you@example.com>
+Date:   Thu Oct 12 18:14:04 2023 +0300
+
+    tp3-genie
+
+[33mcommit 88fe77e4e8289887c33f43bf99ab86e7fecef3c8[m[33m ([m[1;31morigin/jalalharb-221160-tp3[m[33m)[m
+Merge: 263af86 164d068
+Author: Jalal Harb <103332080+JalalH1@users.noreply.github.com>
+Date:   Thu Oct 12 18:07:29 2023 +0300
+
+    Merge branch 'master' into jalalharb-221160-tp3
+
+[33mcommit 74817bf7dd0364c2c805f630cb2638101a6df3bd[m[33m ([m[1;31morigin/hadiCheayto-221008-tp3[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Thu Oct 12 18:05:48 2023 +0300
+
+    tp3
+
+[33mcommit 263af8667133bac04cac12666dd8044edc574770[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Thu Oct 12 18:05:37 2023 +0300
+
+    Added tp3
+
+[33mcommit 9d42b9114fa9c481e9f0180f52eaf7cb715d65a3[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Thu Oct 12 18:02:56 2023 +0300
+
+    part 2
+
+[33mcommit 353e897a4f7bebb7dd3192d196da1753976c165a[m[33m ([m[1;31morigin/Alifawaz-212694-tp3[m[33m)[m
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Thu Oct 12 17:56:37 2023 +0300
+
+    Added
+
+[33mcommit 4ff2ffc9ce79d5cf4faf02b6f54a19f9290c9a69[m[33m ([m[1;31morigin/eliegeorgioelkhoury-221069-tp3[m[33m)[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Thu Oct 12 17:46:08 2023 +0300
+
+    tp3
+
+[33mcommit 164d068dd71feeda3136292167e27028d93bbf48[m[33m ([m[1;31morigin/mariafix[m[33m)[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 17:36:07 2023 +0300
+
+    added ex4
+
+[33mcommit 2eedbed897a4b9f07d3eb5ca3045724b70aeb93a[m
+Merge: 6c3da54 5446402
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 17:10:57 2023 +0300
+
+    Merge remote-tracking branch 'origin/mariahourani-tp1' into mariafix
+
+[33mcommit 6c3da5401801ab53e8ce8a9455c9043891e2263e[m
+Merge: a142f5d d2c182f
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 17:08:36 2023 +0300
+
+    Merge remote-tracking branch 'origin/mariahourani-222310-tp22' into mariafix
+
+[33mcommit 427e7c9d644f8d627ed67d73885673085f0f37bc[m
+Merge: f89e5a4 a142f5d
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Thu Oct 12 16:53:12 2023 +0300
+
+    Merge branch 'master' of https://github.com/zahichemaly/software-engineering
+
+[33mcommit a142f5d6bc1153c4e8171a1d1eb1bba981a5cb97[m[33m ([m[1;31morigin/fouadkabalan-211056-ex2[m[33m)[m
+Merge: 7f5d4d8 23e600e
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 14:19:05 2023 +0300
+
+    Merge branch 'master' of https://github.com/zahichemaly/software-engineering
+
+[33mcommit 7f5d4d8a3441eecb96216d90046761f7e0521a1d[m
+Merge: d3d5cba d385900
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 14:18:10 2023 +0300
+
+    Merge remote-tracking branch 'origin/felixhajj-222287'
+
+[33mcommit 23e600ee1de076708e1458baf82f68592ef8f749[m
+Merge: d3d5cba e2381b9
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 12 14:12:50 2023 +0300
+
+    Merge pull request #103 from zahichemaly/PierreKachi-232732
+    
+    Pierre kachi 232732
+
+[33mcommit e2381b9fc5e71f8c243dfdf897e653efe972c301[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 14:10:51 2023 +0300
+
+    removed ignored files
+
+[33mcommit cd3c48a6b3e763f69dd7a6800ffff3c0b61330b9[m
+Merge: 364f677 d3d5cba
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 14:02:50 2023 +0300
+
+    Merge branch 'master' into PierreKachi-232732
+
+[33mcommit d3d5cba4a70127c07414cdf1ac315bbf86fd8c5c[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Thu Oct 12 14:01:21 2023 +0300
+
+    repo cleanup + gitignore rules for vs
+
+[33mcommit 28b89e8da9fd6660bf5c7c1d7e8efb3c4b944444[m
+Merge: 2c6109a a05397b
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 12 13:46:22 2023 +0300
+
+    Merge pull request #116 from zahichemaly/eliegeorgioelkhoury-221069-tp2
+    
+    Part-2-C
+
+[33mcommit 2c6109a799d3fe61dc459e356e585e9a989dcd77[m
+Merge: 94e2fcd 5a58e39
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 12 13:46:02 2023 +0300
+
+    Merge pull request #118 from zahichemaly/elieElHayek-223777-tp2
+    
+    tp2-part1
+
+[33mcommit 94e2fcdfdb956583a4da0d1b7062823e58838e95[m
+Merge: 64b1e96 8da2072
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 12 13:45:01 2023 +0300
+
+    Merge pull request #117 from zahichemaly/naihamdan-220607-tp2
+    
+    Naihamdan-220607-tp2
+
+[33mcommit 64b1e96313b4dc099c5bd7f13737ada829108d49[m
+Merge: 59493e2 5393dcc
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 12 13:44:32 2023 +0300
+
+    Merge pull request #119 from zahichemaly/HusseinHajHassan-222794-tp2
+    
+    Use case and Activity diagrams
+
+[33mcommit 5393dccf4963c9556043982e3692674b9a9a86fb[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Wed Oct 11 01:12:06 2023 +0300
+
+    Use case and Activity diagrams
+
+[33mcommit 8da2072fdb248b83fd8035bc115d28f3d59bdd35[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Tue Oct 10 16:22:28 2023 +0300
+
+    tp2 complete
+
+[33mcommit a05397b16aeea1ddf176f799f4d7155698e12d67[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Tue Oct 10 12:50:05 2023 +0300
+
+    Part-2-C
+
+[33mcommit 59493e2b51afb90b220ac4cb534777ba14b11661[m
+Merge: 6e557a0 844a482
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 10 11:50:44 2023 +0300
+
+    Merge pull request #113 from zahichemaly/JadMoussa-191685-tp2
+    
+    upload tp2
+
+[33mcommit 6e557a02b74ffb53082d54369cbd56744786434f[m
+Merge: 6130cde d1e6a4f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 10 11:47:57 2023 +0300
+
+    Merge pull request #112 from zahichemaly/eliegeorgioelkhoury-221069-tp2
+    
+    tp2-A-B
+
+[33mcommit 6130cde4ef900fd42ce56e621ace0bcc23ae3f0a[m
+Merge: f7cf6aa 88663e7
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Oct 10 11:45:59 2023 +0300
+
+    Merge pull request #115 from zahichemaly/Alifawaz-212694-EX3
+    
+    Alifawaz 212694 ex3
+
+[33mcommit 194dad30012997bf726766814ab847fe7fc1d56e[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Tue Oct 10 11:09:54 2023 +0300
+
+    TP2-part1
+
+[33mcommit 88663e70da19729b4056fb5b6d7f7460281eb541[m[33m ([m[1;31morigin/Alifawaz-212694-EX3[m[33m)[m
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Mon Oct 9 16:08:39 2023 +0300
+
+    SRS.txt added
+
+[33mcommit 1443526e18e69bfad33b0ea38d090e88e76c75d4[m[33m ([m[1;31morigin/Alifawaz-212694-EX2[m[33m)[m
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Mon Oct 9 15:43:36 2023 +0300
+
+    Added FR.txt,NFR.txt,US.txt
+
+[33mcommit 844a48283e5d678fbd09fb0ad80d4968fad4047c[m[33m ([m[1;31morigin/JadMoussa-191685-tp2[m[33m)[m
+Merge: 5574400 f7cf6aa
+Author: Jad_Moussa <78195762+JadMoussa@users.noreply.github.com>
+Date:   Mon Oct 9 15:01:39 2023 +0300
+
+    Merge branch 'master' into JadMoussa-191685-tp2
+
+[33mcommit 5574400cc96dbe3a843fa20522e7ad4c47b758b8[m
+Author: jad <jad.moussa@net.usj.edu.lb>
+Date:   Mon Oct 9 15:00:13 2023 +0300
+
+    upload tp2
+
+[33mcommit d1e6a4f9ace2af9ac21c37e682ee2a4337bd19c7[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Mon Oct 9 14:12:56 2023 +0300
+
+    tp2-A-B
+
+[33mcommit f7cf6aaa50e2d8b8b12e083799d8c83e1b4024d9[m
+Merge: 10d1430 6451727
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:26:56 2023 +0300
+
+    Merge pull request #101 from zahichemaly/joannechallita-220336-tp2
+    
+    I commited the tp2
+
+[33mcommit 10d1430420ecae223e0fdb6ff3336a80a654c832[m
+Merge: bbcfbd8 1a4f1f9
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:25:54 2023 +0300
+
+    Merge pull request #100 from zahichemaly/myriamghanem-220803-tp2
+    
+    part1-2 tp2
+
+[33mcommit bbcfbd86de71a87a6f874ba78f3f5ccdc15e5259[m
+Merge: d1f951b 80c91ae
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:25:19 2023 +0300
+
+    Merge pull request #97 from zahichemaly/WissamNasreddine-222074-tp2
+    
+    WissamNasreddine-222074-tp2
+
+[33mcommit d1f951be08ad6ff0e133aa023b77d1de7a30de39[m
+Merge: b901ee7 ea39856
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:24:46 2023 +0300
+
+    Merge pull request #96 from zahichemaly/pamelaboukhalil-220199-tp2
+    
+    pamelaboukhalil-220199-tp2
+
+[33mcommit b901ee733e25c5928595150b3275bfa83c3928eb[m
+Merge: 5de2dbe 56892ff
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:22:35 2023 +0300
+
+    Merge pull request #95 from zahichemaly/danamshawrab-220667-tp2
+    
+    Added Project
+
+[33mcommit 5de2dbe3fe0f4372f0020dc6c1399dccf62a4fc1[m
+Merge: a4835db cf913e6
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:21:00 2023 +0300
+
+    Merge pull request #102 from zahichemaly/RheaAbouRached-222730-tp2
+    
+    tp2-part1-2
+
+[33mcommit a4835db1578918592720a89f245823c364c7d728[m
+Merge: 6e2b33c 11002b7
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:18:41 2023 +0300
+
+    Merge pull request #104 from zahichemaly/felixhajj-222287-TP2
+    
+    Felixhajj 222287 tp2
+
+[33mcommit 6e2b33c0a707cbd8a0265656fc33c19b23f255e8[m
+Merge: ae8406f 7a6c48f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:18:06 2023 +0300
+
+    Merge pull request #105 from zahichemaly/hadiCheayto-221008-tp2
+    
+    Tp2
+
+[33mcommit ae8406f3212934c9198e6d7d329da3b4d9778bf9[m
+Merge: a957bc0 7876b2d
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:16:32 2023 +0300
+
+    Merge pull request #106 from zahichemaly/husseinelhajj220641_tp2
+    
+    tp2
+
+[33mcommit a957bc096c41c277bc00e5e87527a89bfcfd0d60[m
+Merge: 9ac724c 5c228f1
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:15:38 2023 +0300
+
+    Merge pull request #107 from zahichemaly/RamiChalouhi-221631-tp2
+    
+    tp2
+
+[33mcommit 9ac724c50fc743c072925bf61c3675b65f8a0293[m
+Merge: bb636b6 b5f41fd
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 12:15:04 2023 +0300
+
+    Merge pull request #108 from zahichemaly/ElieHaouchan-220561-tp2
+    
+    Added classes and methods based on requirements.
+
+[33mcommit bb636b6cf3cc19b2ed2aae8d1f6d6f9f7665f553[m
+Merge: d0d666d 5dba4aa
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 11:44:19 2023 +0300
+
+    Merge pull request #109 from zahichemaly/HusseinHajHassan-222794-tp2
+    
+    HusseinHajHassan-222794-tp2
+
+[33mcommit d0d666d7303723b6230b070eb7d090a1092a4810[m
+Merge: be5a0e5 1791f95
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 11:43:39 2023 +0300
+
+    Merge pull request #110 from zahichemaly/saidchebbo-220700-tp2
+    
+    tp2
+
+[33mcommit be5a0e53520f81406de5e1de7cb38b9a8034f311[m
+Merge: cd94baf f65a23c
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 11:42:49 2023 +0300
+
+    Merge pull request #111 from zahichemaly/jalalharb-221160-tp2
+    
+    Added Tp2 partie A
+
+[33mcommit f65a23cf8a42399df5e394a6b25ea72ce9ef0442[m
+Merge: 0f4e045 cd94baf
+Author: Jalal Harb <103332080+JalalH1@users.noreply.github.com>
+Date:   Mon Oct 9 11:15:10 2023 +0300
+
+    Merge branch 'master' into jalalharb-221160-tp2
+
+[33mcommit 0f4e0452e83dcac366131cd823c0edc32320b140[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Mon Oct 9 11:13:54 2023 +0300
+
+    Added Tp2 partie A
+
+[33mcommit b5f41fda9ac9eb57401bb1f14ad5f092c4264e76[m[33m ([m[1;31morigin/ElieHaouchan-220561-tp2[m[33m)[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Mon Oct 9 11:13:21 2023 +0300
+
+    Added Gacha.png User case diagram
+
+[33mcommit 1791f95e7cf6c6ee0b845efaf698daf6b2238dd1[m[33m ([m[1;31morigin/saidchebbo-220700-tp2[m[33m)[m
+Author: said-chebbo <said.chebbo@net.usj.edu.lb>
+Date:   Mon Oct 9 10:52:19 2023 +0300
+
+    tp2
+
+[33mcommit 5dba4aa298d0ca0f8f0d800c31b91aca3497ebcb[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Mon Oct 9 10:51:30 2023 +0300
+
+    HusseinHajHassan-222794-tp2
+
+[33mcommit 5c228f15649628fd4a35c27ec85ba2264da1ccae[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Mon Oct 9 10:46:59 2023 +0300
+
+    tp2
+
+[33mcommit 7876b2dd116ed272d9c7115ccb9e2862b82ac46b[m
+Author: Your Name <you@example.com>
+Date:   Mon Oct 9 10:46:33 2023 +0300
+
+    tp2
+
+[33mcommit 84c741a6c4a10196224db4c3a1710f0d235bd07b[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Mon Oct 9 10:45:25 2023 +0300
+
+    tp2-use-case-only
+
+[33mcommit ab44be4a81a7dd64b379d5b7609d83d5274955dd[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Mon Oct 9 10:42:32 2023 +0300
+
+    Added classes and methods based on requirements.
+
+[33mcommit d2c182fdbae2d78fb65e07c727c087a58a808f9a[m[33m ([m[1;31morigin/mariahourani-222310-tp22[m[33m)[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Mon Oct 9 10:40:54 2023 +0300
+
+    committed digram png file
+
+[33mcommit 5a58e3940d0a6d508d7b35937767daa689140ebb[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Mon Oct 9 10:40:45 2023 +0300
+
+    tp2-part1
+
+[33mcommit 7a6c48f3fc302af4d1b508fac93178bc7cd6aada[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Oct 9 10:39:42 2023 +0300
+
+    Tp2
+
+[33mcommit 11002b74f4b9e41d2610953559a13289fcea6d2a[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Mon Oct 9 10:39:13 2023 +0300
+
+    TP2_Felix
+
+[33mcommit 56892ff6d71a7f615d51ba9050846374146e1a67[m[33m ([m[1;31morigin/danamshawrab-220667-tp2[m[33m)[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Mon Oct 9 10:35:01 2023 +0300
+
+    Added draw.io ActivityDiagram
+
+[33mcommit 364f67782d8cba8908c6b9e6b181c7806e305585[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Oct 9 10:28:11 2023 +0300
+
+    Tp2
+
+[33mcommit ea3985640287627177175714ccadc92dd7b4fa49[m
+Merge: ca83e60 cd94baf
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Oct 9 10:27:39 2023 +0300
+
+    Merge branch 'master' of https://github.com/zahichemaly/software-engineering into pamelaboukhalil-220199-tp2
+
+[33mcommit 6451727ba7ea28e6940dfcd07bb840265e40e843[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Mon Oct 9 10:26:59 2023 +0300
+
+    I commited the tp2
+
+[33mcommit ca83e60e187522180d6c2a85aa4a3d198f61bb5d[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Oct 9 10:25:54 2023 +0300
+
+    committed use case diagram
+
+[33mcommit 235eff1f780bbb88a4fc77522ff026a4b1bdc049[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Mon Oct 9 10:24:55 2023 +0300
+
+    commit
+
+[33mcommit cf913e62e97443cf4d4edb360a9117b1a0620352[m[33m ([m[1;31morigin/RheaAbouRached-222730-tp2[m[33m, [m[1;32mRheaAbouRached-222730-tp2[m[33m)[m
+Author: reaabourached <rhea.abourached@net.usj.edu.lb>
+Date:   Mon Oct 9 10:23:23 2023 +0300
+
+    tp2-part1-2
+
+[33mcommit 1a4f1f9d99ccef953fb97bc033892105b99d5f02[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Mon Oct 9 10:23:20 2023 +0300
+
+    part1-2 tp2
+
+[33mcommit 33b3fc86f1ae85f15e22894e2125fafb56df0868[m
+Merge: 6d4dd03 cd94baf
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Oct 9 10:18:19 2023 +0300
+
+    Merge branch 'master' of https://github.com/zahichemaly/software-engineering into PierreKachi-232732
+
+[33mcommit 6d4dd03a96a246017fbeec158fd6b8097a1e3f0b[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Oct 9 10:17:49 2023 +0300
+
+    Tp2
+
+[33mcommit efc960a447dffc465bf31ec747168667f539f8b3[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Mon Oct 9 10:17:24 2023 +0300
+
+    Added draw.io 1
+
+[33mcommit f89e5a44f8f53fe509a53d1fb765da69ee575d8a[m
+Merge: 8bcb1c4 cd94baf
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Oct 9 10:16:23 2023 +0300
+
+    Merge branch 'master' of https://github.com/zahichemaly/software-engineering
+
+[33mcommit 8bcb1c477620d56a37c555bc987f9408faac3ae2[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Oct 9 10:14:46 2023 +0300
+
+    TP2
+
+[33mcommit 80c91ae7cb8890536605c556dd6ca37d136690bb[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Mon Oct 9 09:57:14 2023 +0300
+
+    Added class diagram project
+
+[33mcommit 022d355753807d275f2539de30338a863335dacf[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Oct 9 09:56:39 2023 +0300
+
+    Added class diagram project
+
+[33mcommit 0845c47d10f4e503c5301681cd4c192338c51dd7[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Mon Oct 9 09:42:04 2023 +0300
+
+    Added Project
+
+[33mcommit cd94baf286ded3d9cdcda73e381d4fd55cd85c5b[m
+Merge: ef60c10 74e4acd
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Oct 9 09:20:45 2023 +0300
+
+    Merge pull request #94 from zahichemaly/Alifawaz-212694
+    
+    Added a new folder.
+
+[33mcommit 74e4acd4fb798ef99beb683eec1c31bf4a09c6cf[m[33m ([m[1;31morigin/Alifawaz-212694[m[33m)[m
+Author: Ali fawaz <Afawaz11@outlook.com>
+Date:   Mon Oct 9 09:04:45 2023 +0300
+
+    Added a new folder.
+
+[33mcommit 81fbe1633a5be6d7ab1c58474677001c58cb87d6[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Mon Oct 9 08:39:46 2023 +0300
+
+    ex4master
+
+[33mcommit c406deac7e3345b6b14dd97ea175b7f767ec2ba2[m[33m ([m[1;31morigin/ElieHaouchan-220561-ex4[m[33m)[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Mon Oct 9 00:11:35 2023 +0300
+
+    Added exported .png to ex4 folder
+
+[33mcommit d385900e6b35201c543a0d1bb957b20ff04d3d98[m[33m ([m[1;31morigin/felixhajj-222287[m[33m)[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Sat Oct 7 20:52:47 2023 +0300
+
+    ex4
+
+[33mcommit 0f13bf97ba07dcd62e27d5032e6c850356ec91e6[m[33m ([m[1;31morigin/hadiCheayto-221008-ex4[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Fri Oct 6 17:33:25 2023 +0300
+
+    ex4
+
+[33mcommit 2b65ed61a9ce2c9267c66646498dbe7518a53903[m[33m ([m[1;31morigin/jalalharb-221160-ex4[m[33m)[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Fri Oct 6 09:47:16 2023 +0300
+
+    Added Ex4
+
+[33mcommit e6cb8c67947f62903a5792aac787e89a556d8cdb[m[33m ([m[1;31morigin/husseinelhajj-220641-ex4[m[33m)[m
+Author: Your Name <you@example.com>
+Date:   Fri Oct 6 09:29:01 2023 +0300
+
+    added ex 4
+
+[33mcommit ef60c1081d623604b01b0881d8e63a7c60a37bb4[m
+Merge: 9c72640 da53c11
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Oct 6 09:28:30 2023 +0300
+
+    Merge pull request #84 from zahichemaly/WissamNasreddine-222074-ex4
+    
+    WissamNasreddine-222074-ex4
+
+[33mcommit 9c72640490a7b33b421a560518e1cd4e0e8bfc86[m
+Merge: e768e76 f10e5c1
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Oct 6 09:26:42 2023 +0300
+
+    Merge pull request #85 from zahichemaly/naihamdan-220607-ex4
+    
+    naihamdan-220607-ex4
+
+[33mcommit e768e76c41cffaf375ef068192d02100bea46782[m
+Merge: ec0d0a1 66e5a47
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Oct 6 09:26:29 2023 +0300
+
+    Merge pull request #88 from zahichemaly/myriamghanem-220803-ex4
+    
+    ex4
+
+[33mcommit ec0d0a10684bfc5ce1231460889a50b0060d69b6[m
+Merge: 39ea29e 5b3c8ea
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Oct 6 09:26:12 2023 +0300
+
+    Merge pull request #82 from zahichemaly/eliegeorgioelkhoury-221069-ex4
+    
+    ex4
+
+[33mcommit 66e5a4744c3b729df37149318dbb417535a4b03c[m[33m ([m[1;31morigin/myriamghanem-220803-ex4[m[33m)[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Fri Oct 6 09:24:51 2023 +0300
+
+    ex4
+
+[33mcommit 39ea29ef51ee1ac30b3e1f0a26163f21caad7050[m
+Merge: c741d1a 3067187
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Oct 6 09:24:39 2023 +0300
+
+    Merge pull request #86 from zahichemaly/elieElHayek-223777-ex4
+    
+    ex4
+
+[33mcommit c741d1af8e521ff21e481c9184cc38af0de29008[m
+Merge: 42ce025 dc55050
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Oct 6 09:23:46 2023 +0300
+
+    Merge pull request #83 from zahichemaly/pamelaboukhalil-220199-ex4
+    
+    pamelaboukhalil-220199-ex4
+
+[33mcommit 42ce02588e09e4562cd7c344d4f2720c235ebb3c[m
+Merge: 38bec53 40ddd95
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Oct 6 09:21:07 2023 +0300
+
+    Merge pull request #87 from zahichemaly/joannechallita-220336-ex4
+    
+    commited ex4
+
+[33mcommit 40ddd95574a61133198c7034105082ff41609a45[m[33m ([m[1;31morigin/joannechallita-220336-ex4[m[33m)[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Fri Oct 6 00:03:00 2023 +0300
+
+    commited ex4
+
+[33mcommit 306718721ac8f4ab3382249fce271d9d627250fe[m[33m ([m[1;31morigin/elieElHayek-223777-ex4[m[33m)[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Thu Oct 5 23:22:29 2023 +0300
+
+    ex4
+
+[33mcommit f10e5c178e64bd3decf3c5378daf2dc7497b46f4[m[33m ([m[1;31morigin/naihamdan-220607-ex4[m[33m)[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Thu Oct 5 23:06:43 2023 +0300
+
+    ex4
+
+[33mcommit da53c118d8279918215a500e175e5b116d190db5[m[33m ([m[1;31morigin/WissamNasreddine-222074-ex4[m[33m)[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Thu Oct 5 22:37:42 2023 +0300
+
+    Added .PNG file to 'ex4' folder
+
+[33mcommit dc550505bd2dc31ef71cd56c4bc3769ca925fcb7[m[33m ([m[1;31morigin/pamelaboukhalil-220199-ex4[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Thu Oct 5 19:58:52 2023 +0300
+
+    committed ex 4
+
+[33mcommit 5b3c8eac36a21cdff41f7f8f0744c837812aa159[m[33m ([m[1;31morigin/eliegeorgioelkhoury-221069-ex4[m[33m)[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Thu Oct 5 19:57:12 2023 +0300
+
+    ex4
+
+[33mcommit 4420b91880be7893f931556e0766e02f82f981be[m[33m ([m[1;31morigin/JadMoussa-191685-ex4[m[33m)[m
+Author: Jad_Moussa <78195762+JadMoussa@users.noreply.github.com>
+Date:   Thu Oct 5 19:24:42 2023 +0300
+
+    Delete jadmoussae-191685-ex4
+
+[33mcommit d59bca7c8eb7966d9841453adf93eb52925860d3[m
+Author: Jad_Moussa <78195762+JadMoussa@users.noreply.github.com>
+Date:   Thu Oct 5 19:18:28 2023 +0300
+
+    Create jadmoussae-191685-ex4
+
+[33mcommit 38bec5393236613e2b4ee18416aab73269faac5d[m
+Merge: 4d35361 719164f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 5 12:53:19 2023 +0300
+
+    Merge pull request #78 from zahichemaly/felixhajj-222287
+    
+    modified ex2 and done ex3
+
+[33mcommit 4d35361908d892ae8c8cc62cf557aacb78fe017f[m
+Merge: 9151ab0 3001358
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 5 12:53:09 2023 +0300
+
+    Merge pull request #79 from zahichemaly/AhmadSabbah-211274-ex3”
+    
+    Create Exo3.docx
+
+[33mcommit 9151ab0acbdbf242223ae19924bcd581b26fa796[m
+Merge: 5aee115 39ff60d
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Thu Oct 5 12:52:40 2023 +0300
+
+    Merge pull request #80 from zahichemaly/rheaabourached-222730-tp1
+    
+    Rheaabourached 222730 tp1
+
+[33mcommit 39ff60de9ad85596c489193b438736e87d91e52d[m[33m ([m[1;31morigin/rheaabourached-222730-tp1[m[33m, [m[1;32mrheaabourached-222730-tp1[m[33m)[m
+Author: reaabourached <rhea.abourached@net.usj.edu.lb>
+Date:   Mon Oct 2 13:56:51 2023 +0300
+
+    tp1
+
+[33mcommit 3001358479c0790e95091c0c4dad45d96898f8d1[m[33m ([m[1;31morigin/AhmadSabbah-211274-ex3”[m[33m)[m
+Author: Ahmad2Sabbah <ahmad2sabbah@gmail.com>
+Date:   Wed Sep 27 00:57:59 2023 +0300
+
+    Create ~$Exo3.docx
+
+[33mcommit ae982d0298377ca809f5505d4cbb27c01957bce3[m
+Author: Ahmad2Sabbah <ahmad2sabbah@gmail.com>
+Date:   Wed Sep 27 00:51:50 2023 +0300
+
+    Create Exo3.docx
+
+[33mcommit 719164f6a2e6917cfa69e94f547fa8afd2d0b961[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Tue Sep 26 20:30:05 2023 +0300
+
+    modified ex2 and done ex3
+
+[33mcommit 8f52826252fb119f6b05f2c6e2524a40ee72ada9[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Tue Sep 26 19:58:20 2023 +0300
+
+    modified ex2 and done ex3
+
+[33mcommit c9e9c97b21f737ddd0a1382425045672f0b56fd3[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Tue Sep 26 19:55:11 2023 +0300
+
+    modified ex2 and done ex3
+
+[33mcommit 5aee1155a4ee8416fc94a6d7731e1930371b1ed2[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Mon Sep 25 21:57:05 2023 +0300
+
+    added gitignore
+
+[33mcommit 66e46c3f98ebf6bd711363fd4d53a45ccf629327[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Mon Sep 25 21:38:55 2023 +0300
+
+    general fixes
+
+[33mcommit e38069ee1b26bd597ca3488ce124c4bf73a2c14b[m
+Merge: c564a9b 4b47d44
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:36:05 2023 +0300
+
+    Merge pull request #66 from zahichemaly/naihamdan-220607-tp1
+    
+    naihamdan-220607-tp1
+
+[33mcommit c564a9b320c65d5545e9ee4659a44f624b2195b9[m
+Merge: dec65b2 b0e09f5
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:35:51 2023 +0300
+
+    Merge pull request #35 from zahichemaly/naihamdan-220607-ex3
+    
+    naihamdan-220607-ex3
+
+[33mcommit dec65b28e3253fed3522d10117a237e5ab6a075f[m
+Merge: abc0ed2 d3ded7e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:35:43 2023 +0300
+
+    Merge pull request #33 from zahichemaly/naihamdan-220607-ex2
+    
+    naihamdan-220607-ex2
+
+[33mcommit abc0ed231d7686663bb7ae73a9bd2660d40afd6d[m
+Merge: 26126a0 a8ba4cc
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:35:29 2023 +0300
+
+    Merge pull request #20 from zahichemaly/naihamdan-220607
+    
+    Naihamdan 220607
+
+[33mcommit 26126a0f9611c4e02d8bee7c1263ade3e98b9bb7[m
+Merge: 70ad6b8 c4954d6
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:11:59 2023 +0300
+
+    Merge pull request #57 from zahichemaly/danamshawrab-220667-tp1
+    
+    Added folder TP1 and screenshots
+
+[33mcommit 70ad6b8810f22c3614bad1d4daf219853b4ffbc8[m
+Merge: fb3f308 7cdcc9d
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:11:28 2023 +0300
+
+    Merge pull request #58 from zahichemaly/danamshawrab-220667
+    
+    clarified NFR
+
+[33mcommit fb3f30835d493664c4a807da74073f46246b2bc5[m
+Merge: fe7636f 9e3a5a9
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:11:15 2023 +0300
+
+    Merge pull request #59 from zahichemaly/pamelaboukhalil-220199-tp1
+    
+    uploaded tp1
+
+[33mcommit fe7636f9cdfa8b093e165571418197e4fb948784[m
+Merge: b76805c 52eb5ae
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:11:00 2023 +0300
+
+    Merge pull request #60 from zahichemaly/WissamNasreddine-222074-tp1
+    
+    uploaded tp1
+
+[33mcommit b76805c14200a1a3fd0a67cfd2caa2ecce2933fd[m
+Merge: 64153bd 6fa6ce2
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:10:46 2023 +0300
+
+    Merge pull request #61 from zahichemaly/HusseinHajHassan-222794-tp1
+    
+    HusseinHajHassan-222794-tp1
+
+[33mcommit 64153bd18d0a8ab56574c7b9100d2150b291d1cb[m
+Merge: 9f212ea 0e0702b
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:10:15 2023 +0300
+
+    Merge pull request #62 from zahichemaly/PierreKachi-232732--TP1
+    
+    TP1
+
+[33mcommit 9f212ea75569237daed308559d5d6ad3db16ff9f[m
+Merge: fbb76b6 c270f06
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:09:57 2023 +0300
+
+    Merge pull request #63 from zahichemaly/eliegeorgioelkhoury-221069-ex2
+    
+    added fr,nfr,us
+
+[33mcommit fbb76b63a9c25edce5df99fa6b3d3610f38ac9a2[m
+Merge: e3e9353 fc4e44e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:09:27 2023 +0300
+
+    Merge pull request #64 from zahichemaly/myriamghanem-220803-tp1
+    
+    tp1
+
+[33mcommit e3e9353a51ab34d6178691bcf5bb46344a5c3bf9[m
+Merge: e9635cb 30cf722
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:08:43 2023 +0300
+
+    Merge pull request #65 from zahichemaly/ramichalouhi-221631-tp1
+    
+    tp1
+
+[33mcommit e9635cbfd41f6a6afbe51d67bc29adbfadd2aa12[m
+Merge: cc20b6e 7f5a7aa
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:08:05 2023 +0300
+
+    Merge pull request #67 from zahichemaly/saidchebbo-220700-tp1
+    
+    tp1
+
+[33mcommit cc20b6ee9f53cede7c3b8260753211f43149a2d0[m
+Merge: 17333f1 8025ed4
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:07:32 2023 +0300
+
+    Merge pull request #68 from zahichemaly/elieHayek-223777-tp1
+    
+    elieHayek-223777-tp1
+
+[33mcommit 17333f1a1d041331f162572ba36a65ae0cf14b26[m
+Merge: 1ecddcc 50172ff
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:07:04 2023 +0300
+
+    Merge pull request #69 from zahichemaly/joannechallita-220336-tp1
+    
+    I commited the tp1
+
+[33mcommit 1ecddcc56c0a9a26d2d40e6a3dc3c3a8625e216c[m
+Merge: 8a6b659 d0162a2
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:06:40 2023 +0300
+
+    Merge pull request #70 from zahichemaly/felixhajj-222287-TP1
+    
+    tp1_commit
+
+[33mcommit 8a6b659dea72d02c97d7255cdcc148623fcab301[m
+Merge: c0fa2b7 9907f21
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:06:15 2023 +0300
+
+    Merge pull request #71 from zahichemaly/husseinelhajj-220641-tp1
+    
+    husseinelhajj-220641-tp1
+
+[33mcommit c0fa2b7a4a736fd27a50bd68a0bd7b0c5dbba564[m
+Merge: c84b168 1d30170
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:05:47 2023 +0300
+
+    Merge pull request #72 from zahichemaly/ElieHaouchan-220561-tp1
+    
+    Add files and screenshots for tp1
+
+[33mcommit c84b168272dafe61ae044dac3e95e1d200b00982[m
+Merge: 79e8cbb 49cf5ac
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:05:18 2023 +0300
+
+    Merge pull request #73 from zahichemaly/jalalharb-221160-tp1
+    
+    Added Tp1 folder
+
+[33mcommit 79e8cbb1df1852f33605e96451b784e87306ef3f[m
+Merge: c46889d 82a363b
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:04:52 2023 +0300
+
+    Merge pull request #74 from zahichemaly/hadiCheayto-221008-Tp1
+    
+    Tp1
+
+[33mcommit c46889d520d1b7de97708d879d47ca1292be3820[m
+Merge: 63e849a bc2dc57
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:04:32 2023 +0300
+
+    Merge pull request #75 from zahichemaly/JadMoussa-191685-tp1
+    
+    Added screenshots and csv files
+
+[33mcommit 63e849a1ab7a58c67d7b106065792ad21f723efc[m
+Merge: 90d0476 7d32a6e
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:03:59 2023 +0300
+
+    Merge pull request #76 from zahichemaly/hadiCheayto-221008-ex3
+    
+    modified file
+
+[33mcommit 90d0476df0c39b23833145e7e7afe535843e69e7[m
+Merge: 9e176fc 819b2d0
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 21:03:26 2023 +0300
+
+    Merge pull request #77 from zahichemaly/fouadKabalan-211056-tp1
+    
+    Tp1
+
+[33mcommit 0b26e7d0ac23f8beadfa378efe08847eed5d1dd9[m
+Author: rhea abou rached <rhea.abourached@net.usj.edu.lb>
+Date:   Mon Sep 25 14:19:27 2023 +0300
+
+    tp1
+
+[33mcommit 819b2d0c600767df55f0404106f7e615735ca30a[m[33m ([m[1;31morigin/fouadKabalan-211056-tp1[m[33m)[m
+Author: fouadkabalan <99890692+fouadkabalan@users.noreply.github.com>
+Date:   Mon Sep 25 11:48:53 2023 +0300
+
+    Tp1
+
+[33mcommit 7d32a6e8c60fe784860d85d12b9067e929231020[m[33m ([m[1;31morigin/hadiCheayto-221008-ex3[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Sep 25 11:32:17 2023 +0300
+
+    modified file
+
+[33mcommit bc2dc573455b6783245c0f6622c61cea8f1bdb54[m[33m ([m[1;31morigin/JadMoussa-191685-tp1[m[33m)[m
+Author: jad <jad.moussa@net.usj.edu.lb>
+Date:   Mon Sep 25 11:26:06 2023 +0300
+
+    Added screenshots and csv files
+
+[33mcommit 82a363b0a062bec121de10932e23b7ff72ce8e49[m[33m ([m[1;31morigin/hadiCheayto-221008-Tp1[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Sep 25 11:22:51 2023 +0300
+
+    Tp1
+
+[33mcommit 49cf5acea1324bb37733aa04c9cabfca0f049c2f[m[33m ([m[1;31morigin/jalalharb-221160-tp1[m[33m)[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Mon Sep 25 11:14:24 2023 +0300
+
+    Added Tp1 folder
+
+[33mcommit 1d30170d2500f56bc6ac4bb8c2dd1091f04cc337[m[33m ([m[1;31morigin/ElieHaouchan-220561-tp1[m[33m)[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Mon Sep 25 11:07:46 2023 +0300
+
+    Add files and screenshots for tp1
+
+[33mcommit 50172ffc4ac6f3b4eec026a3479055e4c69886a8[m[33m ([m[1;31morigin/joannechallita-220336-tp1[m[33m)[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Mon Sep 25 10:57:17 2023 +0300
+
+    I commited the tp1
+
+[33mcommit 7f5a7aae941fb3078bb39642e23b24dad6b1bb00[m[33m ([m[1;31morigin/saidchebbo-220700-tp1[m[33m)[m
+Author: said-chebbo <said.chebbo@net.usj.edu.lb>
+Date:   Mon Sep 25 10:53:47 2023 +0300
+
+    tp1
+
+[33mcommit 4b47d44228d5dad8182d51a95e787e34efb5a24b[m[33m ([m[1;31morigin/naihamdan-220607-tp1[m[33m)[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Mon Sep 25 10:54:36 2023 +0300
+
+    tp1
+
+[33mcommit 9907f21b56ac6dde77b38fe28cd73d463ce0c5fa[m[33m ([m[1;31morigin/husseinelhajj-220641-tp1[m[33m)[m
+Author: Your Name <you@example.com>
+Date:   Mon Sep 25 10:54:08 2023 +0300
+
+    TP1
+
+[33mcommit fc4e44e7f637ea23f2fae0e759a2462bc1560967[m[33m ([m[1;31morigin/myriamghanem-220803-tp1[m[33m)[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Mon Sep 25 10:52:08 2023 +0300
+
+    tp1
+
+[33mcommit d0162a240601675ab056571b66c208b041b81316[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Mon Sep 25 10:49:23 2023 +0300
+
+    tp1_commit
+
+[33mcommit 8025ed47bffb14ef4d041dbb1b73185fd4b968fc[m[33m ([m[1;31morigin/elieHayek-223777-tp1[m[33m)[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Mon Sep 25 10:50:51 2023 +0300
+
+    tp1
+
+[33mcommit 30cf7223b33877e72a50a656b9e605b65c171d49[m[33m ([m[1;31morigin/ramichalouhi-221631-tp1[m[33m)[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Mon Sep 25 10:48:16 2023 +0300
+
+    tp1
+
+[33mcommit 5446402b0b80c7c5b5ca78f83d635a7996d4bbae[m[33m ([m[1;31morigin/mariahourani-tp1[m[33m)[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Mon Sep 25 10:44:55 2023 +0300
+
+    First TP committed
+
+[33mcommit 6fa6ce2aa53fa4736109dd7601787faac80fa2f0[m[33m ([m[1;31morigin/HusseinHajHassan-222794-tp1[m[33m)[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Mon Sep 25 10:42:25 2023 +0300
+
+    HusseinHajHassan-222794-tp1
+
+[33mcommit 0e0702b7e6705b535c91ed6f1759eb0fe028f448[m[33m ([m[1;31morigin/PierreKachi-232732--TP1[m[33m)[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Sep 25 10:39:07 2023 +0300
+
+    TP1
+
+[33mcommit c270f066079cb67702dc0d85847160b4b59e1100[m[33m ([m[1;31morigin/eliegeorgioelkhoury-221069-ex2[m[33m)[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Mon Sep 25 10:37:46 2023 +0300
+
+    added fr,nfr,us
+
+[33mcommit 9e3a5a93f2b15449e1bf468f160e6735b2b6c44c[m[33m ([m[1;31morigin/pamelaboukhalil-220199-tp1[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Sep 25 10:37:26 2023 +0300
+
+    uploaded tp1
+
+[33mcommit 52eb5ae4b7214e10afc9e9ac6361ef9a037cc42e[m[33m ([m[1;31morigin/WissamNasreddine-222074-tp1[m[33m)[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Mon Sep 25 10:37:23 2023 +0300
+
+    uploaded tp1
+
+[33mcommit 22704ea8308beedd966c376c8cb8a82e9f2d8878[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Sat Sep 23 13:15:17 2023 +0300
+
+    Added FR.txt NFR.txt US.txt
+
+[33mcommit ce708d7eb57c67a31e7a87d2d10d00f7ce9a54b0[m
+Author: “nai” <“hamdannai16@gmail.com”>
+Date:   Thu Sep 14 20:07:26 2023 +0300
+
+    new file
+
+[33mcommit 6ab02dd0f381f482bc8b2e58ba6f8fe3b093bb55[m
+Author: “nai” <“hamdannai16@gmail.com”>
+Date:   Mon Sep 4 09:50:52 2023 +0300
+
+    Added a new file
+
+[33mcommit 7cdcc9d3fedfc8126467bfff3f48fc023da8084f[m[33m ([m[1;31morigin/danamshawrab-220667[m[33m)[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Mon Sep 25 10:07:10 2023 +0300
+
+    clarified NFR
+
+[33mcommit c4954d61fb77762a9b45a8f1f5bcb1792a74db79[m[33m ([m[1;31morigin/danamshawrab-220667-tp1[m[33m)[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Mon Sep 25 09:51:39 2023 +0300
+
+    Added folder TP1 and screenshots
+
+[33mcommit 9e176fc1f8dab2c658271aaa509e7346ad8a4924[m
+Merge: e89428d b556dc6
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:28:35 2023 +0300
+
+    Merge pull request #56 from zahichemaly/mariahourani-222310-ex3
+    
+    Mariahourani 222310 ex3
+
+[33mcommit e89428d8b3612b7e3025dbb85a225f0bbe56d6d2[m
+Merge: 21a4e10 6eb91ac
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:22:08 2023 +0300
+
+    Merge pull request #28 from zahichemaly/felixhajj-222287
+    
+    eyi
+
+[33mcommit 21a4e10b88863638add1736bbbf9b7102b5f85db[m
+Merge: 5bffbe2 79072f7
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:21:28 2023 +0300
+
+    Merge pull request #29 from zahichemaly/husseinelhajj_220641_ex2
+    
+    Husseinelhajj 220641 ex2
+
+[33mcommit 5bffbe2679983bb35018382bcd451d2876c1c727[m
+Merge: df1d218 942bcb4
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:21:09 2023 +0300
+
+    Merge pull request #31 from zahichemaly/RamiChalouhi-221631-ex3
+    
+    Added a new folder containing the third exercise
+
+[33mcommit df1d218798511fe51e907dc4ac452c8274a4b8e7[m
+Merge: abac59d c41d709
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:20:34 2023 +0300
+
+    Merge pull request #45 from zahichemaly/danamshawrab-220667-ex3
+    
+    Danamshawrab 220667 ex3
+
+[33mcommit abac59d8c242b038fc472c26d28e385648c9098a[m
+Merge: 7d766f7 6dcc482
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:19:45 2023 +0300
+
+    Merge pull request #44 from zahichemaly/joannechallita-220336-ex3
+    
+    Joannechallita 220336 ex3
+
+[33mcommit 7d766f7e1350f362a561e232a4bc892f29ef1bcb[m
+Merge: fcd9414 9fc983f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:19:22 2023 +0300
+
+    Merge pull request #43 from zahichemaly/ElieHaouchan-220561-ex3
+    
+    Elie Haouchan 220561 ex3
+
+[33mcommit fcd94146d7289bcd4b583be635483d0df3239131[m
+Merge: f5f24e8 2aedcd2
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:18:52 2023 +0300
+
+    Merge pull request #37 from zahichemaly/WissamNasreddine-222074-ex3
+    
+    Wissam nasreddine 222074 ex3
+
+[33mcommit f5f24e8e1414cad58c29fd6090297e5ee8c22830[m
+Merge: 0a163e7 4b50a30
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:18:08 2023 +0300
+
+    Merge pull request #40 from zahichemaly/eliegeorgioelkhoury-221069-ex3
+    
+    Eliegeorgioelkhoury 221069 ex3
+
+[33mcommit 0a163e79d17aaba8f69fd65ec061c9bf74d6a12f[m
+Merge: b15ed33 376596c
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:17:54 2023 +0300
+
+    Merge pull request #42 from zahichemaly/main
+    
+    PierreKachi-232732-EX3
+
+[33mcommit b15ed336918925b0561e9e1fa77a36921d440c79[m
+Merge: e5c26f9 bda9fe3
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:16:25 2023 +0300
+
+    Merge pull request #41 from zahichemaly/pamelaboukhalil-220199-ex3
+    
+    Pamelaboukhalil 220199 ex3
+
+[33mcommit e5c26f95e298674d999e86d60f1f2fc3abe6241b[m
+Merge: 00b9859 ce46c60
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:15:35 2023 +0300
+
+    Merge pull request #36 from zahichemaly/myriamghanem-220803-ex3
+    
+    Myriamghanem 220803 ex3
+
+[33mcommit 00b9859254f41effbfcaa46d07958d43114a38be[m
+Merge: a341f86 98d6a9f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:14:19 2023 +0300
+
+    Merge pull request #27 from zahichemaly/Pamela_BouKhalil_220199
+    
+    Added new txt files for ex2
+
+[33mcommit a341f86a616893a94b1e722675ceb8813380f1ad[m
+Merge: 4a67a20 2567baf
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:12:16 2023 +0300
+
+    Merge pull request #50 from zahichemaly/jalalharb-221160-ex3
+    
+    Jalalharb 221160 ex3
+
+[33mcommit 4a67a202744f8e90055ab2c685c3c17b2a1183b9[m
+Merge: 892be7c b659c7d
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:10:59 2023 +0300
+
+    Merge pull request #52 from zahichemaly/HusseinHajHassan-222794-ex3
+    
+    Hussein haj hassan 222794 ex3
+
+[33mcommit 892be7c4f1ba75f287b950854b97943bca65d89b[m
+Merge: 2335e0c dd7867f
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:10:17 2023 +0300
+
+    Merge pull request #53 from zahichemaly/hadiCheayto-221008-ex3
+    
+    Hadi cheayto 221008 ex3
+
+[33mcommit 2335e0cfe2340935496538fead983ad7e5017c64[m
+Merge: 21438c4 7bc1ede
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:09:47 2023 +0300
+
+    Merge pull request #54 from zahichemaly/ElieElHayek-223777-ex3
+    
+    Elie el hayek 223777 ex3
+
+[33mcommit 21438c4caa7a12717dff92289b67ce00c7d324a2[m
+Merge: 880fb95 7048b50
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 25 08:09:18 2023 +0300
+
+    Merge pull request #55 from zahichemaly/saidchebbo-220700-ex3
+    
+    Saidchebbo 220700 ex3
+
+[33mcommit b0e09f52b5bfe1ca789df6deec0bdda00856769b[m[33m ([m[1;31morigin/naihamdan-220607-ex3[m[33m)[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Mon Sep 25 08:07:05 2023 +0300
+
+    ex3 revisions
+
+[33mcommit dd7867fe7651f78872d143867585b3d9a3483330[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Sep 25 07:53:27 2023 +0300
+
+    Modified word doc
+
+[33mcommit 7bc1eded4983f7c3cfeba58f9fc1a33ab03bc59c[m[33m ([m[1;31morigin/ElieElHayek-223777-ex3[m[33m)[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Mon Sep 25 00:36:35 2023 +0300
+
+    ex3
+
+[33mcommit 73703a35a30fa5619be24728ef2b1ab9213db154[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Sep 25 00:11:46 2023 +0300
+
+    ex3
+
+[33mcommit b659c7d3c50b2b07d3e222429c3efa52c8e90daf[m[33m ([m[1;31morigin/HusseinHajHassan-222794-ex3[m[33m)[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Mon Sep 25 00:09:02 2023 +0300
+
+    Added SRS document for Exercise 3
+
+[33mcommit c6e770b7bef373c757def2b13da9752d60bebb46[m[33m ([m[1;31morigin/ElieElHayek-223777-ex2[m[33m)[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Sun Sep 24 23:46:40 2023 +0300
+
+    ex2
+
+[33mcommit 2567bafd755f93e14c2663ed5e25d5d2d73f704b[m[33m ([m[1;31morigin/jalalharb-221160-ex3[m[33m)[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Sun Sep 24 23:45:13 2023 +0300
+
+    Added ex3 folder + doc
+
+[33mcommit 15f66dbea6ceeeb5d5ba4e5f13f4813e0c9223f6[m[33m ([m[1;31morigin/ElieElHayek-223777[m[33m)[m
+Author: elieHayek <elie.hayek2@net.usj.edu.lb>
+Date:   Sun Sep 24 23:23:41 2023 +0300
+
+    ex1
+
+[33mcommit e20aa9bd026d7c97a08bb35802238e81136d9714[m[33m ([m[1;31morigin/HusseinHajHassan-222794-ex2[m[33m)[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Sun Sep 24 22:39:29 2023 +0300
+
+    Added functional requirements, non-functional requirements, and user stories
+
+[33mcommit 38f2f73849bf5eab9c21ed771300c5047b68ccc9[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Sun Sep 24 22:12:56 2023 +0300
+
+    ex3 revisions
+
+[33mcommit 7048b50973a59d6d13730d77e5e281c9d6a7a981[m[33m ([m[1;31morigin/saidchebbo-220700-ex3[m[33m, [m[1;31morigin/saidchebbo-220700-ex2[m[33m)[m
+Author: said-chebbo <said.chebbo@net.usj.edu.lb>
+Date:   Sun Sep 24 21:50:12 2023 +0300
+
+    ex2
+
+[33mcommit 397ed39b6600eeb427ddc8635cb9546bf263e309[m[33m ([m[1;31morigin/saidchebbo-220700[m[33m)[m
+Author: said-chebbo <said.chebbo@net.usj.edu.lb>
+Date:   Sun Sep 24 21:06:00 2023 +0300
+
+     Added a new folder containing a txt file
+
+[33mcommit c41d709d2f55daef44984e01386d1fb1a46a1e55[m[33m ([m[1;31morigin/danamshawrab-220667-ex3[m[33m)[m
+Author: dana <dana.mshawrab@net.usj.edu.lb>
+Date:   Sun Sep 24 16:01:17 2023 +0300
+
+    Added new folder for ex3 and document
+
+[33mcommit 6dcc482d5fbc116241becb7061bc59cc28c4e0f7[m[33m ([m[1;31morigin/joannechallita-220336-ex3[m[33m)[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Sun Sep 24 15:09:58 2023 +0300
+
+    I commited ex3
+
+[33mcommit a5970e1c07b8b7c5507f7ac2b557b163e305005f[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Sun Sep 24 15:02:51 2023 +0300
+
+    I commited the exercise 3
+
+[33mcommit ce46c60044434869eec0bf8213babf5467ead1fe[m[33m ([m[1;31morigin/myriamghanem-220803-ex3[m[33m)[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Sun Sep 24 14:32:56 2023 +0300
+
+    some changes to ex3
+
+[33mcommit 9fc983f1356e4ee2f5bf5867e88cc9fed1aeb59b[m[33m ([m[1;31morigin/ElieHaouchan-220561-ex3[m[33m)[m
+Merge: 1409283 880fb95
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Sun Sep 24 12:34:35 2023 +0300
+
+    Merge branch 'ElieHaouchan-220561-ex3' of https://github.com/zahichemaly/software-engineering into ElieHaouchan-220561-ex3
+
+[33mcommit 140928328afe6457c43b67f3e6b0414c0b7748ee[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Sun Sep 24 12:25:22 2023 +0300
+
+    Added SRS-FitnessApp.docx
+
+[33mcommit 376596c000b61a3ba9a6d887923722a6bddc1e37[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Sun Sep 24 01:36:01 2023 +0300
+
+    ex3 srs document
+
+[33mcommit c7e7d4a873b9c66c99003439fe91f2d083f39807[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Sun Sep 24 01:28:04 2023 +0300
+
+    srs word document
+
+[33mcommit bda9fe31542a9d73049ef8737aa87f1aa19993f1[m[33m ([m[1;31morigin/pamelaboukhalil-220199-ex3[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Sat Sep 23 21:22:32 2023 +0300
+
+    Added the SRS concerning a fitness app with workout,diet and motivation
+
+[33mcommit 4b50a30dac9a00fd92ae1659d6efa4044cff7c98[m[33m ([m[1;31morigin/eliegeorgioelkhoury-221069-ex3[m[33m)[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Sat Sep 23 21:19:14 2023 +0300
+
+    Add SRS document for Exercise 3
+
+[33mcommit ea94edb3e13969ea3fd0a9cdf4bbb61212354ea4[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Sat Sep 23 21:05:54 2023 +0300
+
+    Add functional, non-functional requirements, and user stories for Exercise 2
+
+[33mcommit 89514ad5018fdfa03bccabd31d2229c2c101d97c[m[33m ([m[1;31morigin/eliegeorgioelkhoury-221069[m[33m)[m
+Author: Elie Khoury <elie.kh222@hotmail.com>
+Date:   Sat Sep 23 20:59:33 2023 +0300
+
+    Add new folder and file for yourfullname-matricule
+
+[33mcommit 2aedcd2d9ac420ccec8389ff7e8497ce0059db8a[m[33m ([m[1;31morigin/WissamNasreddine-222074-ex3[m[33m)[m
+Author: Wissam_Nasreddine <wissam.nasreddine@net.usj.edu.lb>
+Date:   Sat Sep 23 19:53:36 2023 +0300
+
+    Add SRS document for Exercise 3
+
+[33mcommit b556dc62ae6fffccdb3a5a222d573fb2dd231e06[m[33m ([m[1;31morigin/mariahourani-222310-ex3[m[33m)[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Sat Sep 23 16:31:33 2023 +0300
+
+    Committed srs document
+
+[33mcommit 2e26ea35568561534ecb48acdc6bc70f5f2a3c59[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Sat Sep 23 16:28:57 2023 +0300
+
+    Fitness App SRS committed
+
+[33mcommit 82393d8126f0d9ce621f321a40eff08f0e8b0b43[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Sat Sep 23 16:25:46 2023 +0300
+
+    FitnessAppSRS
+
+[33mcommit 1532575a76eb95d03fe008b6538f3a66543fe906[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Sat Sep 23 14:42:58 2023 +0300
+
+    srs
+
+[33mcommit 792dd00b95d5fcf88e4e05463ecf311fc013df65[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Sat Sep 23 14:26:43 2023 +0300
+
+    ex3
+
+[33mcommit 98d6a9fc91e6279712d046d11dd1f124f07c5b80[m[33m ([m[1;31morigin/Pamela_BouKhalil_220199[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Sat Sep 23 13:58:28 2023 +0300
+
+    Modified txt files in ex2 folder
+
+[33mcommit 83f2c1e6ccf3d086065f84987970631e1e3b4ab8[m[33m ([m[1;31morigin/myriamghanem-220803-ex2[m[33m)[m
+Author: Myriam-Ghanem <myriam.ghanem1@net.usj.edu.lb>
+Date:   Sat Sep 23 13:15:27 2023 +0300
+
+    newtext
+
+[33mcommit e285c61464262624487856f08ebfb8f8ff6ed938[m[33m ([m[1;31morigin/joannechallita-220336-ex2[m[33m)[m
+Author: Joanne-Challita <joanne.challita@net.usj.edu.lb>
+Date:   Sat Sep 23 13:15:21 2023 +0300
+
+    Add the FR, NFR and US files
+
+[33mcommit d3ded7edb10bb05f9798267606da240cb318a65d[m[33m ([m[1;31morigin/naihamdan-220607-ex2[m[33m)[m
+Author: naihchams <hamdannai16@gmail.com>
+Date:   Sat Sep 23 13:15:17 2023 +0300
+
+    Added FR.txt NFR.txt US.txt
+
+[33mcommit 942bcb4cfd3bd8008d040146ecfe495a13b40899[m[33m ([m[1;31morigin/RamiChalouhi-221631-ex3[m[33m)[m
+Author: “ChalouhiRami” <chalouhirami@gmail.com>
+Date:   Sat Sep 23 11:58:43 2023 +0300
+
+    Added a new folder containing the third exercise
+
+[33mcommit 880fb95042e539f5e8b02d4894e0ff3f2ce8bfa5[m
+Merge: c08478f 219c9a7
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Sep 22 09:40:12 2023 +0300
+
+    Merge pull request #24 from zahichemaly/Rami_Chalouhi_221631
+    
+    added a functional requirements.txt,non-functional requirements.txt a…
+
+[33mcommit 79072f7d00f8e5778dd3525cee4aec31b55fa324[m[33m ([m[1;31morigin/husseinelhajj_220641_ex2[m[33m, [m[1;31morigin/husseinelhajj-220641-ex3[m[33m)[m
+Author: Your Name <you@example.com>
+Date:   Tue Sep 19 12:19:29 2023 +0300
+
+    ex2 solution
+
+[33mcommit 45f29e499dbb08bdc7b858329af1c7f93ffa05c5[m
+Author: Your Name <you@example.com>
+Date:   Tue Sep 19 11:22:08 2023 +0300
+
+    created 3 files
+
+[33mcommit 219c9a762e3f96e98bd55c3d3f8dd15c88d8c1e9[m[33m ([m[1;31morigin/Rami_Chalouhi_221631[m[33m)[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Mon Sep 18 17:12:59 2023 +0300
+
+    modified the nfr file
+
+[33mcommit 6eb91ac94fc8d9aaf2c81406d64a2b6237566619[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Mon Sep 18 12:02:31 2023 +0300
+
+    eyi
+
+[33mcommit c4b54317c3a5dc6e461bc8ec7ccb7e18a0303142[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Sep 18 11:03:05 2023 +0300
+
+    Added new txt files
+
+[33mcommit 5f7ad52229494b0ea3bb99b0c78af2935147dc5f[m[33m ([m[1;31morigin/MariaHourani_222310[m[33m)[m
+Author: maria.hourani <maria.hourani@net.usj.edu.lb>
+Date:   Mon Sep 18 11:03:01 2023 +0300
+
+    Committed the user stories
+
+[33mcommit dd1a2e3114cfcd14ba683760fbb03bfc370d5cac[m[33m ([m[1;31morigin/hadiCheayto-221008-ex2[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Sep 18 11:01:59 2023 +0300
+
+    initial commit
+
+[33mcommit 4920111832851c6690168a24a22626cee3326fe9[m[33m ([m[1;31morigin/jalalharb-221160-ex2[m[33m)[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Mon Sep 18 11:00:14 2023 +0300
+
+    Added ex2 folder + 3 files
+
+[33mcommit f9db8cc52ca683ce3e147afc11dae0738bd69c3a[m
+Author: RamiChalouhi <chalouhirami1@gmail.com>
+Date:   Mon Sep 18 10:59:33 2023 +0300
+
+    added a functional requirements.txt,non-functional requirements.txt and user stories for my app
+
+[33mcommit 65113a288ea733dc8c63824a2d0ceb0672c58731[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Sep 18 10:57:06 2023 +0300
+
+    had forgotten the US and added details to th FR
+
+[33mcommit 1f26d9a390de490b70bc0bde03bfda31108800a3[m[33m ([m[1;31morigin/ElieHaouchan-220561-ex2[m[33m)[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Mon Sep 18 10:56:38 2023 +0300
+
+    Add ex2 folder with FR.txt, NFR.txt and US.txt
+
+[33mcommit e51a676c6b1f841d526b7097143f371704a4ff40[m[33m ([m[1;31morigin/WissamNasreddine_222074[m[33m)[m
+Author: Wissam_Nasreddine <nasreddinewissam1@gmail.com>
+Date:   Mon Sep 18 10:49:57 2023 +0300
+
+    commited ex2
+
+[33mcommit bb36df2fa1d22b530df2cc0d3e868bbcbcd6e32c[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Sep 18 10:49:24 2023 +0300
+
+    Social media app
+
+[33mcommit ca0baf4b62191160ef0be2f7728d6827aa430009[m
+Author: dana <danamshawrab@yahoo.com>
+Date:   Mon Sep 18 10:47:57 2023 +0300
+
+    Added 3 files
+
+[33mcommit c08478f40af2a5f404c7bdc4c5fce0be32f7cba3[m
+Merge: 5a0b7d9 71e25d1
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 18 08:27:30 2023 +0300
+
+    Merge pull request #19 from zahichemaly/HusseinHajHassan_222794
+    
+    Add new folder and file for my branch
+
+[33mcommit 71e25d11e20b21a42917cffdce70685a4ce07bbf[m[33m ([m[1;31morigin/HusseinHajHassan_222794[m[33m)[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Mon Sep 18 08:26:42 2023 +0300
+
+    Removed unused folder
+
+[33mcommit 6a2f38aea5c15d1870deff9e3f9c15388f3088a1[m
+Merge: c112859 5a0b7d9
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Mon Sep 18 08:22:28 2023 +0300
+
+    Merge branch 'master' into HusseinHajHassan_222794_fix
+
+[33mcommit c112859ac9d806d8518454826f53e630777af576[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Mon Sep 18 08:19:24 2023 +0300
+
+    Renamed folder of Hussein
+
+[33mcommit db9b2cc3341a4cbc1d83a4256c84155da4ef3093[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Mon Sep 18 08:16:50 2023 +0300
+
+    Revert "Rename folder"
+    
+    This reverts commit 9c55baec95b55c1b12f74d61b3066c8686f95c72.
+
+[33mcommit a8ba4ccd2b3fbe38a74e30241bdd330ca6e879fc[m[33m ([m[1;31morigin/naihamdan-220607[m[33m)[m
+Author: “nai” <“hamdannai16@gmail.com”>
+Date:   Thu Sep 14 20:07:26 2023 +0300
+
+    new file
+
+[33mcommit 9c55baec95b55c1b12f74d61b3066c8686f95c72[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Mon Sep 11 10:50:03 2023 +0300
+
+    Rename folder
+
+[33mcommit 5a0b7d93755c441636b19da4c15d72017885ab2c[m[33m ([m[1;31morigin/jalal-harb-221160[m[33m)[m
+Merge: 5a1ef03 16c560b
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:37:20 2023 +0300
+
+    Merge pull request #18 from zahichemaly/WissamNasreddine_222074
+    
+    Rename the Folder
+
+[33mcommit cacbfe3072a3e89554d89dbe639882498e8826da[m
+Author: “hussein” <“hussein.hajhassan1@net.usj.edu.lb”>
+Date:   Mon Sep 11 10:33:07 2023 +0300
+
+    Add new folder and file for my branch
+
+[33mcommit 5a1ef0310d9a6574c6c6d5c87e21bcfb7f6c4111[m[33m ([m[1;31morigin/mariahourani-222310[m[33m)[m
+Merge: be88d50 77fbfb5
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:30:10 2023 +0300
+
+    Merge pull request #17 from zahichemaly/'ElieHaouchan-220561'
+    
+    I added my file
+
+[33mcommit be88d50540fa33337451f18742eb91d47c254280[m
+Merge: 0bc0c49 fcb3365
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:29:45 2023 +0300
+
+    Merge pull request #12 from zahichemaly/husseinelhajj220641
+    
+    added folder
+
+[33mcommit 0bc0c49ad583e15b4976bdc84504dc352a755ddb[m
+Merge: dbf5dcd 6588f75
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:29:35 2023 +0300
+
+    Merge pull request #13 from zahichemaly/felixhajj-222287
+    
+    Added new folder and file
+
+[33mcommit dbf5dcd292ce71214b45f8b982cd3b4ed19886d6[m
+Merge: b19e11d c98b788
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:28:54 2023 +0300
+
+    Merge pull request #14 from zahichemaly/TarekFahmi-223592
+    
+    add file.txt
+
+[33mcommit b19e11dc2b8a82b3573bf8e1122186591ca8f33c[m
+Merge: 9eabd4f c23b27c
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:28:30 2023 +0300
+
+    Merge pull request #15 from zahichemaly/jad_moussa_191685
+    
+    I added a folder
+
+[33mcommit 9eabd4fb01c60adfaa3d7b5085d14d3ae5fb89cb[m
+Merge: 84905fd 835e1ec
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:28:06 2023 +0300
+
+    Merge pull request #16 from zahichemaly/fouadKabalan-211056
+    
+    initial commit
+
+[33mcommit c23b27cf8b4513754999fe5441545b1b680db79f[m
+Author: jad <jad.moussa@net.usj.edu.lb>
+Date:   Mon Sep 11 10:21:21 2023 +0300
+
+    I added a folder
+
+[33mcommit 835e1ecde68e632c8bf5deab31e1de0d87324cc8[m[33m ([m[1;31morigin/fouadKabalan-211056[m[33m)[m
+Author: Fanka07 <adamnehme02@gmail.com>
+Date:   Mon Sep 11 10:19:10 2023 +0300
+
+    initial commit
+
+[33mcommit 77fbfb53dd27f1cd5390e5693b93028b8611d0b4[m[33m ([m[1;31morigin/'ElieHaouchan-220561'[m[33m)[m
+Author: Elie-Haouchan <elie.haouchan@net.usj.edu.lb>
+Date:   Mon Sep 11 10:18:45 2023 +0300
+
+    Added newfolder and newfile
+
+[33mcommit fcb33652d830a59daa93c043f87731faf8336153[m
+Author: Your Name <you@example.com>
+Date:   Mon Sep 11 10:17:55 2023 +0300
+
+    added folder
+
+[33mcommit 84905fd6a46f9f14bf3a30f80cf638c8c0b273dc[m
+Merge: 1c70f82 ed3a6e6
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:15:01 2023 +0300
+
+    Merge pull request #6 from zahichemaly/jalal-harb-221160
+    
+    Initial Commit
+
+[33mcommit 1c70f8258ad119d5d4cd309e06872b8647038ea1[m
+Merge: b3ad055 91da249
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:13:49 2023 +0300
+
+    Merge pull request #11 from zahichemaly/eliegeorgioelkhoury-221069
+    
+    test
+
+[33mcommit b3ad0551aa6550c035e293103fd9481b51aeda07[m
+Merge: b22a75f e73dc72
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:13:24 2023 +0300
+
+    Merge pull request #9 from zahichemaly/JoanneChallita_220336
+    
+    i commited
+
+[33mcommit b22a75ff4cd5011b3fca07f50755e724db130240[m
+Merge: 747d890 66ec677
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:13:13 2023 +0300
+
+    Merge pull request #10 from zahichemaly/hadicheayto_221008
+    
+    initial commit
+
+[33mcommit c98b78805321a1dc89faaff826e69ba993f1e372[m[33m ([m[1;31morigin/TarekFahmi-223592[m[33m)[m
+Author: Tarek <tarekhassanfahmi9@gmail.com>
+Date:   Mon Sep 11 10:12:00 2023 +0300
+
+    add file.txt
+
+[33mcommit 747d89070f1430edf9c5dff168f1a472c89ebd4a[m
+Merge: dd5c7bc ef2fad7
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:10:45 2023 +0300
+
+    Merge pull request #7 from zahichemaly/PierreKachi-232732
+    
+    new commit
+
+[33mcommit ef2fad78898542fffbd1c086ae749e0d904ee48f[m
+Merge: 685abc9 dd5c7bc
+Author: PierreKachiAc1 <136919220+PierreKachiAC1@users.noreply.github.com>
+Date:   Mon Sep 11 10:09:55 2023 +0300
+
+    Merge branch 'master' into PierreKachi-232732
+
+[33mcommit dd5c7bc463adbf6c3b4ef19624b87e07cb91d05d[m
+Merge: 7c53e18 a414482
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 10:09:45 2023 +0300
+
+    Merge pull request #8 from zahichemaly/Myriam_Ghanem_220803
+    
+    I commited a folder
+
+[33mcommit 6588f75a7ff3ace44a010ad39b6ed3ff9ae105c8[m
+Author: felix <felixhajj@gmail.com>
+Date:   Mon Sep 11 10:07:44 2023 +0300
+
+    Added new folder and file
+
+[33mcommit e73dc7270e71412ac4f7640e7140e98a7260b9de[m[33m ([m[1;31morigin/JoanneChallita_220336[m[33m)[m
+Author: Joanne-Challita <joannechallita02@gmail.com>
+Date:   Mon Sep 11 10:07:28 2023 +0300
+
+    i commited
+
+[33mcommit 66ec6774c8901ce27376151d5f26832f7f62a94d[m[33m ([m[1;31morigin/hadicheayto_221008[m[33m)[m
+Author: Hadi cheayto <hadi.ch.2003@gmail.com>
+Date:   Mon Sep 11 10:06:20 2023 +0300
+
+    initial commit
+
+[33mcommit 16c560b0db7fc8fec87b168e92dbeb6f21695b97[m
+Author: Wissam_Name <nasreddinewissam1@gmail.com>
+Date:   Mon Sep 11 10:04:49 2023 +0300
+
+    Rename the Folder
+
+[33mcommit a41448211a25605701fa1fdb7f01eaf23308a97e[m[33m ([m[1;31morigin/Myriam_Ghanem_220803[m[33m)[m
+Author: Myriam-Ghanem <myriamghanem123@gmail.com>
+Date:   Mon Sep 11 10:04:48 2023 +0300
+
+    I commited a folder
+
+[33mcommit 685abc9ba6cad32ef587727436caf853ebe83a81[m
+Author: Pierre K <kachi.pierre@gmail.com>
+Date:   Mon Sep 11 10:03:09 2023 +0300
+
+    new commit
+
+[33mcommit ed3a6e6606b84d200a8702843de7ad7101cb26ee[m
+Author: JalalH1 <jalalharb16@gmail.com>
+Date:   Mon Sep 11 10:02:07 2023 +0300
+
+    Initial Commit
+
+[33mcommit 7c53e186b7368ef7bbc04b925bd0d53835342dd5[m
+Merge: 423d1d6 4e05729
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:58:49 2023 +0300
+
+    Merge pull request #3 from zahichemaly/mariahourani-222310
+    
+    commit file
+
+[33mcommit 423d1d6e6713f416120469cc3c0ccacdc98014c6[m
+Merge: 04053cc d944903
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:58:29 2023 +0300
+
+    Merge pull request #4 from zahichemaly/WissamNasreddine_222074
+    
+    commit is done
+
+[33mcommit 04053ccc71edb9e0f3f8a11c95376edcb7c931d0[m
+Merge: 3b2022a 195b530
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:58:18 2023 +0300
+
+    Merge pull request #5 from zahichemaly/danamshawrab-220667
+    
+    Added folder and file
+
+[33mcommit 195b530d457cc2722789da924cbb9db2c805d6ae[m
+Author: dana <danamshawrab@yahoo.com>
+Date:   Mon Sep 11 09:53:04 2023 +0300
+
+    Added folder and file
+
+[33mcommit 3b2022a95b607135fda17ddd9a7767c5b24c6943[m
+Merge: 3d07bfc 47112fa
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:51:21 2023 +0300
+
+    Merge pull request #2 from zahichemaly/Pamela_Boukhalil_220199
+    
+    Pamela boukhalil 220199
+
+[33mcommit 4e057291ffa7d0afee509e69e0b2babc84276a56[m
+Author: mariahourani <mariahouraiii@outlook.com>
+Date:   Mon Sep 11 09:42:12 2023 +0300
+
+    commit file
+
+[33mcommit 47112faf4f9485141f9dc7275bc06d3fe03cd414[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Sep 11 09:39:21 2023 +0300
+
+    Added folder Pamela_Boukhalil_220199 and txt file in it!!
+
+[33mcommit 738fdac47f00695d092c84683123fa2945df5dc0[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Sep 11 09:37:21 2023 +0300
+
+    deleted folder to re-process the demo
+
+[33mcommit c25217a4164822881452e8f958f263732e6fd3c2[m
+Author: Pamela BouKhalil <pamelaboukhalil91@gmail.com>
+Date:   Wed Sep 6 11:44:32 2023 +0300
+
+    Commit is done
+
+[33mcommit d94490364233a93196db0b7c4e88e1d9f1cf73dc[m
+Author: Wissam_Name <nasreddinewissam1@gmail.com>
+Date:   Wed Sep 6 11:39:33 2023 +0300
+
+    commit is done
+
+[33mcommit 3d07bfca586698cf8527bb3a733cdcc809b041da[m
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Sep 5 19:03:07 2023 +0300
+
+    Update README.md
+
+[33mcommit 5e2a3385b389e67ff53520efb304f93f83062ad1[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Tue Sep 5 18:53:26 2023 +0300
+
+    Files cleanup
+
+[33mcommit 543a89b3735a48685444af275e29639bc2ceed4d[m
+Author: omar assidi <omar.assidi@cmeoffshore.com>
+Date:   Mon Sep 4 12:17:21 2023 +0300
+
+    test file
+
+[33mcommit cc7fccea408b07c0a1b69aab6c46d59fd15999e1[m[33m ([m[1;31morigin/ElieHaouchan-220561[m[33m)[m
+Author: ELIE_HAOUCHAN <elie.haouchan@net.usj.edu.lb>
+Date:   Mon Sep 4 10:43:19 2023 +0300
+
+    Added newfolder and newfile
+
+[33mcommit 91da24965065e8c822b8b32dcc7d191d475428a3[m
+Author: Elie Georgio El Khoury <elie.kh222@hotmail.com>
+Date:   Mon Sep 4 10:03:22 2023 +0300
+
+    test
+
+[33mcommit 5638b542528e7102760f13d472c9d756b6684a05[m
+Author: “nai” <“hamdannai16@gmail.com”>
+Date:   Mon Sep 4 09:50:52 2023 +0300
+
+    Added a new file
+
+[33mcommit 96614216680671c1235eb4e1609ecb1bf6e4b70f[m
+Merge: 7d72c0e 3b642fc
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Aug 28 11:42:22 2023 +0300
+
+    Merge pull request #1 from zahichemaly/test2
+    
+    Added new file
+
+[33mcommit 3b642fc46ca9003c57064051dd12924c2f431b17[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Mon Aug 28 10:08:59 2023 +0300
+
+    Added new file
+
+[33mcommit 7d72c0ef470271b1894bf276a0805e3def878cae[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Fri Aug 25 09:48:40 2023 +0300
+
+    Updated readme
+
+[33mcommit ce4a5e382f7b59fa0e32ddd43810b1c6191be150[m
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Aug 25 09:47:04 2023 +0300
+
+    Initial commit
