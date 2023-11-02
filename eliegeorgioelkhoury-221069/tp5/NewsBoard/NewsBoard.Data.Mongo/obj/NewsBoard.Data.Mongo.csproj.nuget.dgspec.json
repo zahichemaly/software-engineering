@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data.Mongo/NewsBoard.Data.Mongo.csproj": {}
+  },
+  "projects": {
+    "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data.Mongo/NewsBoard.Data.Mongo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data.Mongo/NewsBoard.Data.Mongo.csproj",
+        "projectName": "NewsBoard.Data.Mongo",
+        "projectPath": "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data.Mongo/NewsBoard.Data.Mongo.csproj",
+        "packagesPath": "/Users/elieelkhoury/.nuget/packages/",
+        "outputPath": "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data.Mongo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elieelkhoury/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data/NewsBoard.Data.csproj": {
+                "projectPath": "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data/NewsBoard.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CacheManager.Core": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "CacheManager.Serialization.Json": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data/NewsBoard.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data/NewsBoard.Data.csproj",
+        "projectName": "NewsBoard.Data",
+        "projectPath": "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data/NewsBoard.Data.csproj",
+        "packagesPath": "/Users/elieelkhoury/.nuget/packages/",
+        "outputPath": "/Users/elieelkhoury/Desktop/Desk/Genie-Logiciel/software-engineering/eliegeorgioelkhoury-221069/tp5/NewsBoard/NewsBoard.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/elieelkhoury/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
