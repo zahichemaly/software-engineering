@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CacheManager.Core" Version="1.2.0" />
+    <PackageReference Include="CacheManager.Microsoft.Extensions.Caching.Memory" Version="1.2.0" />
+    <PackageReference Include="CacheManager.Microsoft.Extensions.Configuration" Version="1.2.0" />
+    <PackageReference Include="CacheManager.Serialization.Json" Version="1.2.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+    <PackageReference Include="System.Runtime.Caching" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
