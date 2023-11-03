@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using CacheManager.Core;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewsBoard.Business.Models;
@@ -12,6 +13,7 @@ namespace NewsBoard.API.Controllers
     public class NewsController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly ICacheManager<News> _cacheManager;
 
         public NewsController(IMediator mediator)
         {
@@ -60,13 +62,12 @@ namespace NewsBoard.API.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteNews(string id)
+        [HttpDelete("clear-cache")]
+        public IActionResult ClearCache()
         {
-            var command = new DeleteNewsCommand { NewsId = id };
-            await _mediator.Send(command);
-
-            return NoContent();
+            _cacheManager.Clear();
+            return Ok("Cache cleared successfully");
         }
+
     }
 }

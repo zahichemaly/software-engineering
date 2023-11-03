@@ -1,27 +1,30 @@
 ﻿<Properties StartupConfiguration="{D4AF7F6B-0AD6-4888-B3FD-99010ECC5AF1}|Default">
+  <MonoDevelop.Ide.ItemProperties.NewsBoard.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NewsBoard.API/Program.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsBoard.Data.Mongo/CacheNewsDecoratorRepository.cs">
     <Files>
       <File FileName="NewsBoard.API/caching.json" Line="19" Column="4" />
-      <File FileName="NewsBoard.API/Program.cs" Line="1" Column="1" />
+      <File FileName="NewsBoard.API/Program.cs" Line="33" Column="4" />
+      <File FileName="NewsBoard.Data.Mongo/CacheNewsDecoratorRepository.cs" Line="32" Column="48" />
+      <File FileName="NewsBoard.Data.Mongo/Repositories/NewsRepository.cs" Line="33" Column="1" />
+      <File FileName="NewsBoard.API/Controllers/NewsController.cs" Line="16" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NewsBoard" expanded="True">
-            <Node name="NewsBoard.API">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+            <Node name="NewsBoard.Data.Mongo" expanded="True">
+              <Node name="Repositories" expanded="True" />
+              <Node name="CacheNewsDecoratorRepository.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.NewsBoard.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
 </Properties>
