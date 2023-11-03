@@ -10,7 +10,7 @@ namespace NewsBoard.API.Profiles
             CreateMap<News, NewsDTO>()
                 .ForMember(dest => dest.Title, opt => opt.MapFrom(src => src.Headline))
                 .ForMember(dest => dest.Content, opt => opt.MapFrom(src => src.Article))
-                .ForMember(dest => dest.IsTrending, opt => opt.Ignore()); 
+                .ForMember(dest => dest.IsTrending, opt => opt.MapFrom(src => src.Views > 10000));
 
             CreateMap<NewsDTO, News>()
                 .ForMember(dest => dest.Headline, opt => opt.MapFrom(src => src.Title))

@@ -18,6 +18,9 @@ builder.Services.AddEndpointsApiExplorer();
 // Configure MongoDB connection
 builder.Configuration.AddJsonFile("appsettings.json");
 var connectionString = builder.Configuration.GetConnectionString("MongoDbConnection");
+builder.Configuration.AddJsonFile("caching.json");
+builder.Services.AddCacheManagerConfiguration(builder.Configuration)
+ .AddCacheManager();
 builder.Services.AddSingleton(x => new MongoClient(connectionString));
 
 // Register repositories
