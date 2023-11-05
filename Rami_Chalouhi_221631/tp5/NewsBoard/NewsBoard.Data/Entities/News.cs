@@ -13,6 +13,7 @@ namespace NewsBoard.Data.Entities
             this.Id = Guid.NewGuid().ToString();
             this.CreatedDate = DateTime.UtcNow;
         }
+
         public string Id { get; set; }
         public string Headline { get; set; }
         public string Article { get; set; }
@@ -21,5 +22,6 @@ namespace NewsBoard.Data.Entities
         public DateTime? ModifiedDate { get; set; }
         public int Rating { get; set; }
         public int Views { get; set; }
+         
     }
 }
