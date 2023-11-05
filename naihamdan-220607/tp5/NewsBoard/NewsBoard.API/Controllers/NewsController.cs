@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using CacheManager.Core;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewsBoard.Business.Models;
@@ -14,17 +15,18 @@ namespace NewsBoard.API.Controllers
     {
         private readonly INewsRepository _newsRepository;
         private readonly IMediator _mediator;
+        private readonly ICacheManager<News> _cacheManager;
 
-        public NewsController(INewsRepository newsRepository, IMediator mediator)
+        public NewsController(INewsRepository newsRepository, IMediator mediator, ICacheManager<News> cacheManager)
         {
             _newsRepository = newsRepository;
             _mediator = mediator;
+            _cacheManager = cacheManager;
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            // Use MediatR to retrieve all news
             var query = new GetAllNewsQuery();
             var result = await _mediator.Send(query);
 
@@ -35,7 +37,6 @@ namespace NewsBoard.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById([FromRoute] string id)
         {
-            // Use MediatR to retrieve news by ID
             var query = new GetNewsByIdQuery { NewsId = id };
             var result = await _mediator.Send(query);
 
@@ -46,7 +47,6 @@ namespace NewsBoard.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] News model)
         {
-            // Use MediatR to create a news article
             var command = new CreateNewsCommand
             {
                 News = model
@@ -58,7 +58,6 @@ namespace NewsBoard.API.Controllers
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] News model)
         {
-            // Use MediatR to update a news article
             var command = new UpdateNewsCommand
             {
                 News = model
@@ -71,13 +70,19 @@ namespace NewsBoard.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete([FromRoute] string id)
         {
-            // Use MediatR to delete a news article
             var command = new DeleteNewsCommand
             {
                 NewsId = id
             };
             await _mediator.Send(command);
 
+            return NoContent();
+        }
+
+        [HttpDelete("cache")]
+        public IActionResult ClearCache()
+        {
+            _cacheManager.Clear();
             return NoContent();
         }
     }

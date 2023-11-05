@@ -45,7 +45,7 @@ namespace NewsBoard.Data.Mongo.Repositories
         }
         public IEnumerable<News> GetAllNews()
         {
-            return _collection.Find(_ => true).ToList(); // Example implementation, adjust as needed.
+            return _collection.Find(_ => true).ToList();
         }
        
     }

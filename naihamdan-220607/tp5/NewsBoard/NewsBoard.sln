@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBoard.API", "NewsBoard.API\NewsBoard.API.csproj", "{9749B108-A938-433A-B1A5-6A0FF44093A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBoard.Business", "NewsBoard.Nusiness\NewsBoard.Business.csproj", "{84E23FDC-E223-441C-9968-831CD8A56411}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBoard.Business", "NewsBoard.Business\NewsBoard.Business.csproj", "{84E23FDC-E223-441C-9968-831CD8A56411}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsBoard.Data", "NewsBoard.Data\NewsBoard.Data.csproj", "{EAC26D70-0456-49D3-8E97-ACDFDA090639}"
 EndProject
