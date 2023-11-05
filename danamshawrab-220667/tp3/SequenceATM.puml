@@ -1,0 +1,39 @@
+@startuml SequenceATM
+actor Customer as C
+participant "ATM" as ATM
+participant Bank as B
+autonumber "<b>."
+C -> ATM: Insert Card
+activate ATM
+ATM --> B: Verify Card
+B --> ATM: Card Verified
+C <-- ATM: Card Verified
+C -> ATM: Enter PIN
+ATM --> B: Verify PIN
+B --> ATM: PIN Verified
+C <-- ATM: PIN Verified
+alt Balance Inquiry
+    C -> ATM: Choose Balance Inquiry
+    ATM -> B: Request Balance Inquiry
+    B --> B: Processing Balance Inquiry
+    B --> ATM: Balance Info
+    C <-- ATM: Display Balance
+else Withdrawal
+    C -> ATM: Choose Withdrawal
+    ATM -> B: Request Withdrawal
+    B --> B: Processing Withdrawal
+    alt Sufficient Funds
+        B --> B: Dispense Cash
+        B --> ATM: Withdrawal Success
+        C <-- ATM: Collect Cash
+    else Insufficient Funds
+        B --> ATM: Withdrawal Failure
+        C <-- ATM: Insufficient Funds
+    end
+else Cancel
+    C -> ATM: Choose Cancel
+    ATM --> ATM: Transaction Cancelled
+    C <-- ATM: Remove Card
+end
+deactivate ATM
+@enduml
