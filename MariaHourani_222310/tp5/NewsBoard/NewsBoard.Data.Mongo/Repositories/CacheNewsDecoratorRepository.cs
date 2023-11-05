@@ -1,58 +1,60 @@
-﻿/*using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using MongoDB.Driver;
-using CacheManager.Core;
-public class CacheNewsDecoratorRepository : INewsRepository
+﻿using CacheManager.Core;
+
+namespace NewsBoard.Data.Mongo
 {
-    private readonly ICacheManager<News> _cacheManager;
-    private readonly INewsRepository _newsRepository;
-
-    public CacheNewsDecoratorRepository(INewsRepository newsRepository, ICacheManager<News> cacheManager)
+    public class CacheNewsDecoratorRepository : INewsRepository
     {
-        _newsRepository = newsRepository;
-        _cacheManager = cacheManager;
-    }
-    public async Task Update(News news)
-    {
-        await _newsRepository.Update(news);
-        await _cacheManager.RemoveAsync(news.Id);
-    }
-    public async Task Delete(string id)
-    {
-        await _newsRepository.Delete(id);
-        await _cacheManager.RemoveAsync(id);
-    }
-
-    public async Task<News> Get(string id)
-    {
-        var cachedNews = await _cacheManager.GetAsync(id);
-
-        if (cachedNews != null)
+        private readonly ICacheManager<News> _cacheManager;
+        private readonly ICacheManager<IEnumerable<News>> _cacheManagerForList;
+        private readonly INewsRepository _newsRepository;
+        private readonly string allNewsCacheKey = "news";
+        public CacheNewsDecoratorRepository(INewsRepository newsRepository, ICacheManager<News> cacheManager, ICacheManager<IEnumerable<News>> cacheManagerForList)
         {
+            _newsRepository = newsRepository;
+            _cacheManager = cacheManager;
+            _cacheManagerForList = cacheManagerForList;
+        }
+        public async Task<News> Get(string id)
+        {
+            var cacheItem = _cacheManager.GetCacheItem(id);
+            if (cacheItem == null)
+            {
+                var news = await _newsRepository.Get(id);
+                if (news != null)
+                {
+                    _cacheManager.Add(new CacheItem<News>(id, news, ExpirationMode.Absolute, TimeSpan.FromHours(24)));
+                }
+                return news;
+            }
+            return cacheItem.Value;
+        }
+        public async Task<IEnumerable<News>> Get()
+        {
+            var cachedNews = _cacheManagerForList.Get(allNewsCacheKey);
+            if (cachedNews == null)
+            {
+                var newsCollection = await _newsRepository.Get();
+                _cacheManagerForList.Add(new CacheItem<IEnumerable<News>>(allNewsCacheKey, newsCollection, ExpirationMode.Absolute, TimeSpan.FromHours(24)));
+                return newsCollection;
+            }
             return cachedNews;
         }
-        else
+        public async Task Delete(string id)
         {
-            var news = await _newsRepository.Get(id);
-
-            if (news != null)
-            {
-                await _cacheManager.AddOrUpdateAsync(id, news, new CacheItemPolicy
-                {
-                    ExpirationMode = ExpirationMode.Absolute,
-                    AbsoluteExpiration = DateTime.Now.AddHours(24),
-                });
-            }
-
-            return news;
+            await _newsRepository.Delete(id);
+            _cacheManager.Remove(id);
+            _cacheManager.Remove(allNewsCacheKey);
+        }
+        public async Task Add(News news)
+        {
+            await _newsRepository.Add(news);
+            _cacheManager.Remove(allNewsCacheKey);
+        }
+        public async Task Update(News news)
+        {
+            await _newsRepository.Update(news);
+            _cacheManager.Put(new CacheItem<News>(news.Id, news, ExpirationMode.Absolute, TimeSpan.FromHours(24)));
+            _cacheManager.Remove(allNewsCacheKey);
         }
     }
 }
-
-*/

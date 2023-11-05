@@ -8,6 +8,7 @@ using NewsBoard.Business.Models;
 using NewsBoard.Data;
 using NewsBoard.Data.Mongo;
 using MediatR;
+using CacheManager.Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,14 @@ builder.Services.AddSingleton(x => new MongoClient(connectionString));
 
 // Register repositories
 builder.Services.AddScoped<INewsRepository, NewsRepository>();
+builder.Services.AddScoped<NewsRepository>();
+builder.Services.AddScoped<INewsRepository>(sp =>
+{
+    var newsRepository = sp.GetRequiredService<NewsRepository>();
+    var cacheManager = sp.GetRequiredService<ICacheManager<News>>();
+    var cacheManagerForList = sp.GetRequiredService<ICacheManager<IEnumerable<News>>>();
+    return new CacheNewsDecoratorRepository(newsRepository, cacheManager, cacheManagerForList);
+});
 
 // Register MediatR
 builder.Services.AddMediatR(cfg =>

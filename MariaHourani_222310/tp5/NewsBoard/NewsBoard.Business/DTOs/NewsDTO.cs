@@ -13,6 +13,7 @@ namespace NewsBoard.Business.DTOs
         public string Content { get; set; }
         public string CreatedBy { get; set; }
         public DateTime CreatedDate { get; set; }
+        public DateTime ModifiedDate { get; set; }
         public int Rating { get; set; }
         public int Views { get; set; }
         public bool IsTrending { get; set; }
