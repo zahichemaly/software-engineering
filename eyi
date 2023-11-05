@@ -1,0 +1,128 @@
+[33mcommit 6eb91ac94fc8d9aaf2c81406d64a2b6237566619[m[33m ([m[1;36mHEAD -> [m[1;32mfelixhajj-222287[m[33m, [m[1;31morigin/felixhajj-222287[m[33m)[m
+Author: felixhajj <felixhajj@gmail.com>
+Date:   Mon Sep 18 12:02:31 2023 +0300
+
+    eyi
+
+[33mcommit 6588f75a7ff3ace44a010ad39b6ed3ff9ae105c8[m
+Author: felix <felixhajj@gmail.com>
+Date:   Mon Sep 11 10:07:44 2023 +0300
+
+    Added new folder and file
+
+[33mcommit 7c53e186b7368ef7bbc04b925bd0d53835342dd5[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: 423d1d6 4e05729
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:58:49 2023 +0300
+
+    Merge pull request #3 from zahichemaly/mariahourani-222310
+    
+    commit file
+
+[33mcommit 423d1d6e6713f416120469cc3c0ccacdc98014c6[m
+Merge: 04053cc d944903
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:58:29 2023 +0300
+
+    Merge pull request #4 from zahichemaly/WissamNasreddine_222074
+    
+    commit is done
+
+[33mcommit 04053ccc71edb9e0f3f8a11c95376edcb7c931d0[m
+Merge: 3b2022a 195b530
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:58:18 2023 +0300
+
+    Merge pull request #5 from zahichemaly/danamshawrab-220667
+    
+    Added folder and file
+
+[33mcommit 195b530d457cc2722789da924cbb9db2c805d6ae[m[33m ([m[1;31morigin/danamshawrab-220667[m[33m)[m
+Author: dana <danamshawrab@yahoo.com>
+Date:   Mon Sep 11 09:53:04 2023 +0300
+
+    Added folder and file
+
+[33mcommit 3b2022a95b607135fda17ddd9a7767c5b24c6943[m
+Merge: 3d07bfc 47112fa
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Sep 11 09:51:21 2023 +0300
+
+    Merge pull request #2 from zahichemaly/Pamela_Boukhalil_220199
+    
+    Pamela boukhalil 220199
+
+[33mcommit 4e057291ffa7d0afee509e69e0b2babc84276a56[m[33m ([m[1;31morigin/mariahourani-222310[m[33m)[m
+Author: mariahourani <mariahouraiii@outlook.com>
+Date:   Mon Sep 11 09:42:12 2023 +0300
+
+    commit file
+
+[33mcommit 47112faf4f9485141f9dc7275bc06d3fe03cd414[m[33m ([m[1;31morigin/Pamela_Boukhalil_220199[m[33m)[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Sep 11 09:39:21 2023 +0300
+
+    Added folder Pamela_Boukhalil_220199 and txt file in it!!
+
+[33mcommit 738fdac47f00695d092c84683123fa2945df5dc0[m
+Author: Pamela BouKhalil <pamela.boukhalil@net.usj.edu.lb>
+Date:   Mon Sep 11 09:37:21 2023 +0300
+
+    deleted folder to re-process the demo
+
+[33mcommit c25217a4164822881452e8f958f263732e6fd3c2[m
+Author: Pamela BouKhalil <pamelaboukhalil91@gmail.com>
+Date:   Wed Sep 6 11:44:32 2023 +0300
+
+    Commit is done
+
+[33mcommit d94490364233a93196db0b7c4e88e1d9f1cf73dc[m[33m ([m[1;31morigin/WissamNasreddine_222074[m[33m)[m
+Author: Wissam_Name <nasreddinewissam1@gmail.com>
+Date:   Wed Sep 6 11:39:33 2023 +0300
+
+    commit is done
+
+[33mcommit 3d07bfca586698cf8527bb3a733cdcc809b041da[m
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Tue Sep 5 19:03:07 2023 +0300
+
+    Update README.md
+
+[33mcommit 5e2a3385b389e67ff53520efb304f93f83062ad1[m
+Author: Zahi Chemaly <chemalyzahi@hotmail.com>
+Date:   Tue Sep 5 18:53:26 2023 +0300
+
+    Files cleanup
+
+[33mcommit 543a89b3735a48685444af275e29639bc2ceed4d[m
+Author: omar assidi <omar.assidi@cmeoffshore.com>
+Date:   Mon Sep 4 12:17:21 2023 +0300
+
+    test file
+
+[33mcommit 96614216680671c1235eb4e1609ecb1bf6e4b70f[m
+Merge: 7d72c0e 3b642fc
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Mon Aug 28 11:42:22 2023 +0300
+
+    Merge pull request #1 from zahichemaly/test2
+    
+    Added new file
+
+[33mcommit 3b642fc46ca9003c57064051dd12924c2f431b17[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Mon Aug 28 10:08:59 2023 +0300
+
+    Added new file
+
+[33mcommit 7d72c0ef470271b1894bf276a0805e3def878cae[m
+Author: zahichemaly <zahi.chemaly@gotocme.com>
+Date:   Fri Aug 25 09:48:40 2023 +0300
+
+    Updated readme
+
+[33mcommit ce4a5e382f7b59fa0e32ddd43810b1c6191be150[m
+Author: Zahi <41119320+zahichemaly@users.noreply.github.com>
+Date:   Fri Aug 25 09:47:04 2023 +0300
+
+    Initial commit

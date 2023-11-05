@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Hosting;
 using MongoDB.Driver;
+using NewsBoard.API.Profiles;
 using NewsBoard.Business.Handlers;
 using NewsBoard.Data.Mongo.Repositories;
 using NewsBoard.Data.Repositories;
@@ -24,6 +26,14 @@ builder.Services.AddScoped<INewsRepository, NewsRepository>();
 
 builder.Services.AddMediatR(cfg =>
 cfg.RegisterServicesFromAssemblyContaining(typeof(CreateNewsHandler)));
+
+// Add AutoMapper to your DI container
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
+builder.Configuration.AddJsonFile("caching.json");
+builder.Services.AddCacheManagerConfiguration(builder.Configuration)
+ .AddCacheManager();
 
 var app = builder.Build();
 

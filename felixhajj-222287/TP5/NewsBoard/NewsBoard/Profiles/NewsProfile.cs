@@ -8,7 +8,11 @@ namespace NewsBoard.API.Profiles
     {
         public NewsProfile()
         {
-            CreateMap<News, NewsDTO>().ReverseMap();
+            CreateMap<News, NewsDTO>()
+                .ForMember(dest => dest.Title, opt => opt.MapFrom(src => src.Headline))
+                .ForMember(dest => dest.Content, opt => opt.MapFrom(src => src.Article))
+                .ForMember(dest => dest.IsTrending, opt => opt.MapFrom(src => src.Views > 10000))
+                .ReverseMap();
         }
     }
 }
