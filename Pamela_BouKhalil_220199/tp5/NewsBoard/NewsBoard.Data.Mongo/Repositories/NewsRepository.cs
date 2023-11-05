@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NewsBoard.Data.Mongo.Repositories
 {
-    public class NewsRepository:INewsRepository
+    public class NewsRepository : INewsRepository
     {
         private readonly IMongoCollection<News> _collection;
         public NewsRepository(MongoClient client)
@@ -54,4 +54,3 @@ namespace NewsBoard.Data.Mongo.Repositories
     }
 
 }
-

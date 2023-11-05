@@ -1,5 +1,7 @@
+using CacheManager.Core;
 using MongoDB.Driver;
 using NewsBoard.Business.Handlers;
+using NewsBoard.Data.Entities;
 using NewsBoard.Data.Mongo.Repositories;
 using NewsBoard.Data.Repositories;
  
@@ -30,6 +32,17 @@ builder.Services.AddScoped<INewsRepository, NewsRepository>();
 builder.Services.AddMediatR(cfg =>
 cfg.RegisterServicesFromAssemblyContaining(typeof(CreateNewsHandler)));
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Configuration.AddJsonFile("caching.json");
+builder.Services.AddCacheManagerConfiguration(builder.Configuration)
+ .AddCacheManager();
+
+builder.Services.AddScoped<NewsRepository>();
+builder.Services.AddScoped<INewsRepository>(sp =>
+{
+    var newsRepository = sp.GetRequiredService<NewsRepository>();
+    var cacheManager = sp.GetRequiredService<ICacheManager<News>>();
+    return new CacheNewsDecoratorRepository(newsRepository, cacheManager);
+});
 
 var app = builder.Build();
 

@@ -5,6 +5,7 @@ using NewsBoard.Business.Models;
 using NewsBoard.Data.Entities;
 using NewsBoard.Data.Repositories;
 using System.Threading.Tasks;
+using CacheManager.Core;
 
 namespace NewsBoard.API.Controllers
 {
@@ -14,11 +15,12 @@ namespace NewsBoard.API.Controllers
     {
         private readonly INewsRepository _newsRepository;
         private readonly IMediator _mediator;
-
-        public NewsController(INewsRepository newsRepository, IMediator mediator)
+        private readonly ICacheManager<News> _cacheManager;
+        public NewsController(INewsRepository newsRepository, IMediator mediator, ICacheManager<News> cacheManager)
         {
             _newsRepository = newsRepository;
             _mediator = mediator;
+            _cacheManager = cacheManager;
         }
 
         [HttpGet]
@@ -79,6 +81,24 @@ namespace NewsBoard.API.Controllers
             await _mediator.Send(command);
 
             return NoContent();
+        }
+
+        // DELETE: api/News/ClearCache
+        [HttpDelete("ClearCache")]
+        public IActionResult ClearCache()
+        {
+            try
+            {
+                // Clear the entire cache
+                _cacheManager.Clear();
+
+                return Ok("Cache cleared successfully.");
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions that may occur during cache clearing
+                return StatusCode(500, "Failed to clear the cache: " + ex.Message);
+            }
         }
     }
 }
