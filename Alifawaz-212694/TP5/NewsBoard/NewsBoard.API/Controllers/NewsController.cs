@@ -55,6 +55,7 @@ namespace NewsBoard.API.Controllers
             return Ok(new { Id = result });
 
         }
+        [HttpPut]
         public async Task<IActionResult> UpdateNews(string id, [FromBody] News news)
         {
             if (id != news.Id)
@@ -64,12 +65,8 @@ namespace NewsBoard.API.Controllers
             await mediator.Send(command);
 
             return NoContent();
-            /*        [HttpDelete("{id}")]
-                    public async Task<IActionResult> Delete([FromRoute] string id)
-                    {
-                        await _newsRepository.Delete(id);
-                        return NoContent();
-                    }*/
+             
         }
+        
     }
 }

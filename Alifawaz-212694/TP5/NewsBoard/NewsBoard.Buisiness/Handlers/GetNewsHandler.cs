@@ -1,4 +1,6 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using MediatR;
+using NewsBoard.Buisiness.DTOs;
 using NewsBoard.Buisiness.Models;
 using NewsBoard.Data.Entities;
 using NewsBoard.Data.Repositories;
@@ -11,18 +13,22 @@ using System.Threading.Tasks;
 
 namespace NewsBoard.Buisiness.Handlers
 {
-    public class GetNewsHandler :IRequestHandler<GetNewsQuery, IEnumerable<News>>
+    public class GetNewsHandler : IRequestHandler<GetNewsQuery, IEnumerable<NewsDTO>>
     {
         private readonly INewsRepository _newsRepository;
+        private readonly IMapper _mapper;
 
-        public GetNewsHandler(INewsRepository newsRepository)
+        public GetNewsHandler(INewsRepository newsRepository, IMapper mapper)
         {
             _newsRepository = newsRepository;
+            _mapper = mapper;
         }
 
-        public async Task<IEnumerable<News>> Handle(GetNewsQuery request, CancellationToken cancellationToken)
+        public async Task<IEnumerable<NewsDTO>> Handle(GetNewsQuery request, CancellationToken cancellationToken)
         {
-            return await _newsRepository.Get();
+            var news = await _newsRepository.Get();
+            var dtos = _mapper.Map<IEnumerable<NewsDTO>>(news);
+            return dtos;
         }
     }
 }
