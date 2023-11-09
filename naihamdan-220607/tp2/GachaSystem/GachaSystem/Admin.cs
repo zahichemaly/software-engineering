@@ -33,7 +33,8 @@ namespace GachaSystem
 
         public int Balance
         {
-            get; set;
+            get;
+            set;
         }
 
         public int Pulls

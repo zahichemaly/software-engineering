@@ -67,7 +67,7 @@ namespace GachaSystem
             if (rarity == Rarity.FOUR_STARS && !possibleItems.Any())
             {
                 Console.WriteLine("No items of 4-star rarity found in the banner.");
-                return null; // or handle it according to your logic
+                return null; 
             }
 
             return possibleItems[random.Next(possibleItems.Count)];

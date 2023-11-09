@@ -79,8 +79,8 @@ namespace GachaSystem
                 }
             };
 
-            //int maxPulls = 10000;
-            while (player.Balance >= exclusiveBanner.Cost /*&& player.Pulls < maxPulls*/)
+            int maxPulls = 1000;
+            while (player.Balance >= exclusiveBanner.Cost && player.Pulls < maxPulls)
             {
                 GachaItem pulledItem = player.PerformPull(exclusiveBanner);
                 if (pulledItem == null)
@@ -98,7 +98,10 @@ namespace GachaSystem
                     CreationDate = DateTime.Now,
                     PullNumber = player.Pulls + 1
                 };
+
                 player.PullHistories.Add(history);
+                Console.WriteLine($"Added history: {history} to PullHistories");
+
                 player.Pulls++;
             }
 
@@ -109,8 +112,7 @@ namespace GachaSystem
             {
                 foreach (var history in player.PullHistories)
                 {
-                    
-                        string rarityOutput = "";
+                    string rarityOutput = "";
                         switch (history.Item.Rarity)
                         {
                             case Rarity.THREE_STARS:
@@ -125,8 +127,8 @@ namespace GachaSystem
                                 rarityOutput = $"5-star ##### [{bannerType}] [{fiftyFiftyWin}]";
                                 break;
                         }
-                        writer.WriteLine($"{Environment.MachineName} {Environment.UserName} {history.PullNumber} {player.PityCounter} {history.Item.ID} {rarityOutput}");
-                    
+
+                    writer.WriteLine($"[{Environment.MachineName}] [{Environment.UserName}] [{history.PullNumber}] [{player.PityCounter}] [{history.Item.ID}] {rarityOutput}");
                 }
             }
 

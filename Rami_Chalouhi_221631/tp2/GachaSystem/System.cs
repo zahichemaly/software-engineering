@@ -8,6 +8,9 @@ namespace GachaSystem
     public class System
     {
         private List<BaseUser> Users;
-        private List<Version> Versions;
+
+        private Version version;
+
+     
     }
 }
