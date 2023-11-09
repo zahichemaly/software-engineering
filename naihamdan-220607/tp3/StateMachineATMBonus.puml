@@ -1,0 +1,50 @@
+@startuml statemachineatm
+[*] --> Idle : Reset
+
+state Idle {
+  [*] --> Ready : Entry/Init
+  Ready --> Processing : Card Inserted
+  Ready --> OutOfService : Out of Cash
+  Ready --> CardEjected : Card Ejected
+  Ready --> CardRetained : Retain Card
+}
+
+state CardEjected {
+  [*] --> Idle : Timeout
+}
+
+state CardRetained {
+  [*] --> OutOfService : Card Retained
+}
+
+state Processing {
+  [*] --> Dispensing : Valid PIN
+  [*] --> TransactionFailed : Invalid PIN
+}
+
+state Dispensing {
+  [*] --> TransactionComplete : Dispense Cash
+  TransactionComplete --> Ready : Transaction Complete
+  [*] --> TransactionFailed : Cash Dispense Failed
+}
+
+state TransactionFailed {
+  [*] --> Idle : Back
+}
+
+state OutOfService {
+  [*] --> Ready : Refilled
+}
+
+Idle --> [*] : Timeout
+
+Ready : <font color=#4CAF50>Ready</font>
+CardEjected : <font color=#FF5733>Card Ejected</font>
+CardRetained : <font color=#FF5733>Card Retained</font>
+Processing : <font color=#2196F3>Processing</font>
+Dispensing : <font color=#2196F3>Dispensing</font>
+TransactionFailed : <font color=#FF5733>Transaction Failed</font>
+OutOfService : <font color=#FF5733>Out of Service</font>
+TransactionComplete : <font color=#2196F3>Transaction Complete</font>
+
+@enduml
