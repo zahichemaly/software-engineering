@@ -1,0 +1,36 @@
+@startuml
+
+[*] --> IdleATM
+
+IdleATM --> ReadCard : Card Inserted
+ReadCard --> ReadPin : Valid Card
+ReadPin --> ChooseTransaction : Valid Pin
+ReadPin --> EjectCard : Invalid Pin
+
+ChooseTransaction --> Withdrawal :Withdrawal transaction
+Withdrawal --> AmountEntered : Enter Amount
+AmountEntered --> ProcessingTransaction : Process Transaction
+ProcessingTransaction --> TransactionApproved : Approval
+ProcessingTransaction --> TransactionDeclined : Disapproval
+TransactionDeclined --> ChooseTransaction : Choose another transaction
+TransactionApproved --> DispenseCash : Dispense Cash
+TransactionApproved --> PrintReceipt : Print Receipt
+DispenseCash --> TransactionCompleted : Cash Dispensed
+PrintReceipt --> TransactionCompleted : Receipt Printed
+TransactionCompleted --> EjectCard
+
+ChooseTransaction --> Deposit : Deposit transaction
+Deposit --> DepositFund : Insert Money
+DepositFund --> ProcessingDeposit : Process Deposit
+ProcessingDeposit --> PrintReceipt : Print Receipt
+
+ChooseTransaction --> ShowAvailableBalance : BalanceInquiry
+ShowAvailableBalance --> ChooseTransaction : Choose another transaction
+ShowAvailableBalance -->  TransactionCompleted : No further requests
+
+ChooseTransaction --> EjectCard : Cancel transaction
+ReadCard --> EjectCard : Card Not found
+
+
+EjectCard-->[*]
+@enduml

@@ -7,55 +7,79 @@ namespace husseinhajj_tp2
 {
     public class Player : BaseUser
     {
-        private int ID { get; set; }
-        private string FirstName { get; set; }
-        private string LastName { get; set; }
-        private DateTime DateOfBirth { get; set; }
-        private int Balance { get; set; }
-        private int Pulls { get; set; }
-        private int PityCounter { get; set; }
-        public List<PullHistory> History { get; set; }
-
-        public Player(int id, string firstName, string lastName, DateTime dateOfBirth) : base(id, firstName, lastName, dateOfBirth)
+        public Player(int id, string firstName, string lastName, DateTime dateOfBirth, bool fiftyFiftyStatus, int pityCounter, int pulls, Status status, int balance) : base(id, firstName, lastName, dateOfBirth, fiftyFiftyStatus, pityCounter, pulls, status, balance)
         {
         }
+
+        public int ID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public bool FiftyFiftyStatus { get; set; }
+        public int Balance { get; set; }
+        public int Pulls { get; set; }
+        public int PityCounter { get; set; }
+        public List<PullHistory> History { get; set; }
+
 
         public override void validate()
         {
             throw new NotImplementedException();
         }
-        public void SinglePullExclusive(Banner pool)
+
+        public GachaItem? SinglePull(Banner pool)
         {
             if (pool is ExclusiveBanner)
             {
                 ExclusiveBanner banner = (ExclusiveBanner)pool;
 
-
-
                 if (DateTime.Now < banner.StartDate || DateTime.Now > banner.EndDate)
                 {
-                    return;
+                    throw new Exception("Expeired");
                 }
             }
-
-
 
             if (Balance - pool.Cost > 0 && pool.Items.Count > 0)
             {
                 this.Balance -= pool.Cost;
                 this.Pulls++;
-                pool.Items.RemoveAt(0);
 
+                Rarity rarity;
 
+                if (Pulls < 80)
+                {
+                    rarity = Rarity.threeStar;
+                }
+                else if (Pulls < 98)
+                {
+                    rarity = Rarity.fourStar;
+                }
+                else
+                {
+                    rarity = Rarity.fiveStar;
+                }
+
+                var possibleItems = pool.Items.Where(item => item.Rarity == rarity).ToList();
+
+                if (rarity == Rarity.fourStar && !possibleItems.Any())
+                {
+                    return null;
+                }
+
+                GachaItem item = possibleItems[new Random().Next(possibleItems.Count)];
 
                 this.History.Add(new PullHistory()
                 {
                     banner = pool,
                     CreationDate = DateTime.Now,
-                    item = pool.Items[0],
+                    item = item,
                     pullCounter = this.Pulls
                 });
+
+                return item;
             }
+
+            return null;
         }
     }
 }

@@ -1,0 +1,47 @@
+@startuml
+!define GreenLine #008000
+!define RedLine #FF0000
+
+skinparam sequenceParticipantBackgroundColor #D9E5FF
+skinparam sequenceParticipantBorderColor black
+
+actor Customer
+participant ATM
+participant Bank
+participant CashDispenser
+participant Display
+
+Customer -[#0000FF]> ATM: Insert Card
+activate ATM
+
+Customer -[#0000FF]> ATM: Enter PIN
+Customer -[#0000FF]> ATM: Select Operation
+activate Bank
+
+alt Balance Inquiry
+    Customer -[#0000FF]> ATM: Choose Balance Inquiry
+    ATM -[#0000FF]> Bank: Request Balance Inquiry
+    Bank --[#008000]> ATM: Respond with Balance
+    ATM -[#0000FF]> Display: Display Balance  
+    ATM --[#008000]> Customer
+else Withdrawal
+    Customer -[#0000FF]> ATM: Choose Withdrawal
+    ATM -[#0000FF]> Bank: Request Withdrawal
+    Bank --[#008000]> ATM: Validate Account and Funds
+    alt Sufficient Funds
+        ATM -[#0000FF]> CashDispenser: Dispense Cash
+        ATM -[#0000FF]> Display: Transaction Successful 
+        ATM --[#008000]> Customer
+    else Insufficient Funds
+        ATM --[#FF0000]> Customer: Transaction Failed: Insufficient Funds
+    end
+else Cancel
+    Customer -[#0000FF]> ATM: Choose Cancel
+    ATM --[#FF0000]> Customer: Transaction Canceled 
+end
+
+Customer -[#0000FF]> ATM: Remove Card
+deactivate ATM
+deactivate Bank
+deactivate Display
+@enduml

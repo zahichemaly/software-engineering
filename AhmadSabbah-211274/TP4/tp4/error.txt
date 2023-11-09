@@ -1,0 +1,1 @@
+hello doc , i couldnt run the project because of the conflicting .net versions ( i have the 3.1 which is not supported anymore) and i have done multiple checks and redid the steps multiple times but the seems to be related to the dependqncy injection. 

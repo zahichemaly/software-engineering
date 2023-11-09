@@ -18,12 +18,12 @@ namespace GachaSystem
 
         public int GetAge()
         {
-            return 0;
+            return DateTime.Now.Year - DateOfBirth.Year;
         }
 
         public string GetFullName()
         {
-            return "";
+            return FirstName + " " + LastName;
         }
         public abstract void Validate();
 

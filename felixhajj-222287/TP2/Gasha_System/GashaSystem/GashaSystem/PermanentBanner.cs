@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace GashaSystem
+{
+	public class PermanentBanner
+	{
+		public int ID { get; set; }
+		public string Name { get; set; }
+		public List<GachaItem> Items { get; set; }
+
+
+	}
+}

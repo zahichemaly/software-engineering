@@ -7,9 +7,30 @@ namespace GachaSystem
 {
     public class HistoryEntry
     {
-        public GachaItem Item { get; set; }
-        public ExclusiveBanner Banner { get; set; }
-        public DateTime CreationDate { get; set; }
-        public int PullNumber { get; set; }
+        public GachaItem Item
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Banner Banner
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DateTime CreationDate
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public int PullNumber = 1;
     }
 }

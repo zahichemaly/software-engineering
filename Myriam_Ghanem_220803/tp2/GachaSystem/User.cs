@@ -12,14 +12,19 @@ namespace GachaSystem
         public string? LastName { get; set; }
 
         public DateTime DateOfBirth { get; set; }
+        public Status UserStatus { get; set; }
 
         public int GetAge()
         {
-            throw new System.NotImplementedException();
+            DateTime today = DateTime.Today;
+            int age = today.Year - DateOfBirth.Year;
+            if (DateOfBirth > today.AddYears(-age))
+                age--;
+            return age;
         }
         public string GetFullName()
         {
-            throw new System.NotImplementedException();
+            return $"{FirstName} {LastName}";
         }
         public abstract void Validate();
     }

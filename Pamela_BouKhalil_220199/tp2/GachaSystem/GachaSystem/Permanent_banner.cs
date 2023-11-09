@@ -5,46 +5,8 @@ using System.Text;
 
 namespace GachaSystem
 {
-    public class Permanent_banner
+    public class Permanent_banner:Banner
     {
-        public int ID
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public string Name
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public DateTime StartDate
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public List<gacha_item> Items
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public int Cost
-        {
-            get => default;
-            set
-            {
-            }
-        }
+      
     }
 }
