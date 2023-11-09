@@ -1,0 +1,4 @@
+﻿namespace NewsBoard.Data
+{
+   
+}
