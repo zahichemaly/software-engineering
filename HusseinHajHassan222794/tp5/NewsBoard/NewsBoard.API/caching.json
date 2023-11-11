@@ -1,0 +1,22 @@
+
+  {
+    "$schema": "http://cachemanager.michaco.net/schemas/cachemanager.json#",
+    "cacheManagers": [
+      {
+        "maxRetries": 1000,
+        "name": "NewsBoard",
+        "retryTimeout": 100,
+        "serializer": {
+          "knownType": "Json"
+        },
+        "handles": [
+          {
+            "knownType": "MsMemory",
+            "isBackplaneSource": false,
+            "name": "sys cache"
+          }
+        ]
+      }
+    ]
+  }
+
