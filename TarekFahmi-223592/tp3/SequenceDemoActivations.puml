@@ -1,0 +1,19 @@
+@startuml sequencedemoactivations
+skinparam sequenceArrowThickness 2
+skinparam roundcorner 20
+skinparam maxmessagesize 60
+skinparam sequenceParticipant underline
+actor User as User
+participant "Finance App" as App
+database Database as DB
+autonumber "<b>."
+autoactivate on
+autonumber 1.1
+User -[#red]> App: request
+App -> DB: response
+DB -> DB: DB processing
+autonumber inc A
+DB --[#FFA500]> App: query back
+App -> DB !!: close DB connection
+App --> User: response back
+@enduml
