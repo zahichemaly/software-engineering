@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+    <PackageReference Include="MongoDbGenericRepository" Version="1.6.0" />
+    <PackageReference Include="Moq" Version="4.20.69" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eShop.Core\eShop.Core.csproj" />
+  </ItemGroup>
+
+</Project>
