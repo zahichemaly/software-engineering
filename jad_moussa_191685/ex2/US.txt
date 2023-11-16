@@ -1,0 +1,19 @@
+As a Customer, I want to be able to create a user account, so I can access the application and schedule package deliveries.
+
+As a Customer, I want to search and select items from an online shop and add them to my cart for delivery.
+
+As a Customer, I want to specify my delivery address and choose a convenient delivery time when scheduling a delivery.
+
+As a Customer, I want to receive real-time notifications about the status of my package, including estimated delivery times and updates when the drone is en route.
+
+As a Customer, I want to be able to securely make payments for my deliveries using various payment methods, such as credit cards or digital wallets.
+
+As a Customer, I want to track the location of the drone carrying my package in real-time on a map to know when it's getting closer to my delivery address.
+
+As a Customer, I want the option to provide specific delivery instructions, such as gate codes or landmarks, to assist the drone in finding my exact location.
+
+As a Business Owner, I want to manage my online shop's inventory, add new products, and set available delivery areas.
+
+As a Drone Operator, I want a clear list of scheduled deliveries and delivery addresses for efficient planning and route optimization.
+
+As a Drone Operator, I want to have a user-friendly control interface to manage drones, take off, land, and complete deliveries safely.

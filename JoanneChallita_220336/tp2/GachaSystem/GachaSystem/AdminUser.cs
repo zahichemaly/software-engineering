@@ -57,7 +57,7 @@ public class AdminUser : BaseUser
 
 
 
-    public void UpdateSystemVersion(GachaSystem.Version newVersion)
+    public void UpdateSystemVersion(ExclusiveBanner newVersion)
     {
         
     }

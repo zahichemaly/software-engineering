@@ -5,11 +5,30 @@ using System.Text;
 
 namespace GachaSystem
 {
-
     public class Version
     {
-        public string VersionNumber { get; set; }
-        public int VersionCode { get; set; }
-        public DateTime Date { get; set; }
+        public int Number
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public int Code
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public DateTime Date
+        {
+            get => default;
+            set
+            {
+            }
+        }
     }
 }

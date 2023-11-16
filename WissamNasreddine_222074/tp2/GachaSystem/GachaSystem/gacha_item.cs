@@ -23,9 +23,13 @@ namespace GachaSystem
             }
         }
 
-        public enum Rarity
-        {
-            Common=3
-        }
+        public Rarity Rarity { get; set; }
+    }
+
+    public enum Rarity
+    {
+        Common=3 ,
+        Uncommon=4 ,
+        Rare=5
     }
 }

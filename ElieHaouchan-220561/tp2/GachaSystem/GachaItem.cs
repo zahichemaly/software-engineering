@@ -7,6 +7,7 @@ namespace GachaSystem
 {
     public class GachaItem
     {
+
         public int ID
         {
             get => default;
@@ -22,5 +23,16 @@ namespace GachaSystem
             {
             }
         }
+
+        public Rarity rarity; 
+
+        public GachaItem(int ID, string Name, Rarity rarity)
+        {
+            this.ID = ID;
+            this.Name = Name;
+            rarity= new Rarity();
+        }
+
+
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp4gl", "tp4gl.csproj", "{D5BFC193-B3AC-42A7-B46D-55934622CD54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5BFC193-B3AC-42A7-B46D-55934622CD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BFC193-B3AC-42A7-B46D-55934622CD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BFC193-B3AC-42A7-B46D-55934622CD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BFC193-B3AC-42A7-B46D-55934622CD54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {852856CC-ED23-44D5-BEA4-E5A978D2E63E}
+	EndGlobalSection
+EndGlobal

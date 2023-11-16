@@ -5,14 +5,17 @@ using System.Text;
 
 namespace GachaSystem
 {
-    public abstract class Player : BaseUser
+    public class Player : BaseUser
     {
 
        
-        private int Balance;
+        public int Balance;
 
         private int Pulls;
 
+        public int PityCounter = 0;
+
+        public List<GachaItem> PullHistory { get; }
         public Version Version
         {
             get => default;
@@ -21,12 +24,30 @@ namespace GachaSystem
             }
         }
 
-        public void PerformPull(ExclusiveBanner banner)
+        public Player(string firstName, string lastName, int balance)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Balance = balance;
+            PullHistory = new List<GachaItem>();
+            
+        }
+       
+        public void AddToPullHistory(GachaItem item)
+        {
+            PullHistory.Add(item);
+        }
+
+      /*  public void PerformPull(ExclusiveBanner banner)
         {
             Pulls++;
 
             //To allow a player to perform a pull, either from an exclusive banner or a permanent banner.
-        }
+        } */
+
+      
+
+       
 
         public void TrackPullHistory(ExclusiveBanner banner, GachaItem item)
         {
@@ -43,11 +64,23 @@ namespace GachaSystem
             //To track the history of pulls performed by the player.
         }
 
-        public void CheckFor5StarPity()
+        public bool CheckFor5StarPity()
         {
-            //To check if the player is eligible for a 5-star pity item and handle the 50-50 rule.
+            if (PullHistory.Any() && PullHistory.Last().rarity != Rarity.FiveStar)
+            {
+                PityCounter++;
+            }
+            else
+            {
+                PityCounter = 0;
+            }
+
+            return PityCounter >= 60; // This value is based on your requirement for a guaranteed 5-star
         }
 
-
+        public override void Validate()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

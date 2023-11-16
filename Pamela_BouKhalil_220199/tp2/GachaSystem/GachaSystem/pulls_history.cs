@@ -1,39 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using GachaSystem;
 
-namespace GachaSystem
+public class pulls_history
 {
-    public class pulls_history
-    {
-        public gacha_item Item
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public Permanent_banner Banner
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public DateTime CreationDate
-        {
-            get => default;
-            set
-            {
-            }
-        }
-
-        public enum Pull_number
-        {
-           pull_numb=1
-        }
-    }
+    public gacha_item Item { get; set; }
+    public Banner Banner { get; set; }
+    public DateTime CreationDate { get; set; }
+    public int PullNumber { get; set; }
+    public bool FiftyFiftyLost { get; set; }
 }

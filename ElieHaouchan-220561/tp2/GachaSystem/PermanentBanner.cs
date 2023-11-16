@@ -7,10 +7,7 @@ namespace GachaSystem
 {
     public class PermanentBanner : Banner
     {
-
-        
-
-        public List<GachaItem> PermanentItems
+        public int ID
         {
             get => default;
             set
@@ -18,6 +15,23 @@ namespace GachaSystem
             }
         }
 
+        public string Name
+        {
+            get => default;
+            set
+            {
+            }
+        }
+        public int Cost
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public List<GachaItem> PermanentItems;
+        
       
         public GachaItem GachaItem
         {
@@ -25,6 +39,19 @@ namespace GachaSystem
             set
             {
             }
+        }
+
+        public PermanentBanner()
+        {
+            PermanentItems = new List<GachaItem>();
+        }
+
+        public GachaItem PullRandom5StarItem()
+        {
+            Random random = new Random();
+            List<GachaItem> fiveStarItems = PermanentItems.FindAll(PermanentItem => PermanentItem.rarity == Rarity.FiveStar);
+            int index = random.Next(fiveStarItems.Count);
+            return fiveStarItems[index];
         }
 
         public override void IsPullAllowed(Player player)

@@ -8,14 +8,32 @@ namespace GachaSystem
     public class GachaItem
     {
 
-        public int ID { get; set; }
-        public string Name { get; set; }
-        public enum Rarity
+        public int ID
         {
-            ThreeStar,
-            FourStar,
-            FiveStar
+            get => default;
+            set
+            {
+            }
         }
+
+        public string Name
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public Rarity rarity; 
+
+        public GachaItem(int ID, string Name, Rarity rarity)
+        {
+            this.ID = ID;
+            this.Name = Name;
+            rarity= new Rarity();
+          
+        }
+
 
     }
 }

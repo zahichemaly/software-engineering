@@ -7,6 +7,8 @@ namespace GachaSystem
 {
     public class AdminUser : BaseUser
     {
+     
+
         public AdminUser(int id, string firstName, string lastName, DateTime dateOfBirth)
         {
             ID = id;

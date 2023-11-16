@@ -1,0 +1,54 @@
+@startuml UniqueATM
+
+actor "Customer" as User
+participant "ATM Machine" as ATM
+database "Bank System" as Bank
+
+User -> ATM: Insert Card
+activate User
+activate ATM
+User -> ATM: Enter PIN
+ATM -> Bank: Verify PIN
+activate Bank
+Bank --> ATM: Validation Approved
+deactivate Bank
+ATM --> User: PIN Verified
+
+alt Balance Inquiry
+    User -> ATM: Select Balance\nInquiry
+    ATM -> Bank: Request Balance
+    activate Bank
+    Bank --> ATM: Balance Data
+    deactivate Bank
+    ATM --> User: Display Balance
+else Withdrawal
+    User -> ATM: Select Withdrawal
+    ATM -> Bank: Request Withdrawal
+    activate Bank
+    Bank --> ATM: Validate Funds
+    deactivate Bank
+    ATM -> User: Enter Amount
+    User -> ATM: Confirm Withdrawal
+    alt Sufficient Funds
+        ATM --> Bank: Process Withdrawal
+        activate Bank
+        Bank --> ATM: Withdrawal Approved
+        deactivate Bank
+        ATM --> User: Dispense Cash
+    else Insufficient Funds
+        ATM --> Bank: Process Withdrawal
+        activate Bank
+        Bank --> ATM: Insufficient Funds
+        deactivate Bank
+        ATM --> User: Display Insufficient Funds
+    end
+else Cancel
+    User -> ATM: Select Cancel
+    ATM --> User: Transaction Canceled
+end
+
+User -> ATM: Remove Card
+deactivate ATM
+deactivate User
+
+@enduml

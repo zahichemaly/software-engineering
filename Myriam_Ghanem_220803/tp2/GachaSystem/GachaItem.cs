@@ -9,6 +9,7 @@ namespace GachaSystem
     {
         public int ID { get; set; }
         public string Name { get; set; }
-        public Rarity Rarity { get; set; }
+        public Rarity ItemRarity { get; set; }
+
     }
 }

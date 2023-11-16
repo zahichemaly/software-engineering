@@ -5,26 +5,73 @@ using System.Text;
 
 namespace GachaSystem
 {
-    public  class Player : BaseUser
+    public class Player : BaseUser
     {
-        public override void validate() { 
-        
-        
-        
+        public int PityCounter = 0;
+        public List<GachaItem> PullHistory { get; }
+        public Player(string firstName, string lastName, int balance)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Balance = balance;
+            PullHistory = new List<GachaItem>();
+
         }
-        private History history; 
-        public int ID { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public DateTime DateOfBirth { get; set; }
-        public int Balance { get; set; }
-        public int Pulls { get; set; }
+        public override void Validate()
+        {
 
-        public void PerformPull() { /* Implementation for performing a pull */ }
-        public void TrackPullHistory() { /* Implementation for tracking pull history */ }
-        public void TrackPityCounter() { /* Implementation for tracking pity counter */ }
+        }
+        public int Balance;
 
+        public int Pulls;
+
+        public Version Version
+        {
+            get => default;
+            set
+            {
+            }
+        }
+
+        public void PerformPull(ExclusiveBanner banner)
+        {
+            Pulls++;
+
+        }
+
+        public void TrackPullHistory(ExclusiveBanner banner, GachaItem item)
+        {
+            if (item == null)
+            {
+                return;
+
+
+            }
+
+            Console.WriteLine("Item: " + item.Name);
+            Console.WriteLine("Pull number: " + Pulls);
+
+
+            Console.WriteLine("Banner: " + banner.Name);
+            Console.WriteLine("CreationDate: " + banner.StartDate);
+
+        }
+        public void AddToPullHistory(GachaItem item)
+        {
+            PullHistory.Add(item);
+        }
+        public bool CheckFor5StarPity()
+        {
+            if (PullHistory.Any() && PullHistory.Last().rarity != Rarity.FiveStar)
+            {
+                PityCounter++;
+            }
+            else
+            {
+                PityCounter = 0;
+            }
+
+            return PityCounter >= 60; // This value is based on your requirement for a guaranteed 5-star
+        }
     }
-
-
-}
+    }

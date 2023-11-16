@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Tp4_Jalal_Harb.Models.Car>
+
+@{
+    ViewData["Title"] = " Car Gallery";
+}
+
+<h1>Car Gallery</h1>
+
+<p>
+    <a asp-action="Create">Add New Car</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Year)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                    @if (item.ImageUrl != null)
+                    {
+                        <img src="@Url.Content(item.ImageUrl)" alt="Image" width="60"/>
+                    }
+            </td>
+            <td>
+                <td>
+                        @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                </td>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

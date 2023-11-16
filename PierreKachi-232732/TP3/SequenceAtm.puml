@@ -1,0 +1,52 @@
+@startuml SequenceATM
+
+'orange is for user input/operations, blue is for machine operations, green for successes and red for failures/errors
+actor User as U
+participant ATM as A
+participant "Bank Server" as B
+
+U -[#FFA500]> A: insertcard
+activate A
+A -> U: request pin
+U -[#FFA500]> A: insert pin
+A -[#0000FF]> B: verify pin
+activate B
+
+alt pin_verified
+    B -[#00FF00]> A: pin verified
+    A -[#0000FF]> U: select options\nA="Balance inquiry"\nB="Withdrawal"\nC="Cancel"
+    opt Balance_Inquiry
+        U -[#FFA500]> A: show balance
+        A -[#0000FF]> B: perform selected option\nBalance Inquiry
+        B -[#0000FF]> A: Balance response
+        A -[#0000FF]> U: show complete operations\n(receipt, operation cancelled...)
+    end
+    opt Withdrawal
+        U -[#FFA500]> A: enter amount
+        U -[#FFA500]> A: withdraw
+        A -[#0000FF]> B: perform selected option\nWithdrawal
+        alt insufficient_funds
+            B -[#F0000F]> A: insufficient funds
+            A -[#FF0000]> U: show error message
+        else sufficient_funds
+            B -[#00FF00]> A: withdrawal success
+            A -[#00FF00]> U: show success message
+        end
+    end
+    opt Cancel
+        U -[#FFA500]> A: cancel operation
+        A -[#0000FF]> B: perform selected option\nCancel
+        B -[#00FF00]> A: cancellation success
+        A -[#00FF00]> U: show success message 
+    end
+else pin_invalid
+    B -[#FF0000]> A: pin invalid
+    A -[#FF0000]> U: show error message 
+end
+
+A -[#0000FF]> U: eject card
+deactivate A
+U -[#FFA500]> A: collect card
+
+deactivate B
+@enduml
