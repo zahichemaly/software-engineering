@@ -1,0 +1,15 @@
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\bin\Debug\net6.0\NewsBoard.Business.deps.json
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\bin\Debug\net6.0\NewsBoard.Business.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\bin\Debug\net6.0\NewsBoard.Business.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\bin\Debug\net6.0\NewsBoard.Data.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\bin\Debug\net6.0\NewsBoard.Data.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.csproj.AssemblyReference.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.AssemblyInfoInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.AssemblyInfo.cs
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.csproj.CoreCompileInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.csproj.CopyComplete
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\refint\NewsBoard.Business.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\NewsBoard.Business.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Business\obj\Debug\net6.0\ref\NewsBoard.Business.dll

@@ -1,0 +1,12 @@
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\bin\Debug\net6.0\NewsBoard.Data.deps.json
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\bin\Debug\net6.0\NewsBoard.Data.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\bin\Debug\net6.0\NewsBoard.Data.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\NewsBoard.Data.csproj.AssemblyReference.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\NewsBoard.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\NewsBoard.Data.AssemblyInfoInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\NewsBoard.Data.AssemblyInfo.cs
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\NewsBoard.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\NewsBoard.Data.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\refint\NewsBoard.Data.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\NewsBoard.Data.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data\obj\Debug\net6.0\ref\NewsBoard.Data.dll

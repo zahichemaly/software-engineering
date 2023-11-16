@@ -1,0 +1,15 @@
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\bin\Debug\net6.0\NewsBoard.Data.Mongo.deps.json
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\bin\Debug\net6.0\NewsBoard.Data.Mongo.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\bin\Debug\net6.0\NewsBoard.Data.Mongo.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\bin\Debug\net6.0\NewsBoard.Data.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\bin\Debug\net6.0\NewsBoard.Data.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.csproj.AssemblyReference.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.AssemblyInfoInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.AssemblyInfo.cs
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.csproj.CoreCompileInputs.cache
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.csproj.CopyComplete
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\refint\NewsBoard.Data.Mongo.dll
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\NewsBoard.Data.Mongo.pdb
+C:\Users\User\software-engineering\ElieHaouchan-220561\tp5\NewsBoard\NewsBoard.Data.Mongo\obj\Debug\net6.0\ref\NewsBoard.Data.Mongo.dll
