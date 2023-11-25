@@ -1,0 +1,97 @@
+﻿<html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <body>
+    <h1>Test run details</h1>
+    <div class="summary">
+      <div class="block"><span>Total tests</span><div class="total-tests">4</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">4</span><br><span>Failed  : </span><span class="failedTests">0</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">100 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">2s 66ms</div><br></div><br></div>
+    <h2>All Results</h2>
+    <div class="list-row" onclick="ToggleClass('181334582')">C:\Users\user\software-engineering\TarekFahmi-223592\tp7\eShop\eShop.IntegrationTests\bin\Debug\net6.0\eShop.IntegrationTests.dll</div>
+    <div class="inner-row" Id="181334582" style="display:none;">
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> eShop.IntegrationTests.BasketTest.GetBasket_ShouldReturnSuccessStatusCode​</span><div class="duration"><span>728ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> eShop.IntegrationTests.BasketTest.CreateBasketAndGetById_ShouldSucceed​</span><div class="duration"><span>71ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> eShop.IntegrationTests.BasketTest.DeleteBasket_ShouldSucceed​</span><div class="duration"><span>827ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> eShop.IntegrationTests.BasketTest.AddItemToBasket_ShouldSucceed​</span><div class="duration"><span>54ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+    </div>
+    <div>
+      <h2>Informational messages</h2><span>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.13)</span><br><span>[xUnit.net 00:00:00.66]   Starting:    eShop.IntegrationTests</span><br><span>[xUnit.net 00:00:01.62]   Finished:    eShop.IntegrationTests</span><br></div>
+  </body><script language="javascript">
+        function ToggleClass(id) {
+        var elem = document.getElementById(id);
+        if (elem.style.display == "none") {
+        elem.style.display = "block";
+        }
+        else {
+        elem.style.display = "none";
+        }
+        }
+      </script><style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style>
+</html>

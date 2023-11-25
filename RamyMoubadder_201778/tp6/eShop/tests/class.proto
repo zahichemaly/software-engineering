@@ -1,0 +1,40 @@
+﻿using Xunit;
+
+namespace ClassTest // Replace with your actual test project namespace
+{
+    public class BarcodeTest
+    {
+        [Fact]
+        public void Create_Should_Return_Null_When_Value_Is_Null()
+        {
+            string value = null;
+            var barcode = Barcode.Create(value);
+            Assert.Null(barcode);
+        }
+
+        [Fact]
+        public void Create_Should_Return_Null_When_Value_Is_Empty()
+        {
+            string value = string.Empty;
+            var barcode = Barcode.Create(value);
+            Assert.Null(barcode);
+        }
+
+        [Fact]
+        public void Create_Should_Return_Null_When_Length_Is_Not_15()
+        {
+            string value = "1234567890123456"; 
+            var barcode = Barcode.Create(value);
+            Assert.Null(barcode);
+        }
+
+        [Fact]
+        public void Create_Should_Return_Barcode_When_Length_Is_15()
+        {
+            string value = "123456789012345"; 
+            var barcode = Barcode.Create(value);
+            Assert.NotNull(barcode);
+            Assert.Equal(value, barcode.Value);
+        }
+    }
+}

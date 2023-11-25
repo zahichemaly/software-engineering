@@ -1,0 +1,46 @@
+@startuml
+skinparam sequenceParticipantBackgroundColor #D9E5FF
+skinparam sequenceParticipantBorderColor black
+
+actor Customer
+participant ATM
+participant Bank
+
+Customer -[#0066FF]> ATM: 1- Insert Card
+activate ATM
+Customer -[#0066FF]> ATM: 2- Enter PIN
+Customer -[#0066FF]> ATM: 3- Select Operation
+alt PIN Verified
+    ATM -[#0066FF]> Bank: 4- Verify PIN
+    Bank -[#00AA00]> ATM: 5- PIN Verified
+    Customer -[#0066FF]> ATM: 6- Select Options(Balance Inquiry, Withdrawal, Cancel)
+activate Bank
+    alt Balance Inquiry
+    Customer -[#0066FF]> ATM: 7- Choose Balance Inquiry
+    ATM -[#0066FF]> Bank: 8- Request Balance Inquiry
+    Bank -[#00AA00]> ATM: 9- Respond with Balance
+    ATM -[#00AA00]> Customer: 10- Display Balance
+    else Withdrawal
+        Customer -[#0066FF]> ATM: 11- Choose Withdrawal
+        ATM -[#00AA00]> Customer: 12- Enter Withdrawal
+        ATM -[#0066FF]> Bank: 13- Request Withdrawal
+        Bank -[#00AA00]> ATM: 14- Validate Account and Funds
+        else Amount Sufficient
+            ATM -[#0066FF]> Bank: 15- Request Withdrawal
+            Bank -[#00AA00]> ATM: 16- Withdrawal Approved
+            ATM -[#0066FF]> Bank: 15- Dispense cash
+            Bank -[#00AA00]> ATM: 16- Cash dispensed
+            ATM -[#00AA00]> Customer: 17- Collect Cash
+            ATM -[#00AA00]> Customer: 18- Cash Received
+                else Ammount not Sufficient
+                    ATM -[#00AA00]> Customer: 19- Ammount not Sufficient Message
+                    ATM -[#00AA00]> Customer: 20- Transaction Cancelled
+        end
+    else Cancel
+        Customer -[#0066FF]> ATM: 17- Choose Cancel
+        ATM --[#CC0000]> Customer: 18- Transaction Canceled 
+    end
+Customer -[#0066FF]> ATM: 14- Remove Card
+deactivate ATM
+deactivate Bank
+@enduml

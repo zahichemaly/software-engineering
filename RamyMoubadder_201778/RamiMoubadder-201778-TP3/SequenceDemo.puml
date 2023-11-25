@@ -1,0 +1,39 @@
+' Rami Moubadder TP3 ' 
+@startuml sequencedemo
+actor User as Foo
+participant "Finance App" as Foo2
+database Database as Foo3
+Foo -[#red]> Foo2: HTTP request
+note left: Send HTTP request
+Foo2 -> Foo3: SQL request
+note right
+Making a database request
+end note
+Foo3 --> Foo2: SQL response
+Foo2 --> Foo: HTTP response
+Foo -> Foo2: Authentication request
+alt valid credentials
+    Foo2 --> Foo: Auth success
+else wrong credentials
+    Foo2 --> Foo: Auth failure
+end
+Foo -> Foo2: Authentication request
+alt valid credentials
+    Foo2 --> Foo: Auth success
+else wrong credentials
+    Foo2 --> Foo: Auth failure
+    group Forgot Password
+        Foo -> Foo2: Forgot Password request
+        Foo2 --> Foo: Sent OTP
+    end
+    else server timeout
+        loop 3 times
+            Foo -> Foo2: Ping server
+        end
+        Foo2 --> Foo: Server available
+end
+activate Foo2
+Foo -> Foo2: Activation request
+destroy Foo2
+Foo --> Foo2: Activation response
+@enduml

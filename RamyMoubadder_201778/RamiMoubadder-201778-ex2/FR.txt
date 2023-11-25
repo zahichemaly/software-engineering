@@ -1,0 +1,5 @@
+1. The system should allow users to place orders for package delivery.
+2. The application should provide real-time tracking of the delivery drone.
+3. Users should be able to schedule deliveries for a specific date and time.
+4. The system must support multiple payment options for users.
+5. The application should generate and send electronic receipts for completed deliveries.

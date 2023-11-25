@@ -1,0 +1,14 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "MongoSettings": {
+    "MongoDatabaseName": "eShop_test",
+    "MongoConnection": "mongodb://localhost:27017"
+  },
+  "AllowedHosts": "*"
+}
+

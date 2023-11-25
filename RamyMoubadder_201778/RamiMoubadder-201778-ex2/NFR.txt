@@ -1,0 +1,5 @@
+1. The system should have a response time of less than 5 seconds for user interactions.
+2. The application must be available 99.9% of the time.
+3. The system should support a minimum of 1000 concurrent users.
+4. The application should be compatible with popular web browsers (Chrome, Firefox, Safari).
+5. The system must comply with data protection and privacy regulations.
